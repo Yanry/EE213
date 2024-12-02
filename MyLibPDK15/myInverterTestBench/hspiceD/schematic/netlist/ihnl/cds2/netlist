@@ -1,0 +1,4 @@
+m1 out in vdd! vdd! pmos AD=608e-18 AS=608e-18 PD=168e-9 PS=168e-9 M=3
+m0 out in 0 0 nmos AD=608e-18 AS=608e-18 PD=168e-9 PS=168e-9 M=3
+.ends myInverter_schematic
+** End of subcircuit definition.

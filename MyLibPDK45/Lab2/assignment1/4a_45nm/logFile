@@ -1,0 +1,56 @@
+header
+"PSFversion" "1.00"
+"simulator" "HSPICE"
+"version" "O-2018.09-SP1-1 linux64"
+"rundate" "00:18:50 10/22/2024 "
+"runtitle" "** generated for: hspiced                                         "
+"runtype" "logFile"
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING * )
+VALUE
+"srcSweep" "analysisInst" ( 
+"DC Analysis"
+""
+"PSF"
+""
+("vgs" )
+"sweep parent"
+) PROP(
+"sweep_tree_type" "sweepNode"
+)
+"4a_45nm.sw0@1" "analysisInst" ( 
+"DC Analysis"
+"4a_45nm.sw0@1"
+"PSF"
+"srcSweep"
+()
+"DC Analysis"
+) PROP(
+"sweep_tree_type" "leafNode"
+"vgs" 0.1
+)
+"4a_45nm.sw0@2" "analysisInst" ( 
+"DC Analysis"
+"4a_45nm.sw0@2"
+"PSF"
+"srcSweep"
+()
+"DC Analysis"
+) PROP(
+"sweep_tree_type" "leafNode"
+"vgs" 0.5
+)
+"summary" "analysisInst" ( 
+"Summary Information"
+"4a_45nm.su0"
+"PSF"
+""
+()
+"Summary Information"
+)

@@ -1,0 +1,12 @@
+( ( net
+( "vdd!" "vdd!" )
+( "gnd!" "0" )
+ )
+( inst
+( "M1" "m1" )
+( "M0" "m0" )
+ )
+( model
+( "myInverter" "myInverter_schematic" )
+ )
+ )

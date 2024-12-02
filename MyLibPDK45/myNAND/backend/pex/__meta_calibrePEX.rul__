@@ -1,0 +1,6 @@
+DRC ICSTATION YES
+
+LAYOUT CASE YES
+SOURCE CASE YES
+
+INCLUDE "/home/centos/PDK/FreePDK15/calibre/calibrePEX.rul"

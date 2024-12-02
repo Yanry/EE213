@@ -1,0 +1,5 @@
+
+** Library name: MyLabPDK15
+** Cell name: myInverter
+** View name: schematic
+.subckt myInverter a z

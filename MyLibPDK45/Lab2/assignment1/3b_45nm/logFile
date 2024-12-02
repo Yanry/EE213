@@ -1,0 +1,166 @@
+header
+"PSFversion" "1.00"
+"simulator" "HSPICE"
+"version" "O-2018.09-SP1-1 linux64"
+"rundate" "16:23:41 10/28/2024 "
+"runtitle" "** generated for: hspiced                                         "
+"runtype" "logFile"
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING * )
+VALUE
+"srcSweep" "analysisInst" ( 
+"DC Analysis"
+""
+"PSF"
+""
+("vbs" )
+"sweep parent"
+) PROP(
+"sweep_tree_type" "sweepNode"
+)
+"3b_45nm.sw0@1" "analysisInst" ( 
+"DC Analysis"
+"3b_45nm.sw0@1"
+"PSF"
+"srcSweep"
+()
+"DC Analysis"
+) PROP(
+"sweep_tree_type" "leafNode"
+"vbs" -1.1
+)
+"3b_45nm.sw0@2" "analysisInst" ( 
+"DC Analysis"
+"3b_45nm.sw0@2"
+"PSF"
+"srcSweep"
+()
+"DC Analysis"
+) PROP(
+"sweep_tree_type" "leafNode"
+"vbs" -1.0
+)
+"3b_45nm.sw0@3" "analysisInst" ( 
+"DC Analysis"
+"3b_45nm.sw0@3"
+"PSF"
+"srcSweep"
+()
+"DC Analysis"
+) PROP(
+"sweep_tree_type" "leafNode"
+"vbs" -0.9
+)
+"3b_45nm.sw0@4" "analysisInst" ( 
+"DC Analysis"
+"3b_45nm.sw0@4"
+"PSF"
+"srcSweep"
+()
+"DC Analysis"
+) PROP(
+"sweep_tree_type" "leafNode"
+"vbs" -0.8
+)
+"3b_45nm.sw0@5" "analysisInst" ( 
+"DC Analysis"
+"3b_45nm.sw0@5"
+"PSF"
+"srcSweep"
+()
+"DC Analysis"
+) PROP(
+"sweep_tree_type" "leafNode"
+"vbs" -0.7
+)
+"3b_45nm.sw0@6" "analysisInst" ( 
+"DC Analysis"
+"3b_45nm.sw0@6"
+"PSF"
+"srcSweep"
+()
+"DC Analysis"
+) PROP(
+"sweep_tree_type" "leafNode"
+"vbs" -0.6
+)
+"3b_45nm.sw0@7" "analysisInst" ( 
+"DC Analysis"
+"3b_45nm.sw0@7"
+"PSF"
+"srcSweep"
+()
+"DC Analysis"
+) PROP(
+"sweep_tree_type" "leafNode"
+"vbs" -0.5
+)
+"3b_45nm.sw0@8" "analysisInst" ( 
+"DC Analysis"
+"3b_45nm.sw0@8"
+"PSF"
+"srcSweep"
+()
+"DC Analysis"
+) PROP(
+"sweep_tree_type" "leafNode"
+"vbs" -0.4
+)
+"3b_45nm.sw0@9" "analysisInst" ( 
+"DC Analysis"
+"3b_45nm.sw0@9"
+"PSF"
+"srcSweep"
+()
+"DC Analysis"
+) PROP(
+"sweep_tree_type" "leafNode"
+"vbs" -0.3
+)
+"3b_45nm.sw0@10" "analysisInst" ( 
+"DC Analysis"
+"3b_45nm.sw0@10"
+"PSF"
+"srcSweep"
+()
+"DC Analysis"
+) PROP(
+"sweep_tree_type" "leafNode"
+"vbs" -0.2
+)
+"3b_45nm.sw0@11" "analysisInst" ( 
+"DC Analysis"
+"3b_45nm.sw0@11"
+"PSF"
+"srcSweep"
+()
+"DC Analysis"
+) PROP(
+"sweep_tree_type" "leafNode"
+"vbs" -0.1
+)
+"3b_45nm.sw0@12" "analysisInst" ( 
+"DC Analysis"
+"3b_45nm.sw0@12"
+"PSF"
+"srcSweep"
+()
+"DC Analysis"
+) PROP(
+"sweep_tree_type" "leafNode"
+"vbs" 0.0
+)
+"summary" "analysisInst" ( 
+"Summary Information"
+"3b_45nm.su0"
+"PSF"
+""
+()
+"Summary Information"
+)

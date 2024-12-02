@@ -1,0 +1,3 @@
+projectDir = '"/home/centos/EE213/MyLabPDK15/simulation"
+designInfo = '("MyLabPDK15" "myInverterTestBench" "schematic" "hspiceD")
+descriptionText = "None"

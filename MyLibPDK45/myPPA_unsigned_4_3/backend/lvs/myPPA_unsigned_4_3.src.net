@@ -1,0 +1,144 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  MyLibPDK45
+* Top Cell Name: myPPA_unsigned_4_3
+* View Name:     schematic
+* Netlisted on:  Nov 29 20:00:52 2024
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL vdd!
++        gnd!
+
+*.PIN vdd!
+*+    gnd!
+
+************************************************************************
+* Library Name: MyLibPDK45
+* Cell Name:    myNAND
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT myNAND A B Z
+*.PININFO A:I B:I Z:O
+MM1 Z B net013 gnd! NMOS_VTL W=90n L=50n m=1
+MM0 net013 A gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM3 Z A vdd! vdd! PMOS_VTL W=180n L=50n m=1
+MM2 Z B vdd! vdd! PMOS_VTL W=180n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: MyLibPDK45
+* Cell Name:    myInverter45
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT myInverter45 in out
+*.PININFO in:I out:O
+MM0 out in gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM1 out in vdd! vdd! PMOS_VTL W=180n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: MyLibPDK45
+* Cell Name:    myXOR
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT myXOR A B Z
+*.PININFO A:I B:I Z:O
+MM1 A Bbar Z gnd! NMOS_VTL W=90n L=50n m=1
+MM0 Z A Bbar Bbar NMOS_VTL W=90n L=50n m=1
+MM3 A B Z vdd! PMOS_VTL W=180n L=50n m=1
+MM2 Z A B B PMOS_VTL W=180n L=50n m=1
+XI0 B Bbar / myInverter45
+.ENDS
+
+************************************************************************
+* Library Name: MyLibPDK45
+* Cell Name:    myHA
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT myHA A B Cout S
+*.PININFO A:I B:I Cout:O S:O
+XI0 A B net11 / myNAND
+XI1 net11 Cout / myInverter45
+XI2 A B S / myXOR
+.ENDS
+
+************************************************************************
+* Library Name: MyLibPDK45
+* Cell Name:    myFA
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT myFA A B Cin Cout S
+*.PININFO A:I B:I Cin:I Cout:O S:O
+MM11 net35 Cin net068 vdd! PMOS_VTL W=180n L=50n m=1
+MM10 net068 A net069 vdd! PMOS_VTL W=180n L=50n m=1
+MM9 net069 B vdd! vdd! PMOS_VTL W=180n L=50n m=1
+MM8 net35 net79 net42 vdd! PMOS_VTL W=180n L=50n m=1
+MM7 net42 Cin vdd! vdd! PMOS_VTL W=180n L=50n m=1
+MM6 net42 B vdd! vdd! PMOS_VTL W=180n L=50n m=1
+MM5 net42 A vdd! vdd! PMOS_VTL W=180n L=50n m=1
+MM4 net79 A net071 vdd! PMOS_VTL W=180n L=50n m=1
+MM3 net071 B vdd! vdd! PMOS_VTL W=180n L=50n m=1
+MM2 net79 Cin net7 vdd! PMOS_VTL W=180n L=50n m=1
+MM1 net7 B vdd! vdd! PMOS_VTL W=180n L=50n m=1
+MM0 net7 A vdd! vdd! PMOS_VTL W=180n L=50n m=1
+MM23 net60 B gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM22 net64 A net60 gnd! NMOS_VTL W=90n L=50n m=1
+MM21 net35 Cin net64 gnd! NMOS_VTL W=90n L=50n m=1
+MM20 net65 Cin gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM19 net65 B gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM18 net65 A gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM17 net35 net79 net65 gnd! NMOS_VTL W=90n L=50n m=1
+MM16 net12 B gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM15 net79 A net12 gnd! NMOS_VTL W=90n L=50n m=1
+MM14 net4 B gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM13 net4 A gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM12 net79 Cin net4 gnd! NMOS_VTL W=90n L=50n m=1
+XI10 net35 S / myInverter45
+XI9 net79 Cout / myInverter45
+.ENDS
+
+************************************************************************
+* Library Name: MyLibPDK45
+* Cell Name:    myBuffer_2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT myBuffer_2 in out
+*.PININFO in:I out:O
+XI1 net5 out / myInverter45
+XI0 in net5 / myInverter45
+.ENDS
+
+************************************************************************
+* Library Name: MyLibPDK45
+* Cell Name:    myPPA_unsigned_4_3
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT myPPA_unsigned_4_3 A0<3> A0<2> A0<1> A0<0> A1<3> A1<2> A1<1> A1<0> 
++ A2<3> A2<2> A2<1> A2<0> Cout S<5> S<4> S<3> S<2> S<1> S<0>
+*.PININFO A0<3>:I A0<2>:I A0<1>:I A0<0>:I A1<3>:I A1<2>:I A1<1>:I A1<0>:I 
+*.PININFO A2<3>:I A2<2>:I A2<1>:I A2<0>:I Cout:O S<5>:O S<4>:O S<3>:O S<2>:O 
+*.PININFO S<1>:O S<0>:O
+XI6 A2<0> net34 net1 S<2> / myHA
+XI5 net28 A1<3> net5 net6 / myHA
+XI0 A0<1> A1<0> net35 S<1> / myHA
+XI9 net18 A2<3> net5 Cout S<5> / myFA
+XI8 net20 A2<2> net6 net18 S<4> / myFA
+XI7 net1 A2<1> net29 net20 S<3> / myFA
+XI4 net33 A0<3> A1<2> net28 net29 / myFA
+XI3 net35 A0<2> A1<1> net33 net34 / myFA
+XI10 A0<0> S<0> / myBuffer_2
+.ENDS
+

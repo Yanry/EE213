@@ -1,0 +1,21 @@
+//  Calibre View Setup Information
+//  ------------------------------
+//	  Output Library: MyLibPDK15
+//	  Schematic Library: MyLibPDK15
+//	  Cellmap File: ./calview.cellmap
+//	  Log File: ./calview.log
+//	  Calibre View Name: calibre
+//	  Calibre View Type: schematic
+//	  Create Terminals: if matching terminal exists on symbol
+//	  Preserve Device Case: off
+//	  Execute Callbacks: off
+//	  Suppress Notes: off
+//	  Reset Properties: ("m=1")
+//	  Magnify Devices by: 1.000000
+//	  Magnify Parasitics by: 1.000000
+//	  Device Placement: Arrayed
+//	  Parasitic Placement: Arrayed
+//	  Show Parasitic Polygons: off
+//	  Open Calibre CellView: Don't Open
+//	  Generate SPECTRE Netlist: off
+//	  Always Show Dialog: on

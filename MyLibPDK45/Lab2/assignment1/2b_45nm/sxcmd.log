@@ -1,0 +1,81 @@
+### Custom WaveView ADV log file, revision Q-2020.03-SP2-2 (build Oct 29, ) ###
+### created at 18:13:34 on Wed Oct 30 2024 (Linux AMD64) ###
+### Host Name: 2024-szjcdl53   User ID: centos   PID: 26695   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window {Custom WaveView} {} 138 161
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {OpenWaveform0} 
+wv_move_window {FileDialog} {} 515 255
+wv_select_dialog {FileDialog} 
+wv_select_list_item {FileDialog} {} {FileList} {2b_45nm.sw0} 7
+wv_dclick_list_item {FileDialog} {} {FileList} {2b_45nm.sw0} 7
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:2b_45nm.sw0(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:2b_45nm.sw0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {Custom WaveView} {} {sigview} {i1(m0)} 5
+wv_drag_list_item {Custom WaveView} {} {sigview} {i1(m0)} 5
+wv_drag_enter WV1
+wv_drop_on WV1
+wv_select_list_item {Custom WaveView} {} {sigview} {deriv(i1(m0))} 1
+wv_drag_list_item {Custom WaveView} {} {sigview} {deriv(i1(m0))} 1
+wv_drag_enter WV1
+wv_drag_to WV1 15 316
+wv_drag_to WV1 137 354
+wv_drop_on WV1
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Drawing Tool} 
+wv_select_tree_item {DrawToolParameters} {} {DrawingItem} {Line} {0} {+sep=.}
+wv_press_button {DrawToolParameters} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1 268 188
+wv_release_wv_item WV1 268 188
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1 472 34
+wv_release_wv_item WV1 472 34
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.SHAPE1 279 183
+wv_drag_item_to WV1 280 183
+wv_move_wv_item WV1.SHAPE1 281 182
+wv_move_window {Custom WaveView} {} 0 0
+wv_move_window {Custom WaveView} {} 217 262
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 0.38245 9.27474e-08
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.SHAPE1 280 183
+wv_drag_item_to WV1 281 183
+wv_move_wv_item WV1.SHAPE1 281 183
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.SHAPE1 276 186
+wv_move_wv_item WV1.SHAPE1 276 186
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.SHAPE1 272 189
+wv_drag_item_to WV1 273 189
+wv_move_wv_item WV1.SHAPE1 271 190
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.SHAPE1 471 36
+wv_drag_item_to WV1 471 35
+wv_move_wv_item WV1.SHAPE1 469 34
+wv_press_tool_button {Custom WaveView} {} {DumpScreen0} 
+wv_select_dialog {SaveScreenDump} 
+wv_press_button {SaveScreenDump} {} {SaveToFileBrowse} 
+wv_close_dialog {FileDialog} 
+wv_select_dialog {SaveScreenDump} 
+wv_set_check {SaveScreenDump} {} {ExcludeWVHeaderFooterArea} 1
+wv_press_button {SaveScreenDump} {} {SaveToFileBrowse} 
+wv_select_list_item {FileDialog} {} {FileList} {2b_45nm.png} 3
+wv_dclick_list_item {FileDialog} {} {FileList} {2b_45nm.png} 3
+wv_select_dialog {SaveScreenDump} 
+wv_press_button {SaveScreenDump} {} {Save} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_move_window {Custom WaveView} {} 0 0
+wv_move_window {Custom WaveView} {} 217 262
+wv_select_window {Custom WaveView} 
+wv_close_window {Custom WaveView} 
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 
+#*WARNING* Can not remove '/home/centos/.cx_hostport/.cx_hostport_2024-szjcdl53_26695'.

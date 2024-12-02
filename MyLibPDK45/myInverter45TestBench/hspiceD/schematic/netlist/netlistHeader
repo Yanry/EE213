@@ -1,0 +1,6 @@
+** Generated for: hspiceD
+** Generated on: Sep 29 21:52:48 2024
+** Design library name: MyLibPDK45
+** Design cell name: myInverter45TestBench
+** Design view name: schematic
+.GLOBAL vdd!

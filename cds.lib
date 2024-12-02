@@ -1,0 +1,15 @@
+# File Created by centos at Sat Sep 14 15:19:16 2024
+# assisted by CdsLibEditor
+DEFINE analogLib $Virtuoso_HOME/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE US_8ths $Virtuoso_HOME/tools/dfII/etc/cdslib/sheets/US_8ths
+DEFINE basic $Virtuoso_HOME/tools/dfII/etc/cdslib/basic
+DEFINE cdsDefTechLib $Virtuoso_HOME/tools/dfII/etc/cdsDefTechLib
+DEFINE NCSU_TechLib_FreePDK45 $PDK45_Dir/ncsu_basekit/lib/NCSU_TechLib_FreePDK45
+DEFINE NCSU_Devices_FreePDK45 $PDK45_Dir/ncsu_basekit/lib/NCSU_Devices_FreePDK45
+DEFINE NCSU_TechLib_FreePDK15 $PDK15_Dir/cdslib/NCSU_TechLib_FreePDK15
+#Removed by ddDeleteObj: DEFINE test /home/centos/test
+#Removed by ddDeleteObj: DEFINE Lab1 /home/centos/EE213/Lab1
+#Removed by ddDeleteObj: DEFINE MyLabPDK15 /home/centos/EE213/MyLabPDK15
+DEFINE MyLibPDK15 /home/centos/EE213/MyLibPDK15
+#Removed by ddDeleteObj: DEFINE MyLibPDK45 /home/centos/EE213/MyLibPDK45
+DEFINE MyLibPDK45 /home/centos/EE213/MyLibPDK45

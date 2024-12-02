@@ -1,0 +1,23 @@
+### Custom WaveView session file (version Q-2020.03-SP2-2 build Oct 29, ) ###
+### saved at 20:09:17 on Mon Oct 21 2024 ###
+wdf 0 "/home/centos/EE213/MyLibPDK45/myNMOSsim/1a_45nm.sw0@1" load=used 
+wdf 1 "/home/centos/EE213/MyLibPDK45/myNMOSsim/1a_45nm.sw0@2" load=used 
+wdf 2 "/home/centos/EE213/MyLibPDK45/myNMOSsim/1a_45nm.sw0@3" load=used 
+wdf 3 "/home/centos/EE213/MyLibPDK45/myNMOSsim/1a_45nm.sw0@4" load=used 
+wdf 4 "/home/centos/EE213/MyLibPDK45/myNMOSsim/1a_45nm.sw0@5" load=used 
+scalar list
+waveview_begin 1  stack  offset=0 name_b=114 mntr_b=114 name_width=99 "name=waveview 1" 
+  label 457 509 "vgs = 0.1V" "font={DejaVu Sans} 12" 
+  label 457 487 "vgs = 0.3V" "font={DejaVu Sans} 12" 
+  label 456 369 "vgs = 0.5V" "font={DejaVu Sans} 12" 
+  label 454 221 "vgs = 0.7V" "font={DejaVu Sans} 12" 
+  label 451 76 "vgs = 0.9V" "font={DejaVu Sans} 12" 
+  panel_begin linear pidx=0 spath=name+file xlabel="vds(sec)" ylabel="A" 
+    line src=wdf lidx=0 fidx=0 "delim=.^" sigtype=2 "name=i1(m0)" attr=0:0:1:0 autoset=true disp=show 
+    line src=wdf lidx=1 fidx=1 "delim=.^" sigtype=2 "name=i1(m0)" attr=1:1:1:0 autoset=true disp=show 
+    line src=wdf lidx=2 fidx=2 "delim=.^" sigtype=2 "name=i1(m0)" attr=2:2:1:0 autoset=true disp=show 
+    line src=wdf lidx=3 fidx=3 "delim=.^" sigtype=2 "name=i1(m0)" attr=3:3:1:0 autoset=true disp=show 
+    line src=wdf lidx=4 fidx=4 "delim=.^" sigtype=2 "name=i1(m0)" attr=4:4:1:0 autoset=true disp=show 
+  panel_end
+waveview_end
+browserOpened

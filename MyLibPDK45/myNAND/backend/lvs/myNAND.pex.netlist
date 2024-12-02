@@ -1,0 +1,23 @@
+* File: myNAND.pex.netlist
+* Created: Tue Nov 26 18:16:58 2024
+* Program "Calibre xRC"
+* Version "v2016.4_38.25"
+* 
+.subckt myNAND 
+* 
+M0_noxref noxref_11 noxref_15 noxref_11 noxref_22 nfet_vth L=0 W=2.8e-07
++ nfin=7.8 adej=0 asej=2.496e-15 pdej=6.24e-08 psej=6.24e-07
+M1_noxref noxref_14 noxref_18 noxref_14 noxref_22 nfet_vtl L=0 W=2.8e-07
++ nfin=7.8 adej=0 asej=5.0544e-14 pdej=6.24e-08 psej=1.2636e-05
+M2_noxref noxref_14 noxref_19 noxref_14 noxref_22 nfet_vtl L=0 W=2.8e-07
++ nfin=7.8 adej=0 asej=5.0544e-14 pdej=6.24e-08 psej=1.2636e-05
+M3_noxref noxref_14 noxref_21 noxref_14 noxref_22 nfet_vtl L=0 W=2.8e-07
++ nfin=7.8 adej=0 asej=5.0544e-14 pdej=6.24e-08 psej=1.2636e-05
+c_1 noxref_11 0 0.907291f
+c_2 noxref_14 0 1.0178f
+*
+.include "myNAND.pex.netlist.myNAND.pxi"
+*
+.ends
+*
+*

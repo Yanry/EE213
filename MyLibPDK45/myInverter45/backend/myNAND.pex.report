@@ -1,0 +1,134 @@
+                  ##################################################
+                  ##                                              ##
+                  ##                 Calibre xRC                  ##
+                  ##                                              ##
+                  ##          Export Lumped Parameters            ##
+                  ##                                              ##
+                  ##################################################
+ 
+ 
+ 
+LAYOUT NAME:              MYNAND
+RULE FILE NAME:           rules
+CREATION TIME:            Tue Nov 26 18:25:31 2024
+ 
+UNITS:                    Resistance  = ohm
+                          Capacitance = farad
+                          Time        = ns
+ 
+ 
+---------------------------------------------------------------------------------
+CELL NAME:                MYNAND
+ 
+Netid      R(UpperBound)      Cvalue      %Coupled    RC(UpperBound)   Netname
+---------+---------------+-------------+-------------+--------------+------------
+1                     0.0   1.14947e-16       49.2461            0.0  A
+            - Coupled nets
+               N_GND!_MM0_s,N_GND!_MM0_s,N_GND!_c_16_n,N_GND!_c_16_n,N_B_MM1_g,N_B_MM2_g,N_B_c_28_n,Z,Z,N_Z_c_43_n,N_VDD!_MM3_s,N_VDD!_MM3_s,N_VDD!_c_59_n
+            - Intrinsic Capacitance
+               5.83402e-17
+            - Coupled capacitance
+               5.07316e-18   netid: N_GND!_MM0_s
+               2.03825e-18   netid: N_GND!_MM0_s
+               1.51801e-18   netid: N_GND!_c_16_n
+                5.9188e-19   netid: N_GND!_c_16_n
+               6.93999e-18   netid: N_B_MM1_g
+               6.93999e-18   netid: N_B_MM2_g
+               6.93999e-18   netid: N_B_c_28_n
+               1.23635e-17   netid: Z
+               3.11915e-18   netid: Z
+               3.11915e-18   netid: N_Z_c_43_n
+               3.46228e-18   netid: N_VDD!_MM3_s
+               3.71044e-18   netid: N_VDD!_MM3_s
+               7.91287e-19   netid: N_VDD!_c_59_n
+
+
+2                     0.0   7.66905e-17       27.4017            0.0  GND!
+            - Coupled nets
+               N_A_MM0_g,N_A_c_2_p,N_A_MM0_g,N_A_c_2_p,N_B_MM1_g,B,N_Z_MM1_d,N_Z_MM1_d,N_Z_c_43_n,N_VDD!_MM3_b,N_VDD!_c_61_n,N_VDD!_c_59_n
+            - Intrinsic Capacitance
+               5.5676e-17
+            - Coupled capacitance
+               5.07316e-18   netid: N_A_MM0_g
+               2.03825e-18   netid: N_A_c_2_p
+               1.51801e-18   netid: N_A_MM0_g
+                5.9188e-19   netid: N_A_c_2_p
+               1.34335e-18   netid: N_B_MM1_g
+               2.99044e-19   netid: B
+               9.01922e-19   netid: N_Z_MM1_d
+               3.49974e-18   netid: N_Z_MM1_d
+               3.81164e-18   netid: N_Z_c_43_n
+                1.1133e-18   netid: N_VDD!_MM3_b
+               3.15151e-19   netid: N_VDD!_c_61_n
+                5.0909e-19   netid: N_VDD!_c_59_n
+
+
+3                     0.0   1.34021e-16       58.2371            0.0  B
+            - Coupled nets
+               N_A_MM0_g,N_A_MM3_g,N_A_c_7_p,N_GND!_c_16_n,N_GND!_c_16_n,N_Z_MM1_d,Z,Z,N_Z_c_50_n,N_Z_c_50_n,N_Z_c_50_n,N_VDD!_MM2_s,N_VDD!_MM2_s,N_VDD!_c_59_n,N_VDD!_c_59_n
+            - Intrinsic Capacitance
+               5.5971e-17
+            - Coupled capacitance
+               6.93999e-18   netid: N_A_MM0_g
+               6.93999e-18   netid: N_A_MM3_g
+               6.93999e-18   netid: N_A_c_7_p
+               1.34335e-18   netid: N_GND!_c_16_n
+               2.99044e-19   netid: N_GND!_c_16_n
+               4.28179e-18   netid: N_Z_MM1_d
+               4.65947e-18   netid: Z
+               1.23635e-17   netid: Z
+               5.73417e-18   netid: N_Z_c_50_n
+               4.07862e-19   netid: N_Z_c_50_n
+               1.98739e-17   netid: N_Z_c_50_n
+               3.46228e-18   netid: N_VDD!_MM2_s
+               3.71044e-18   netid: N_VDD!_MM2_s
+               7.13051e-19   netid: N_VDD!_c_59_n
+               3.81038e-19   netid: N_VDD!_c_59_n
+
+
+4                     0.0   1.16669e-16       72.3785            0.0  Z
+            - Coupled nets
+               N_A_c_2_p,N_A_c_7_p,N_A_MM0_g,N_GND!_MM0_s,N_GND!_c_16_n,N_GND!_c_16_n,N_B_MM1_g,N_B_MM1_g,B,N_B_MM1_g,N_B_c_28_n,B,N_VDD!_MM3_s,N_VDD!_MM2_s,N_VDD!_c_59_n,N_VDD!_c_59_n
+            - Intrinsic Capacitance
+               3.22256e-17
+            - Coupled capacitance
+               1.23635e-17   netid: N_A_c_2_p
+               3.11915e-18   netid: N_A_c_7_p
+               3.11915e-18   netid: N_A_MM0_g
+               9.01922e-19   netid: N_GND!_MM0_s
+               3.49974e-18   netid: N_GND!_c_16_n
+               3.81164e-18   netid: N_GND!_c_16_n
+               4.28179e-18   netid: N_B_MM1_g
+               4.65947e-18   netid: N_B_MM1_g
+               1.23635e-17   netid: B
+               5.73417e-18   netid: N_B_MM1_g
+               4.07862e-19   netid: N_B_c_28_n
+               1.98739e-17   netid: B
+                3.0357e-18   netid: N_VDD!_MM3_s
+                3.0357e-18   netid: N_VDD!_MM2_s
+               3.64066e-18   netid: N_VDD!_c_59_n
+               5.95093e-19   netid: N_VDD!_c_59_n
+
+
+5                     0.0   9.09413e-17        31.312            0.0  VDD!
+            - Coupled nets
+               N_A_MM3_g,N_A_c_2_p,N_A_MM3_g,N_GND!_MM0_b,N_GND!_c_24_p,N_GND!_c_16_n,N_B_MM2_g,B,N_B_MM2_g,B,Z,Z,Z,N_Z_c_50_n
+            - Intrinsic Capacitance
+               6.24658e-17
+            - Coupled capacitance
+               3.46228e-18   netid: N_A_MM3_g
+               3.71044e-18   netid: N_A_c_2_p
+               7.91287e-19   netid: N_A_MM3_g
+                1.1133e-18   netid: N_GND!_MM0_b
+               3.15151e-19   netid: N_GND!_c_24_p
+                5.0909e-19   netid: N_GND!_c_16_n
+               3.46228e-18   netid: N_B_MM2_g
+               3.71044e-18   netid: B
+               7.13051e-19   netid: N_B_MM2_g
+               3.81038e-19   netid: B
+                3.0357e-18   netid: Z
+                3.0357e-18   netid: Z
+               3.64066e-18   netid: Z
+               5.95093e-19   netid: N_Z_c_50_n
+
+

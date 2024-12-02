@@ -1,0 +1,5 @@
+       1 xi0.
+       2 xi0.x_pm_myinverter%in.
+       3 xi0.x_pm_myinverter%gnd!.
+       4 xi0.x_pm_myinverter%vdd!.
+       5 xi0.x_pm_myinverter%out.

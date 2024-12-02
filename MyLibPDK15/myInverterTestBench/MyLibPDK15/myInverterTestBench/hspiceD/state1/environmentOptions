@@ -1,0 +1,14 @@
+(envOpts autoDisplay) t
+(envOpts caseSensOption) nil
+(envOpts definitionFiles) nil
+(envOpts enable64BIT) nil
+(envOpts enableHPP) nil
+(envOpts mapGndNetToZero) t
+(envOpts netlistModelFileFirst) nil
+(envOpts numThreadOption) ""
+(envOpts printComments) (nil nil)
+(envOpts setTopLevelAsSubckt) nil
+(envOpts stimulusFile) nil
+(envOpts stopViewList) ("hspiceD" "spice")
+(envOpts switchViewList) ("hspiceD" "spice" "cmos_sch" "cmos.sch" "schematic")
+(envOpts userCmdLineOption) ""

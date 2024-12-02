@@ -1,0 +1,49 @@
+* File: myNAND.pex.netlist.MYNAND.pxi
+* Created: Wed Nov 27 14:02:31 2024
+* 
+x_PM_MYNAND%A N_A_MM0_g N_A_MM3_g N_A_c_2_p N_A_c_9_p A N_A_c_3_p PM_MYNAND%A
+x_PM_MYNAND%GND! N_GND!_MM0_s N_GND!_MM0_b N_GND!_c_29_p GND! N_GND!_c_20_n
++ PM_MYNAND%GND!
+x_PM_MYNAND%B N_B_MM1_g N_B_MM2_g N_B_c_33_n B PM_MYNAND%B
+x_PM_MYNAND%Z N_Z_MM1_d N_Z_MM3_d Z N_Z_c_56_n N_Z_c_48_n PM_MYNAND%Z
+x_PM_MYNAND%VDD! N_VDD!_MM3_s N_VDD!_MM2_s N_VDD!_MM3_b N_VDD!_c_68_n
++ N_VDD!_c_66_n VDD! PM_MYNAND%VDD!
+cc_1 N_A_MM0_g N_GND!_MM0_s 0.00433894f
+cc_2 N_A_c_2_p N_GND!_MM0_s 0.0012905f
+cc_3 N_A_c_3_p N_GND!_MM0_s 0.0127458f
+cc_4 N_A_MM0_g N_GND!_c_20_n 0.00149338f
+cc_5 N_A_c_2_p N_GND!_c_20_n 3.82506e-19
+cc_6 N_A_c_3_p N_GND!_c_20_n 0.00113572f
+cc_7 N_A_MM0_g N_B_MM1_g 0.0062629f
+cc_8 N_A_MM3_g N_B_MM2_g 0.0062629f
+cc_9 N_A_c_9_p N_B_c_33_n 0.0062629f
+cc_10 N_A_c_9_p Z 0.00310543f
+cc_11 N_A_MM0_g N_Z_c_48_n 0.00310543f
+cc_12 N_A_c_3_p N_Z_c_48_n 0.012663f
+cc_13 N_A_MM3_g N_VDD!_MM3_s 0.00346228f
+cc_14 N_A_c_2_p N_VDD!_MM3_s 8.14044e-19
+cc_15 N_A_c_3_p N_VDD!_MM3_s 0.00193022f
+cc_16 N_A_MM3_g N_VDD!_c_66_n 7.75835e-19
+cc_17 N_GND!_c_20_n N_B_MM1_g 0.001296f
+cc_18 N_GND!_c_20_n B 3.43159e-19
+cc_19 N_GND!_MM0_s N_Z_MM1_d 0.00257048f
+cc_20 N_GND!_c_20_n N_Z_MM1_d 0.0102925f
+cc_21 N_GND!_c_20_n N_Z_c_48_n 0.00584954f
+cc_22 N_GND!_MM0_b N_VDD!_MM3_b 0.00147152f
+cc_23 N_GND!_c_29_p N_VDD!_c_68_n 3.64881e-19
+cc_24 N_GND!_c_20_n N_VDD!_c_66_n 5.89423e-19
+cc_25 N_B_MM1_g N_Z_MM1_d 0.00323426f
+cc_26 N_B_MM1_g Z 0.00469166f
+cc_27 B Z 0.0123635f
+cc_28 N_B_MM1_g N_Z_c_56_n 0.00564521f
+cc_29 N_B_c_33_n N_Z_c_56_n 0.00193952f
+cc_30 B N_Z_c_56_n 0.0197093f
+cc_31 N_B_MM2_g N_VDD!_MM2_s 0.00346228f
+cc_32 N_B_c_33_n N_VDD!_MM2_s 9.98575e-19
+cc_33 B N_VDD!_MM2_s 0.00352671f
+cc_34 N_B_MM2_g N_VDD!_c_66_n 7.13051e-19
+cc_35 B N_VDD!_c_66_n 3.3117e-19
+cc_36 Z N_VDD!_MM3_s 0.0030357f
+cc_37 Z N_VDD!_MM2_s 0.0030357f
+cc_38 Z N_VDD!_c_66_n 0.00364066f
+cc_39 N_Z_c_56_n N_VDD!_c_66_n 5.95093e-19

@@ -1,0 +1,89 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 10/01/2018 19:51 (ip-172-18-22-52) $
+          : sub-version  IC6.1.8-64b.83 
+Started at: 30-Nov-2024  00:49:55
+User Name : centos
+Host Name : 2024-szjcdl53
+Directory : /home/centos/EE213
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+
+                       Individual Cell Statistics - Basic Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
+---------------------------------------------------------------------------------------------------------------------------------------
+MyLibPDK45/myNAND/layout        0        0       0        44     0      0         0      5             0      0     0     0       0       
+MyLibPDK45/myPPA_unsigned_4_3/layout                            9        0       0        115    0      0         0      21            0      0     0     0       0       
+MyLibPDK45/myBuffer_2/layout    2        0       0        7      0      0         0      4             0      0     0     0       0       
+MyLibPDK45/myPPA_4_3/layout     10       0       0        127    0      0         0      20            0      0     0     0       0       
+MyLibPDK45/myHA/layout          3        0       0        19     0      0         0      6             0      0     0     0       0       
+MyLibPDK45/myPMOS/layout        0        0       0        12     0      0         0      0             0      0     0     0       0       
+MyLibPDK45/myNMOS/layout        0        0       0        12     0      0         0      0             0      0     0     0       0       
+MyLibPDK45/myFA/layout          2        0       0        190    0      0         0      7             0      0     0     0       0       
+MyLibPDK45/myXOR/layout         2        0       0        109    0      0         0      5             0      0     0     0       0       
+MyLibPDK45/myInverter45/layout  2        0       0        15     0      0         0      4             0      0     0     0       0       
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Individual Cell Statistics - Advanced Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   CustVia   StdVia    CdsGenVia
+---------------------------------------------------------------------------------------------------------------------------------------
+MyLibPDK45/myNAND/layout        0        0          0          0          0          0     0        0         0         0        
+MyLibPDK45/myPPA_unsigned_4_3/layout                            0        0          0          0          0          0     0        0         0         0        
+MyLibPDK45/myBuffer_2/layout    0        0          0          0          0          0     0        0         0         0        
+MyLibPDK45/myPPA_4_3/layout     0        0          0          0          0          0     0        0         0         0        
+MyLibPDK45/myHA/layout          0        0          0          0          0          0     0        0         0         0        
+MyLibPDK45/myPMOS/layout        0        0          0          0          0          0     0        0         0         0        
+MyLibPDK45/myNMOS/layout        0        0          0          0          0          0     0        0         0         0        
+MyLibPDK45/myFA/layout          0        0          0          0          0          0     0        0         0         0        
+MyLibPDK45/myXOR/layout         0        0          0          0          0          0     0        0         0         0        
+MyLibPDK45/myInverter45/layout  0        0          0          0          0          0     0        0         0         0        
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Statistics of Layers 
+---------------------------------------------------------------------------------------------------------------------------------------
+Cadence         Cadence         Stream  Stream   
+Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
+---------------------------------------------------------------------------------------------------------------------------------------
+nimplant        drawing         4       0         0        15       0        0        0             0    0   0   0     0      0      
+nwell           drawing         3       0         0        5        0        0        0             0    0   0   0     0      0      
+metal2          drawing         13      0         0        20       0        0        0             0    0   0   0     0      0      
+metal1          drawing         11      0         0        306      0        0        72            0    0   0   0     0      0      
+via1            drawing         12      0         0        29       0        0        0             0    0   0   0     0      0      
+poly            drawing         9       0         0        132      0        0        0             0    0   0   0     0      0      
+contact         drawing         10      0         0        93       0        0        0             0    0   0   0     0      0      
+pimplant        drawing         5       0         0        15       0        0        0             0    0   0   0     0      0      
+pwell           drawing         2       0         0        5        0        0        0             0    0   0   0     0      0      
+active          drawing         1       0         0        30       0        0        0             0    0   0   0     0      0      
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Summary of Objects Translated:
+	Scalar Instances:		30
+	Array Instances:		0
+	Polygons:			0
+	Paths:				0
+	Rectangles:			650
+	Lines:				0
+	Arcs:				0
+	Donuts:				0
+	Dots:				0
+	Ellipses:			0
+	Boundaries:			0
+	Area Blockages:			0
+	Layer Blockages:		0
+	Area Halos:			0
+	Markers:			0
+	Rows:				0
+	Standard Vias:			0
+	Custom Vias:			0
+	CdsGen Vias:			0
+	Pathsegs:			0
+	Text:				0
+	TextDisplay:		72
+	Cells:				10
+Design Libraries: 
+
+DEFINE MyLibPDK45	/home/centos/EE213/MyLibPDK45

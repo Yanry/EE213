@@ -1,0 +1,8 @@
+HEADER
+"PSFversion" "1.00"
+"M0v" "m0v"
+"M1v" "m1v"
+"M0n" "NCSU_TechLib_FreePDK15_pmos_hspiceD"
+"M1n" "NCSU_TechLib_FreePDK15_nmos_hspiceD"
+"Av" "(FUNCTION (plus (root \"M1/G\") (root \"M0/G\")))v"
+"Zv" "(FUNCTION (plus (root \"M1/D\") (root \"M0/D\")))v"

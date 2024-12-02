@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"V0v" "v0v"
+"V1v" "v1v"
+"V0n" "analogLib_vdc_hspiceD"
+"C0v" "c0v"
+"V1n" "analogLib_vpulse_hspiceD"
+"I0v" "xi0v"
+"C0n" "analogLib_cap_hspiceD"
+"I0n" "myInverter"

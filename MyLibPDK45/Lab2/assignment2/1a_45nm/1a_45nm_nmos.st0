@@ -1,0 +1,55 @@
+****** HSPICE -- O-2018.09-SP1-1 linux64 (Dec 28 2018) ******
+ Input File: 1a_45nm_nmos.sp
+ lic:
+ lic: FLEXlm: SDK_11.6.9.6
+ lic: USER:   centos               HOSTNAME: 2024-szjcdl53
+ lic: HOSTID: 005056a6b4a5         PID:      543
+ lic: Using FLEXlm license file:
+ lic: 27020@10.15.89.162
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 01-nov-2025/2023.03
+ lic: 1(in_use)/40(total) FLOATING license(s) on SERVER 27020@10.15.89.162
+ lic:
+ init: begin read circuit files, cpu clock= 8.00E-02
+       option search = /home/tools/synopsys/hspice/O-2018.09-SP1-1/hspi
+                         ce/parts/ad
+       option artist =     2.00
+       option ingold =     2.00
+       option parhier = local
+       option psf =     2.00
+       option measform =     3.00
+ init: end read circuit files, cpu clock= 8.00E-02 peak memory=     273 mb
+ init: begin check errors, cpu clock= 8.00E-02
+ init: end check errors, cpu clock= 9.00E-02 peak memory=     274 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 9.00E-02
+       establish matrix -- done, cpu clock= 9.00E-02 peak memory=     274 mb
+       re-order matrix -- done, cpu clock= 9.00E-02 peak memory=     274 mb
+ init: end setup matrix, cpu clock= 9.00E-02 peak memory=     274 mb
+ sweep: parameter       parameter1       begin, #sweeps =   8
+ parameter: vdd             =    4.00E-01
+ sweep: dc dc1    begin, #sweeps=1801 cpu clock= 9.00E-02
+ sweep: dc dc1    end, cpu clock= 5.40E-01 peak memory=     274 mb
+ parameter: vdd             =    6.00E-01
+ sweep: dc dc2    begin, #sweeps=1801 cpu clock= 5.40E-01
+ sweep: dc dc2    end, cpu clock= 1.01E+00 peak memory=     274 mb
+ parameter: vdd             =    8.00E-01
+ sweep: dc dc3    begin, #sweeps=1801 cpu clock= 1.01E+00
+ sweep: dc dc3    end, cpu clock= 1.48E+00 peak memory=     274 mb
+ parameter: vdd             =    1.00E+00
+ sweep: dc dc4    begin, #sweeps=1801 cpu clock= 1.49E+00
+ sweep: dc dc4    end, cpu clock= 1.92E+00 peak memory=     274 mb
+ parameter: vdd             =    1.20E+00
+ sweep: dc dc5    begin, #sweeps=1801 cpu clock= 1.92E+00
+ sweep: dc dc5    end, cpu clock= 2.36E+00 peak memory=     274 mb
+ parameter: vdd             =    1.40E+00
+ sweep: dc dc6    begin, #sweeps=1801 cpu clock= 2.36E+00
+ sweep: dc dc6    end, cpu clock= 2.79E+00 peak memory=     269 mb
+ parameter: vdd             =    1.60E+00
+ sweep: dc dc7    begin, #sweeps=1801 cpu clock= 2.79E+00
+ sweep: dc dc7    end, cpu clock= 3.01E+00 peak memory=     269 mb
+ parameter: vdd             =    1.80E+00
+ sweep: dc dc8    begin, #sweeps=1801 cpu clock= 3.01E+00
+ sweep: dc dc8    end, cpu clock= 3.23E+00 peak memory=     269 mb
+ sweep: parameter       parameter       1 end
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

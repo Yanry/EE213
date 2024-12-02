@@ -1,0 +1,23 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "myInverterTestBench"
+  repList "hspiceD spice cmos_sch cmos.sch schematic"
+  stopList "hspiceD spice"
+  globalList "gnd! vdd!"
+  hierDelim "^"
+  netlistDir "/home/centos/EE213/MyLibPDK15/simulation/myInverterTestBench/hspiceD/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "MyLibPDK15/myInverterTestBench/schematic" "myInverterTestBench_schematic" )
+( "MyLibPDK15/myInverter/schematic" "myInverter_schematic" )
+ )
+( param
+( "VDD_VAL" "vdd_val" )
+ )
+( "myInverter_schematic" "ihnl/cds2/map" )
+( "myInverterTestBench_schematic" "ihnl/cds3/map" )
+ )

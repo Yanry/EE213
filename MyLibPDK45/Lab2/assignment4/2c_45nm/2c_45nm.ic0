@@ -1,0 +1,16 @@
+* "simulator" "HSPICE" 
+* "version" "O-2018.09-SP1-1 linux64"
+* "format" "HSP"
+* "rundate" "02:41:54 10/29/2024 "
+* "netlist" "2c_45nm.sp "
+* "runtitle" "** generated for: hspiced"
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ in = 0.000e+00       
++ out = 4.000e-01       
++ vdd! = 4.000e-01       
+***   END: Saved Operating Point ***                     

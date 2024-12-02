@@ -1,0 +1,453 @@
+ ****** HSPICE -- O-2018.09-SP1-1 linux64 (Dec 28 2018) ******                  
+  Copyright (c) 1986 - 2024 by Synopsys, Inc. All Rights Reserved.              
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: 3a_45nm.sp                                                        
+  Command line options: /home/tools/synopsys/hspice/O-2018.09-SP1-1/hspice/linux64/hspice -i 3a_45nm.sp -o 3a_45nm
+  Start time: Mon Oct 28 00:23:19 2024
+ lic:  
+ lic: FLEXlm: SDK_11.6.9.6 
+ lic: USER:   centos               HOSTNAME: 2024-szjcdl53 
+ lic: HOSTID: 005056a6b4a5         PID:      24323 
+ lic: Using FLEXlm license file: 
+ lic: 27020@10.15.89.162 
+ lic: Checkout 1 hspice 
+ lic: License/Maintenance for hspice will expire on 01-nov-2025/2023.03 
+ lic: 1(in_use)/40(total) FLOATING license(s) on SERVER 27020@10.15.89.162 
+ lic:   
+1****** HSPICE -- O-2018.09-SP1-1 linux64 (Dec 28 2018) ******                  
+ ******  
+ ** generated for: hspiced
+
+ ****** mos   model parameters tnom=  25.000 temp=  25.000 ******
+ Model file: /home/centos/PDK/FreePDK45/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc
+ Model line:            3
+ Model Name: nmos_vtl  
+ BSIM4 Model (Level 54)
+    MOBMOD = 0
+    BINUNIT = 1
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 1
+    RGATEMOD = 1
+    PERMOD = 1
+    GEOMOD = 1
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 0
+    VERSION =      4 
+    TOXREF = 1.14e-09 
+    TOXE = 1.14e-09 
+    TOXP =  1e-09 
+    TOXM = 1.14e-09 
+    DTOX = 1.4e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT =      0 
+    NFACTOR =    2.1 
+    XJ = 1.98e-08 
+    VSAT = 1.48e+05 
+    A0 =      1 
+    AGS =      0 
+    A1 =      0 
+    A2 =      1 
+    AT = 3.3e+04 
+    KETA =   0.04 
+    NSUB =  6e+16 
+    NDEP = 3.4e+18 
+    NSD =  2e+20 
+    NGATE =  3e+20 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 =    0.4 
+    KT1 =  -0.11 
+    KT1L =      0 
+    KT2 =  0.022 
+    K2 =      0 
+    K3 =      0 
+    K3B =      0 
+    LPE0 =      0 
+    LPEB =      0 
+    DVTP0 =  1e-10 
+    DVTP1 =    0.1 
+    W0 = 2.5e-06 
+    DVT0 =      1 
+    DVT1 =      2 
+    DVT2 =      0 
+    DVT0W =      0 
+    DVT1W =      0 
+    DVT2W =      0 
+    DROUT =    0.5 
+    DSUB =    0.1 
+    VTH0 =  0.322 
+    EU =   1.67 
+    UA =  6e-10 
+    UA1 = 4.31e-09 
+    UB = 1.2e-18 
+    UB1 = 7.61e-18 
+    UC =      0 
+    UC1 = -5.6e-11 
+    U0 =  0.045 
+    UTE =   -1.5 
+    VOFF =  -0.13 
+    VOFFL =      0 
+    MINV =   0.05 
+    FPROUT =    0.2 
+    PDITS =   0.08 
+    PDITSD =   0.23 
+    PDITSL = 2.3e+06 
+    DELTA =   0.01 
+    RDSW =    155 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =     80 
+    RSW =     80 
+    PRWG =      0 
+    PRWB =      0 
+    PRT =      0 
+    ETA0 =  0.006 
+    ETAB =      0 
+    PCLM =   0.02 
+    PDIBLC1 =  0.001 
+    PDIBLC2 =  0.001 
+    PDIBLCB = -0.005 
+    PSCBE1 = 8.14e+08 
+    PSCBE2 =  1e-07 
+    PVAG =  1e-20 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL = -2e-08 
+    XLREF = -2e-08 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =  0.074 
+    ALPHA1 =  0.005 
+    AGIDL = 0.0002 
+    BGIDL = 2.1e+09 
+    CGIDL = 0.0002 
+    PHIN =      0 
+    EGIDL =    0.8 
+    AIGC =   0.02 
+    BIGC = 0.0027 
+    CIGC =  0.002 
+    AIGSD =   0.02 
+    BIGSD = 0.0027 
+    CIGSD =  0.002 
+    AIGBACC =  0.012 
+    BIGBACC = 0.0028 
+    CIGBACC =  0.002 
+    AIGBINV =  0.014 
+    BIGBINV =  0.004 
+    CIGBINV =  0.004 
+    NIGC =      1 
+    NIGBINV =      3 
+    NIGBACC =      1 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =      1 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      5 
+    BETA0 =     30 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =  0.001 
+    IJTHSREV =  0.001 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =  -0.55 
+    GBMIN =  1e-10 
+    RBDB =     15 
+    RBPB =      5 
+    RBSB =     15 
+    RBPS =     15 
+    RBPD =     15 
+    CGSL = 2.653e-10 
+    CGDL = 2.653e-10 
+    CKAPPAS =   0.03 
+    CKAPPAD =   0.03 
+    CF = 1.289e-10 
+    CLC =  1e-07 
+    CLE =    0.6 
+    DWC =  5e-09 
+    DLC = 3.75e-09 
+    DLCIG = 3.75e-09 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =      1 
+    MOIN =     15 
+    NOFF =    0.9 
+    VOFFCV =   0.02 
+    DMCG =      0 
+    DMCI =      0 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =    0.4 
+    NGCON =      1 
+    TCJ =  0.001 
+    TPB =  0.005 
+    TCJSW =  0.001 
+    TPBSW =  0.005 
+    TCJSWG =  0.001 
+    TPBSWG =  0.005 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    TNOM =  300.1 
+    CGSO = 1.1e-10 
+    CGDO = 1.1e-10 
+    CGBO = 2.56e-11 
+    XPART =      0 
+    RSH =      5 
+    JSS = 0.0001 
+    JSWS =  1e-11 
+    JSWGS =  1e-10 
+    PBS =      1 
+    MJS =    0.5 
+    PBSWS =      1 
+    MJSWS =   0.33 
+    CJS = 0.0005 
+    CJSWS =  5e-10 
+    NJS =      1 
+    PBSWGS =      1 
+    MJSWGS =   0.33 
+    CJSWGS =  3e-10 
+    XTIS =      3 
+    JSD = 0.0001 
+    JSWD =  1e-11 
+    JSWGD =  1e-10 
+    PBD =      1 
+    MJD =    0.5 
+    PBSWD =      1 
+    MJSWD =   0.33 
+    CJD = 0.0005 
+    CJSWD =  5e-10 
+    NJD =      1 
+    PBSWGD =      1 
+    MJSWGD =   0.33 
+    CJSWGD =  5e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT = 3.75e-09 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =      0 
+    LMAX =      1 
+    WINT =  5e-09 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN =      0 
+    WMAX =      1 
+    NOIA = 6.25e+41 
+    NOIB = 3.125e+26 
+    NOIC = 8.75e+09 
+    EM = 4.1e+07 
+    EF =      1 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+  **warning** (nmos_vtl:m0 (3a_45nm.sp:27)) Warning:  Acde = 0.276941 may be too small in BSIM4 model with w=9e-08 l=5e-08.
+  
+  
+      
+
+Element variations(Local):   element              parameter
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2.0000    
+  
+ ******
+ ** generated for: hspiced
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vbs =  -1.100e+00       ***
+  
+ vds= 1.3706e-04    at= 9.0000e-01
+             from= 0.0000e+00    to= 1.1000e+00
+ ******
+ ** generated for: hspiced
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vbs =  -1.000e+00       ***
+  
+ vds= 1.3819e-04    at= 9.0000e-01
+             from= 0.0000e+00    to= 1.1000e+00
+ ******
+ ** generated for: hspiced
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vbs =  -9.000e-01       ***
+  
+ vds= 1.3947e-04    at= 8.0000e-01
+             from= 0.0000e+00    to= 1.1000e+00
+ ******
+ ** generated for: hspiced
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vbs =  -8.000e-01       ***
+  
+ vds= 1.4095e-04    at= 8.0000e-01
+             from= 0.0000e+00    to= 1.1000e+00
+ ******
+ ** generated for: hspiced
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vbs =  -7.000e-01       ***
+  
+ vds= 1.4232e-04    at= 8.0000e-01
+             from= 0.0000e+00    to= 1.1000e+00
+ ******
+ ** generated for: hspiced
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vbs =  -6.000e-01       ***
+  
+ vds= 1.4358e-04    at= 8.0000e-01
+             from= 0.0000e+00    to= 1.1000e+00
+ ******
+ ** generated for: hspiced
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vbs =  -5.000e-01       ***
+  
+ vds= 1.4485e-04    at= 7.0000e-01
+             from= 0.0000e+00    to= 1.1000e+00
+ ******
+ ** generated for: hspiced
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vbs =  -4.000e-01       ***
+  
+ vds= 1.4661e-04    at= 7.0000e-01
+             from= 0.0000e+00    to= 1.1000e+00
+ ******
+ ** generated for: hspiced
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vbs =  -3.000e-01       ***
+  
+ vds= 1.4818e-04    at= 7.0000e-01
+             from= 0.0000e+00    to= 1.1000e+00
+ ******
+ ** generated for: hspiced
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vbs =  -2.000e-01       ***
+  
+ vds= 1.4956e-04    at= 7.0000e-01
+             from= 0.0000e+00    to= 1.1000e+00
+ ******
+ ** generated for: hspiced
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vbs =  -1.000e-01       ***
+  
+ vds= 1.5108e-04    at= 6.0000e-01
+             from= 0.0000e+00    to= 1.1000e+00
+ ******
+ ** generated for: hspiced
+
+ ****** dc transfer curves tnom=  25.000 temp=  25.000 ******
+  *** parameter vbs =   0.000e+00       ***
+  
+ vds= 1.5315e-04    at= 6.0000e-01
+             from= 0.0000e+00    to= 1.1000e+00
+
+          ***** job concluded
+ ******  
+ ** generated for: hspiced
+
+ ****** job statistics summary tnom=  25.000 temp=  25.000 ******
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) CPU E7-4820 v3 @ 1.90GHz
+ cpu MHz	: 1895.432
+  
+ OS:
+ Linux version 3.10.0-1160.24.1.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Thu Apr 8 19:51:47 UTC 2021
+
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :     4
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =       8 # elements   =       4
+  # resistors   =       0 # capacitors =       0 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       3
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =       1 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.00           1           0
+  dc sweep           0.04         144         338
+  readin             0.02
+  errchk             0.01
+  setup              0.00
+  output             0.00
+
+
+           peak memory used        274.95 megabytes
+           total cpu time            0.09 seconds
+           total elapsed time        0.11 seconds
+           job started at     00:23:19 10/28/2024
+           job ended   at     00:23:19 10/28/2024
+
+
+ lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.06(s)

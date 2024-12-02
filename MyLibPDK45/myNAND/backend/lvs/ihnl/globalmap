@@ -1,0 +1,10 @@
+CADENCE IHNL11140
+$model
+MyLibPDK45/myNAND/schematic myNAND
+$endmodel
+$net
+gnd! gnd!
+vdd! vdd!
+$endnet
+$param
+$endparam

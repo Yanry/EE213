@@ -1,0 +1,13 @@
+CADENCE IHNL11140
+$model
+MyLibPDK45/myNAND/schematic myNAND
+MyLibPDK45/myHA/schematic myHA
+MyLibPDK45/myInverter45/schematic myInverter45
+MyLibPDK45/myXOR/schematic myXOR
+$endmodel
+$net
+gnd! gnd!
+vdd! vdd!
+$endnet
+$param
+$endparam

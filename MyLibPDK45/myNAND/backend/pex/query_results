@@ -1,0 +1,7 @@
+mgc_rve_context_lcv "MyLibPDK45" "myNAND" "layout" 2000
+mgc_rve_highlight_index 0 "B" "#FFFF00000000"
+mgc_rve_layer "metal1"
+mr 0.235 0.305 0.395 0.375
+mgc_rve_layer "poly"
+mp 8 0.21 -0.115 0.26 -0.115 0.26 0.305 0.34 0.305 0.34 0.375 0.26 0.375 0.26 0.71 0.21 0.71
+mgc_rve_zoom 0.1705 -0.2915 0.4345 0.8865 1

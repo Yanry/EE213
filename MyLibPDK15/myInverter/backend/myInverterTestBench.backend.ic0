@@ -1,0 +1,42 @@
+* "simulator" "HSPICE" 
+* "version" "O-2018.09-SP1-1 linux64"
+* "format" "HSP"
+* "rundate" "21:28:17 09/29/2024 "
+* "netlist" "myInverterTestBench.backend.sp "
+* "runtitle" "** generated for: hspiced"
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ in = 0.000e+00       
++ out = 8.000e-01       
++ vdd! = 8.000e-01       
++ xi0^n_gnd!_c_13_n = 3.692e-08       
++ xi0^n_gnd!_c_14_n = 6.425e-08       
++ xi0^n_gnd!_c_16_p = 3.283e-08       
++ xi0^n_gnd!_c_19_p = 6.897e-15       
++ xi0^n_gnd!_c_20_p = 1.157e-14       
++ xi0^n_gnd!_mm0_b = 1.161e-14       
++ xi0^n_gnd!_mm0_s = 6.549e-08       
++ xi0^n_in_c_4_p = 6.574e-14       
++ xi0^n_in_mm0_g = 1.508e-13       
++ xi0^n_out_c_44_n = 8.000e-01       
++ xi0^n_out_c_53_n = 8.000e-01       
++ xi0^n_out_mm0_d = 8.000e-01       
++ xi0^n_out_mm1_d = 8.000e-01       
++ xi0^n_vdd!_c_28_n = 8.000e-01       
++ xi0^n_vdd!_c_29_n = 8.000e-01       
++ xi0^n_vdd!_c_32_n = 8.000e-01       
++ xi0^n_vdd!_c_33_n = 8.000e-01       
++ xi0^n_vdd!_mm1_b = 8.000e-01       
++ xi0^n_vdd!_mm1_s = 8.000e-01       
++ xi0^x_pm_myinverter%in^4 = 1.277e-13       
++ xi0^x_pm_myinverter%gnd!^7 = 6.502e-15       
++ xi0^x_pm_myinverter%gnd!^12 = 7.000e-15       
++ xi0^x_pm_myinverter%gnd!^14 = 3.799e-08       
++ xi0^x_pm_myinverter%vdd!^6 = 8.000e-01       
++ xi0^x_pm_myinverter%vdd!^11 = 8.000e-01       
++ xi0^x_pm_myinverter%vdd!^13 = 8.000e-01       
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,68 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  MyLibPDK45
+* Top Cell Name: myFA
+* View Name:     schematic
+* Netlisted on:  Nov 27 19:35:31 2024
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL vdd!
++        gnd!
+
+*.PIN vdd!
+*+    gnd!
+
+************************************************************************
+* Library Name: MyLibPDK45
+* Cell Name:    myInverter45
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT myInverter45 in out
+*.PININFO in:I out:O
+MM0 out in gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM1 out in vdd! vdd! PMOS_VTL W=180n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: MyLibPDK45
+* Cell Name:    myFA
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT myFA A B Cin Cout S
+*.PININFO A:I B:I Cin:I Cout:O S:O
+MM11 net35 Cin net068 vdd! PMOS_VTL W=180n L=50n m=1
+MM10 net068 A net069 vdd! PMOS_VTL W=180n L=50n m=1
+MM9 net069 B vdd! vdd! PMOS_VTL W=180n L=50n m=1
+MM8 net35 net79 net42 vdd! PMOS_VTL W=180n L=50n m=1
+MM7 net42 Cin vdd! vdd! PMOS_VTL W=180n L=50n m=1
+MM6 net42 B vdd! vdd! PMOS_VTL W=180n L=50n m=1
+MM5 net42 A vdd! vdd! PMOS_VTL W=180n L=50n m=1
+MM4 net79 A net071 vdd! PMOS_VTL W=180n L=50n m=1
+MM3 net071 B vdd! vdd! PMOS_VTL W=180n L=50n m=1
+MM2 net79 Cin net7 vdd! PMOS_VTL W=180n L=50n m=1
+MM1 net7 B vdd! vdd! PMOS_VTL W=180n L=50n m=1
+MM0 net7 A vdd! vdd! PMOS_VTL W=180n L=50n m=1
+MM23 net60 B gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM22 net64 A net60 gnd! NMOS_VTL W=90n L=50n m=1
+MM21 net35 Cin net64 gnd! NMOS_VTL W=90n L=50n m=1
+MM20 net65 Cin gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM19 net65 B gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM18 net65 A gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM17 net35 net79 net65 gnd! NMOS_VTL W=90n L=50n m=1
+MM16 net12 B gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM15 net79 A net12 gnd! NMOS_VTL W=90n L=50n m=1
+MM14 net4 B gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM13 net4 A gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM12 net79 Cin net4 gnd! NMOS_VTL W=90n L=50n m=1
+XI10 net35 S / myInverter45
+XI9 net79 Cout / myInverter45
+.ENDS
+

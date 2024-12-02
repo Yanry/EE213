@@ -1,0 +1,63 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 10/01/2018 19:51 (ip-172-18-22-52) $
+          : sub-version  IC6.1.8-64b.83 
+Started at: 30-Sep-2024  14:18:15
+User Name : centos
+Host Name : 2024-szjcdl53
+Directory : /home/centos/EE213
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/centos/EE213/MyLibPDK15/myInverter/backend/myInverter.calibre.db' already exists. It will be overwritten.
+INFO (XSTRM-217): Reading the layer map file, /home/centos/PDK/FreePDK15/cdslib/NCSU_TechLib_FreePDK15/NCSU_TechLib_FreePDK15.layermap
+
+Summary of Options :
+library                                 MyLibPDK15
+strmFile                                /home/centos/EE213/MyLibPDK15/myInverter/backend/myInverter.calibre.db
+topCell                                 myInverter
+view                                    layout
+runDir                                  /home/centos/EE213/MyLibPDK15/myInverter/backend/
+logFile                                 PIPO.LOG.myInverter
+summaryFile                             PIPO.SUM.myInverter
+layerMap                                /home/centos/PDK/FreePDK15/cdslib/NCSU_TechLib_FreePDK15/NCSU_TechLib_FreePDK15.layermap
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating cellView NCSU_TechLib_FreePDK15/pmos_pcell/layout as STRUCTURE pmos_pcell_CDNS_727677095380.
+INFO (XSTRM-223): 2. Translating cellView NCSU_TechLib_FreePDK15/nmos_pcell/layout as STRUCTURE nmos_pcell_CDNS_727677095381.
+INFO (XSTRM-223): 3. Translating cellView NCSU_TechLib_FreePDK15/M1_AIL2/layout as STRUCTURE M1_AIL2.
+INFO (XSTRM-223): 4. Translating cellView NCSU_TechLib_FreePDK15/M1_GIL/layout as STRUCTURE M1_GIL.
+INFO (XSTRM-223): 5. Translating cellView NCSU_TechLib_FreePDK15/AIL1_N/layout as STRUCTURE AIL1_N.
+INFO (XSTRM-223): 6. Translating cellView NCSU_TechLib_FreePDK15/AIL1_P/layout as STRUCTURE AIL1_P.
+INFO (XSTRM-223): 7. Translating cellView MyLibPDK15/myInverter/layout as STRUCTURE myInverter.
+INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Objects Translated:
+	Scalar Instances:                       11
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             47
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           0
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               0
+	Text:                                   0
+	TextDisplay:                            4
+	Cells:                                  7
+
+Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 3108KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

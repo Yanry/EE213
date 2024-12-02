@@ -1,0 +1,1429 @@
+ ****** HSPICE -- O-2018.09-SP1-1 linux64 (Dec 28 2018) ******                  
+  Copyright (c) 1986 - 2024 by Synopsys, Inc. All Rights Reserved.              
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: sim.sp                                                            
+  Command line options: /home/tools/synopsys/hspice/O-2018.09-SP1-1/hspice/linux64/hspice -i sim.sp -o sim
+  Start time: Sat Nov 30 00:55:50 2024
+ lic:  
+ lic: FLEXlm: SDK_11.6.9.6 
+ lic: USER:   centos               HOSTNAME: 2024-szjcdl53 
+ lic: HOSTID: 005056a6b4a5         PID:      27235 
+ lic: Using FLEXlm license file: 
+ lic: 27020@10.15.89.162 
+ lic: Checkout 1 hspice 
+ lic: License/Maintenance for hspice will expire on 01-nov-2025/2023.03 
+ lic: 1(in_use)/40(total) FLOATING license(s) on SERVER 27020@10.15.89.162 
+ lic:   
+  **warning** (../../backend/pex/myPPA_4_3.pex.netlist:7) Global net name, "gnd", in subckt pin list. The pin will be connected to the local net. Recommend to not use global net names in subckt pin lists.
+1****** HSPICE -- O-2018.09-SP1-1 linux64 (Dec 28 2018) ******                  
+ ******  
+ * partial product adder
+
+ ****** circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+        1 xi0.                            myppa_4_3          1.00 
+        2 xi0.x_pm_myppa_4_3%xi4/net79.   pm_myppa_4_3%xi4/net79
+                                                                 1.00 
+        3 xi0.x_pm_myppa_4_3%xi4/net4.    pm_myppa_4_3%xi4/net4
+                                                                 1.00 
+        4 xi0.x_pm_myppa_4_3%xi4/net7.    pm_myppa_4_3%xi4/net7
+                                                                 1.00 
+        5 xi0.x_pm_myppa_4_3%xi4/net65.   pm_myppa_4_3%xi4/net65
+                                                                 1.00 
+        6 xi0.x_pm_myppa_4_3%xi4/net42.   pm_myppa_4_3%xi4/net42
+                                                                 1.00 
+        7 xi0.x_pm_myppa_4_3%xi4/net35.   pm_myppa_4_3%xi4/net35
+                                                                 1.00 
+        8 xi0.x_pm_myppa_4_3%xi3/net79.   pm_myppa_4_3%xi3/net79
+                                                                 1.00 
+        9 xi0.x_pm_myppa_4_3%xi3/net4.    pm_myppa_4_3%xi3/net4
+                                                                 1.00 
+       10 xi0.x_pm_myppa_4_3%xi3/net7.    pm_myppa_4_3%xi3/net7
+                                                                 1.00 
+       11 xi0.x_pm_myppa_4_3%xi3/net65.   pm_myppa_4_3%xi3/net65
+                                                                 1.00 
+       12 xi0.x_pm_myppa_4_3%xi3/net42.   pm_myppa_4_3%xi3/net42
+                                                                 1.00 
+       13 xi0.x_pm_myppa_4_3%xi3/net35.   pm_myppa_4_3%xi3/net35
+                                                                 1.00 
+       14 xi0.x_pm_myppa_4_3%xi9/net79.   pm_myppa_4_3%xi9/net79
+                                                                 1.00 
+       15 xi0.x_pm_myppa_4_3%xi9/net4.    pm_myppa_4_3%xi9/net4
+                                                                 1.00 
+       16 xi0.x_pm_myppa_4_3%xi9/net7.    pm_myppa_4_3%xi9/net7
+                                                                 1.00 
+       17 xi0.x_pm_myppa_4_3%xi9/net65.   pm_myppa_4_3%xi9/net65
+                                                                 1.00 
+       18 xi0.x_pm_myppa_4_3%xi9/net42.   pm_myppa_4_3%xi9/net42
+                                                                 1.00 
+       19 xi0.x_pm_myppa_4_3%xi9/net35.   pm_myppa_4_3%xi9/net35
+                                                                 1.00 
+       20 xi0.x_pm_myppa_4_3%xi8/net79.   pm_myppa_4_3%xi8/net79
+                                                                 1.00 
+       21 xi0.x_pm_myppa_4_3%xi8/net4.    pm_myppa_4_3%xi8/net4
+                                                                 1.00 
+       22 xi0.x_pm_myppa_4_3%xi8/net7.    pm_myppa_4_3%xi8/net7
+                                                                 1.00 
+       23 xi0.x_pm_myppa_4_3%xi8/net65.   pm_myppa_4_3%xi8/net65
+                                                                 1.00 
+       24 xi0.x_pm_myppa_4_3%xi8/net42.   pm_myppa_4_3%xi8/net42
+                                                                 1.00 
+       25 xi0.x_pm_myppa_4_3%xi8/net35.   pm_myppa_4_3%xi8/net35
+                                                                 1.00 
+       26 xi0.x_pm_myppa_4_3%xi7/net79.   pm_myppa_4_3%xi7/net79
+                                                                 1.00 
+       27 xi0.x_pm_myppa_4_3%xi7/net4.    pm_myppa_4_3%xi7/net4
+                                                                 1.00 
+       28 xi0.x_pm_myppa_4_3%xi7/net7.    pm_myppa_4_3%xi7/net7
+                                                                 1.00 
+       29 xi0.x_pm_myppa_4_3%xi7/net65.   pm_myppa_4_3%xi7/net65
+                                                                 1.00 
+       30 xi0.x_pm_myppa_4_3%xi7/net42.   pm_myppa_4_3%xi7/net42
+                                                                 1.00 
+       31 xi0.x_pm_myppa_4_3%xi7/net35.   pm_myppa_4_3%xi7/net35
+                                                                 1.00 
+       32 xi0.x_pm_myppa_4_3%xi18/net79.  pm_myppa_4_3%xi18/net79
+                                                                 1.00 
+       33 xi0.x_pm_myppa_4_3%xi18/net4.   pm_myppa_4_3%xi18/net4
+                                                                 1.00 
+       34 xi0.x_pm_myppa_4_3%xi18/net7.   pm_myppa_4_3%xi18/net7
+                                                                 1.00 
+       35 xi0.x_pm_myppa_4_3%xi18/net65.  pm_myppa_4_3%xi18/net65
+                                                                 1.00 
+       36 xi0.x_pm_myppa_4_3%xi18/net42.  pm_myppa_4_3%xi18/net42
+                                                                 1.00 
+       37 xi0.x_pm_myppa_4_3%xi18/net35.  pm_myppa_4_3%xi18/net35
+                                                                 1.00 
+       38 xi0.x_pm_myppa_4_3%xi5/net11.   pm_myppa_4_3%xi5/net11
+                                                                 1.00 
+       39 xi0.x_pm_myppa_4_3%xi5/xi2/bbar.
+                                            pm_myppa_4_3%xi5/xi2/bbar
+                                                                 1.00 
+       40 xi0.x_pm_myppa_4_3%xi0/net11.   pm_myppa_4_3%xi0/net11
+                                                                 1.00 
+       41 xi0.x_pm_myppa_4_3%xi0/xi2/bbar.
+                                            pm_myppa_4_3%xi0/xi2/bbar
+                                                                 1.00 
+       42 xi0.x_pm_myppa_4_3%xi6/net11.   pm_myppa_4_3%xi6/net11
+                                                                 1.00 
+       43 xi0.x_pm_myppa_4_3%xi6/xi2/bbar.
+                                            pm_myppa_4_3%xi6/xi2/bbar
+                                                                 1.00 
+       44 xi0.x_pm_myppa_4_3%xi22/net11.  pm_myppa_4_3%xi22/net11
+                                                                 1.00 
+       45 xi0.x_pm_myppa_4_3%xi22/xi2/bbar.
+                                            pm_myppa_4_3%xi22/xi2/bbar
+                                                                 1.00 
+       46 xi0.x_pm_myppa_4_3%xi21/net11.  pm_myppa_4_3%xi21/net11
+                                                                 1.00 
+       47 xi0.x_pm_myppa_4_3%xi21/xi2/bbar.
+                                            pm_myppa_4_3%xi21/xi2/bbar
+                                                                 1.00 
+       48 xi0.x_pm_myppa_4_3%xi16/net11.  pm_myppa_4_3%xi16/net11
+                                                                 1.00 
+       49 xi0.x_pm_myppa_4_3%xi16/xi2/bbar.
+                                            pm_myppa_4_3%xi16/xi2/bbar
+                                                                 1.00 
+       50 xi0.x_pm_myppa_4_3%net28.       pm_myppa_4_3%net28
+                                                                 1.00 
+       51 xi0.x_pm_myppa_4_3%net33.       pm_myppa_4_3%net33
+                                                                 1.00 
+       52 xi0.x_pm_myppa_4_3%gnd!.        pm_myppa_4_3%gnd!
+                                                                 1.00 
+       53 xi0.x_pm_myppa_4_3%vdd!.        pm_myppa_4_3%vdd!
+                                                                 1.00 
+       54 xi0.x_pm_myppa_4_3%net18.       pm_myppa_4_3%net18
+                                                                 1.00 
+       55 xi0.x_pm_myppa_4_3%net20.       pm_myppa_4_3%net20
+                                                                 1.00 
+       56 xi0.x_pm_myppa_4_3%net010.      pm_myppa_4_3%net010
+                                                                 1.00 
+       57 xi0.x_pm_myppa_4_3%net016.      pm_myppa_4_3%net016
+                                                                 1.00 
+       58 xi0.x_pm_myppa_4_3%net012.      pm_myppa_4_3%net012
+                                                                 1.00 
+       59 xi0.x_pm_myppa_4_3%a1<3>.       pm_myppa_4_3%a1<3>
+                                                                 1.00 
+       60 xi0.x_pm_myppa_4_3%a0<3>.       pm_myppa_4_3%a0<3>
+                                                                 1.00 
+       61 xi0.x_pm_myppa_4_3%a1bar<3>.    pm_myppa_4_3%a1bar<3>
+                                                                 1.00 
+       62 xi0.x_pm_myppa_4_3%a0bar<3>.    pm_myppa_4_3%a0bar<3>
+                                                                 1.00 
+       63 xi0.x_pm_myppa_4_3%s<1>.        pm_myppa_4_3%s<1>
+                                                                 1.00 
+       64 xi0.x_pm_myppa_4_3%a0<2>.       pm_myppa_4_3%a0<2>
+                                                                 1.00 
+       65 xi0.x_pm_myppa_4_3%net6.        pm_myppa_4_3%net6
+                                                                 1.00 
+       66 xi0.x_pm_myppa_4_3%a1<2>.       pm_myppa_4_3%a1<2>
+                                                                 1.00 
+       67 xi0.x_pm_myppa_4_3%a1<1>.       pm_myppa_4_3%a1<1>
+                                                                 1.00 
+       68 xi0.x_pm_myppa_4_3%a0<1>.       pm_myppa_4_3%a0<1>
+                                                                 1.00 
+       69 xi0.x_pm_myppa_4_3%a1<0>.       pm_myppa_4_3%a1<0>
+                                                                 1.00 
+       70 xi0.x_pm_myppa_4_3%net35.       pm_myppa_4_3%net35
+                                                                 1.00 
+       71 xi0.x_pm_myppa_4_3%a0<0>.       pm_myppa_4_3%a0<0>
+                                                                 1.00 
+       72 xi0.x_pm_myppa_4_3%a2<2>.       pm_myppa_4_3%a2<2>
+                                                                 1.00 
+       73 xi0.x_pm_myppa_4_3%xi10/net5.   pm_myppa_4_3%xi10/net5
+                                                                 1.00 
+       74 xi0.x_pm_myppa_4_3%a2bar<2>.    pm_myppa_4_3%a2bar<2>
+                                                                 1.00 
+       75 xi0.x_pm_myppa_4_3%net34.       pm_myppa_4_3%net34
+                                                                 1.00 
+       76 xi0.x_pm_myppa_4_3%s<0>.        pm_myppa_4_3%s<0>
+                                                                 1.00 
+       77 xi0.x_pm_myppa_4_3%net1.        pm_myppa_4_3%net1
+                                                                 1.00 
+       78 xi0.x_pm_myppa_4_3%a2<3>.       pm_myppa_4_3%a2<3>
+                                                                 1.00 
+       79 xi0.x_pm_myppa_4_3%a2bar<1>.    pm_myppa_4_3%a2bar<1>
+                                                                 1.00 
+       80 xi0.x_pm_myppa_4_3%net29.       pm_myppa_4_3%net29
+                                                                 1.00 
+       81 xi0.x_pm_myppa_4_3%net5.        pm_myppa_4_3%net5
+                                                                 1.00 
+       82 xi0.x_pm_myppa_4_3%a2bar<0>.    pm_myppa_4_3%a2bar<0>
+                                                                 1.00 
+       83 xi0.x_pm_myppa_4_3%net027.      pm_myppa_4_3%net027
+                                                                 1.00 
+       84 xi0.x_pm_myppa_4_3%net025.      pm_myppa_4_3%net025
+                                                                 1.00 
+       85 xi0.x_pm_myppa_4_3%net020.      pm_myppa_4_3%net020
+                                                                 1.00 
+       86 xi0.x_pm_myppa_4_3%net021.      pm_myppa_4_3%net021
+                                                                 1.00 
+       87 xi0.x_pm_myppa_4_3%net023.      pm_myppa_4_3%net023
+                                                                 1.00 
+       88 xi0.x_pm_myppa_4_3%a2<0>.       pm_myppa_4_3%a2<0>
+                                                                 1.00 
+       89 xi0.x_pm_myppa_4_3%a2<1>.       pm_myppa_4_3%a2<1>
+                                                                 1.00 
+       90 xi0.x_pm_myppa_4_3%s<5>.        pm_myppa_4_3%s<5>
+                                                                 1.00 
+       91 xi0.x_pm_myppa_4_3%s<4>.        pm_myppa_4_3%s<4>
+                                                                 1.00 
+       92 xi0.x_pm_myppa_4_3%s<2>.        pm_myppa_4_3%s<2>
+                                                                 1.00 
+       93 xi0.x_pm_myppa_4_3%s<3>.        pm_myppa_4_3%s<3>
+                                                                 1.00 
+       94 xi0.x_pm_myppa_4_3%net032.      pm_myppa_4_3%net032
+                                                                 1.00 
+  **info** (sim.sp:62) DC voltage reset to initial transient source value in source 0:v1. new dc=0.7000D+00
+  **warning** (v_$v1:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v1:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v2:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v2:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v3:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v3:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v4:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v4:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v5:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v5:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v6:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v6:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v7:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v7:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (pmos_vtl:mxi11/mm1 (../../backend/pex/myPPA_4_3.pex.netlist:33)) Warning:  Acde = 0.300892 may be too small in BSIM4 model with w=1.8e-07 l=5e-08.
+             
+ Summary of Linear Res Distribution Info
+ ---------------------------------------
+ |Range          |Total     |Percent(%)|
+ |---------------+----------+----------|
+ |1e-03  ~  1e-02|1         |0.0330    |
+ |1e-02  ~  1e-01|356       |11.7414   |
+ |1e-01  ~  1e+00|1386      |45.7124   |
+ |1e+00  ~  1e+03|1289      |42.5132   |
+ ---------------------------------------
+              
+             
+ Summary of Linear Cap Distribution Info
+ ---------------------------------------
+ |Range          |Total     |Percent(%)|
+ |---------------+----------+----------|
+ |1e-19  ~  1e-18|1079      |19.2954   |
+ |1e-18  ~  1e-17|3392      |60.6581   |
+ |1e-17  ~  1e-16|1061      |18.9735   |
+ |1e-16  ~  1e-15|54        |0.9657    |
+ |1e-14  ~  1e-13|6         |0.1073    |
+ ---------------------------------------
+              
+             
+ Summary of Detailed RC Type Statistics
+ -------------------------
+ |Element Type|Number    |
+ |------------+----------|
+ |Constant Res|3032      |
+ |            |          |
+ |Constant Cap|5592      |
+ -------------------------
+              
+  
+      
+  **warning** (v_$v1:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v1:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v2:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v2:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v3:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v3:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v4:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v4:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v5:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v5:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v6:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v6:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v7:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v7:0) pulse fall time is  < or = zero, reset to tstep
+
+Element variations(Local):   element              parameter
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2.0000    
+  Opening plot unit= 15
+ file=sim.pa0
+
+  **warning** (v_$v1:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v1:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v2:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v2:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v3:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v3:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v4:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v4:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v5:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v5:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v6:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v6:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v7:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v7:0) pulse fall time is  < or = zero, reset to tstep
+ **info** dc convergence successful at GMINDC ramping method 
+ ******  
+ * partial product adder
+
+ ****** operating point information tnom=  25.000 temp=  25.000 ******
+ ****** operating point status is voltage   simulation time is   0.000e+00
+     node    =voltage       node    =voltage       node    =voltage
+
+ + 0:a<0>    = 7.000e-01  0:a<1>    = 7.000e-01  0:a<2>    = 7.000e-01
+ + 0:a<3>    = 7.000e-01  0:b<0>    = 7.000e-01  0:b<1>    = 7.000e-01
+ + 0:b<2>    = 7.000e-01  0:i0<0>   = 7.000e-01  0:i0<1>   = 7.000e-01
+ + 0:i0<2>   = 7.000e-01  0:i0<3>   = 7.000e-01  0:i1<0>   = 7.000e-01
+ + 0:i1<1>   = 7.000e-01  0:i1<2>   = 7.000e-01  0:i1<3>   = 7.000e-01
+ + 0:i2<0>   = 7.000e-01  0:i2<1>   = 7.000e-01  0:i2<2>   = 7.000e-01
+ + 0:i2<3>   = 7.000e-01  0:s<0>    = 7.000e-01  0:s<1>    = 1.561e-04
+ + 0:s<2>    = 3.202e-04  0:s<3>    = 2.117e-04  0:s<4>    = 3.741e-04
+ + 0:s<5>    = 4.041e-04  0:vdd!    = 7.000e-01  1:n_a0<2>_= 7.000e-01
+ + 1:n_gnd!_x= 1.863e-04  1:n_xi3/ne= 1.864e-04  1:n_net35_= 7.000e-01
+ + 1:n_gnd!_x= 1.863e-04  1:n_a0<2>_= 7.000e-01  1:n_gnd!_x= 1.863e-04
+ + 1:n_xi3/ne= 1.864e-04  1:n_a1<1>_= 7.000e-01  1:n_xi3/ne= 3.374e-04
+ + 1:n_xi3/ne= 1.961e-04  1:n_xi3/ne= 1.864e-04  1:n_xi3/ne= 3.374e-04
+ + 1:n_a1<1>_= 7.000e-01  1:n_net35_= 7.000e-01  1:n_a0<2>_= 7.000e-01
+ + 1:n_gnd!_x= 1.864e-04  1:n_xi3/ne= 6.615e-01  1:n_net35_= 7.000e-01
+ + 1:n_vdd!_x= 6.999e-01  1:n_a0<2>_= 7.000e-01  1:n_xi3/ne= 1.961e-04
+ + 1:n_a1<1>_= 7.000e-01  1:n_xi3/ne= 6.615e-01  1:n_xi3/ne= 1.962e-04
+ + 1:n_net35_= 7.000e-01  1:n_a0<2>_= 7.000e-01  1:n_xi3/ne= 1.779e-01
+ + 1:n_net35_= 7.000e-01  1:n_a0<2>_= 7.000e-01  1:n_xi3/ne= 1.779e-01
+ + 1:n_a1<1>_= 7.000e-01  1:n_xi3/ne= 3.374e-04  1:n_xi3/ne= 1.961e-04
+ + 1:n_xi3/ne= 1.779e-01  1:n_xi3/ne= 3.374e-04  1:n_a1<1>_= 7.000e-01
+ + 1:n_net35_= 7.000e-01  1:n_a0<2>_= 7.000e-01  1:n_net33_= 6.999e-01
+ + 1:n_xi3/ne= 1.962e-04  1:n_gnd!_x= 1.863e-04  1:n_net33_= 6.999e-01
+ + 1:n_xi3/ne= 1.962e-04  1:n_vdd!_x= 6.999e-01  1:n_net34_= 6.999e-01
+ + 1:n_xi3/ne= 3.374e-04  1:n_gnd!_x= 1.863e-04  1:n_net34_= 6.999e-01
+ + 1:n_xi3/ne= 3.374e-04  1:n_vdd!_x= 6.999e-01  1:n_xi9/ne= 2.792e-04
+ + 1:n_net18_= 2.463e-04  1:n_gnd!_x= 2.657e-04  1:n_gnd!_x= 2.621e-04
+ + 1:n_a2<3>_= 7.000e-01  1:n_gnd!_x= 2.649e-04  1:n_xi9/ne= 6.998e-01
+ + 1:n_net5_x= 9.023e-04  1:n_xi9/ne= 2.792e-04  1:n_xi9/ne= 6.998e-01
+ + 1:n_net18_= 2.462e-04  1:n_a2<3>_= 7.000e-01  1:n_gnd!_x= 2.628e-04
+ + 1:n_xi9/ne= 3.038e-04  1:n_net18_= 2.462e-04  1:n_gnd!_x= 2.617e-04
+ + 1:n_a2<3>_= 7.000e-01  1:n_gnd!_x= 2.613e-04  1:n_xi9/ne= 3.039e-04
+ + 1:n_net5_x= 9.023e-04  1:n_xi9/ne= 3.462e-04  1:n_xi9/ne= 6.998e-01
+ + 1:n_xi9/ne= 3.039e-04  1:n_xi9/ne= 3.462e-04  1:n_net5_x= 9.023e-04
+ + 1:n_net18_= 2.462e-04  1:n_a2<3>_= 7.000e-01  1:n_gnd!_x= 2.597e-04
+ + 1:n_xi9/ne= 6.999e-01  1:n_net18_= 2.463e-04  1:n_vdd!_x= 6.999e-01
+ + 1:n_a2<3>_= 7.000e-01  1:n_xi9/ne= 6.998e-01  1:n_xi9/ne= 6.999e-01
+ + 1:n_xi9/ne= 6.998e-01  1:n_net18_= 2.462e-04  1:n_a2<3>_= 7.000e-01
+ + 1:n_xi9/ne= 6.999e-01  1:n_net18_= 2.462e-04  1:n_a2<3>_= 7.000e-01
+ + 1:n_xi9/ne= 6.999e-01  1:n_xi9/ne= 3.462e-04  1:n_xi9/ne= 6.998e-01
+ + 1:n_xi9/ne= 6.999e-01  1:n_xi9/ne= 3.462e-04  1:n_net5_x= 9.023e-04
+ + 1:n_net18_= 2.462e-04  1:n_a2<3>_= 7.000e-01  1:n_net027= 2.878e-04
+ + 1:n_xi9/ne= 6.998e-01  1:n_gnd!_x= 2.621e-04  1:n_net027= 2.878e-04
+ + 1:n_xi9/ne= 6.998e-01  1:n_vdd!_x= 6.999e-01  1:n_net020= 6.999e-01
+ + 1:n_xi9/ne= 3.463e-04  1:n_gnd!_x= 2.564e-04  1:n_net020= 6.999e-01
+ + 1:n_xi9/ne= 3.463e-04  1:n_vdd!_x= 6.999e-01  1:n_xi8/ne= 5.166e-01
+ + 1:n_net20_= 2.152e-04  1:n_gnd!_x= 2.181e-04  1:n_gnd!_x= 2.180e-04
+ + 1:n_a2bar<= 2.934e-04  1:n_gnd!_x= 2.181e-04  1:n_xi8/ne= 6.999e-01
+ + 1:n_net6_x= 6.795e-01  1:n_xi8/ne= 5.166e-01  1:n_xi8/ne= 6.999e-01
+ + 1:n_net20_= 2.152e-04  1:n_a2bar<= 2.935e-04  1:n_gnd!_x= 2.180e-04
+ + 1:n_xi8/ne= 2.901e-04  1:n_net20_= 2.152e-04  1:n_gnd!_x= 2.181e-04
+ + 1:n_a2bar<= 2.936e-04  1:n_gnd!_x= 2.181e-04  1:n_xi8/ne= 2.901e-04
+ + 1:n_net6_x= 6.795e-01  1:n_xi8/ne= 3.605e-04  1:n_xi8/ne= 6.999e-01
+ + 1:n_xi8/ne= 2.901e-04  1:n_xi8/ne= 3.605e-04  1:n_net6_x= 6.795e-01
+ + 1:n_net20_= 2.152e-04  1:n_a2bar<= 2.937e-04  1:n_gnd!_x= 2.180e-04
+ + 1:n_xi8/ne= 6.999e-01  1:n_net20_= 2.152e-04  1:n_vdd!_x= 6.999e-01
+ + 1:n_a2bar<= 2.935e-04  1:n_xi8/ne= 6.999e-01  1:n_xi8/ne= 6.999e-01
+ + 1:n_xi8/ne= 6.999e-01  1:n_net20_= 2.152e-04  1:n_a2bar<= 2.936e-04
+ + 1:n_xi8/ne= 6.999e-01  1:n_net20_= 2.152e-04  1:n_a2bar<= 2.936e-04
+ + 1:n_xi8/ne= 6.999e-01  1:n_xi8/ne= 3.605e-04  1:n_xi8/ne= 6.999e-01
+ + 1:n_xi8/ne= 6.999e-01  1:n_xi8/ne= 3.605e-04  1:n_net6_x= 6.795e-01
+ + 1:n_net20_= 2.152e-04  1:n_a2bar<= 2.937e-04  1:n_net18_= 2.460e-04
+ + 1:n_xi8/ne= 6.999e-01  1:n_gnd!_x= 2.181e-04  1:n_net18_= 2.460e-04
+ + 1:n_xi8/ne= 6.999e-01  1:n_vdd!_x= 6.999e-01  1:n_net021= 6.999e-01
+ + 1:n_xi8/ne= 3.605e-04  1:n_gnd!_x= 2.179e-04  1:n_net021= 6.999e-01
+ + 1:n_xi8/ne= 3.605e-04  1:n_vdd!_x= 6.999e-01  1:n_xi7/ne= 3.112e-02
+ + 1:n_net1_x= 1.110e-04  1:n_gnd!_x= 1.862e-04  1:n_gnd!_x= 1.862e-04
+ + 1:n_a2bar<= 1.930e-04  1:n_gnd!_x= 1.862e-04  1:n_xi7/ne= 6.999e-01
+ + 1:n_net29_= 2.463e-04  1:n_xi7/ne= 3.112e-02  1:n_xi7/ne= 6.999e-01
+ + 1:n_net1_x= 1.111e-04  1:n_a2bar<= 1.930e-04  1:n_gnd!_x= 1.862e-04
+ + 1:n_xi7/ne= 5.210e-01  1:n_net1_x= 1.112e-04  1:n_gnd!_x= 1.862e-04
+ + 1:n_a2bar<= 1.929e-04  1:n_gnd!_x= 1.862e-04  1:n_xi7/ne= 5.210e-01
+ + 1:n_net29_= 2.463e-04  1:n_xi7/ne= 6.998e-01  1:n_xi7/ne= 6.999e-01
+ + 1:n_xi7/ne= 5.210e-01  1:n_xi7/ne= 6.998e-01  1:n_net29_= 2.463e-04
+ + 1:n_net1_x= 1.113e-04  1:n_a2bar<= 1.927e-04  1:n_gnd!_x= 1.861e-04
+ + 1:n_xi7/ne= 6.999e-01  1:n_vdd!_x= 6.999e-01  1:n_a2bar<= 1.930e-04
+ + 1:n_xi7/ne= 6.999e-01  1:n_net29_= 2.463e-04  1:n_xi7/ne= 6.999e-01
+ + 1:n_xi7/ne= 6.999e-01  1:n_a2bar<= 1.930e-04  1:n_xi7/ne= 6.999e-01
+ + 1:n_a2bar<= 1.929e-04  1:n_xi7/ne= 6.999e-01  1:n_net29_= 2.463e-04
+ + 1:n_xi7/ne= 6.998e-01  1:n_xi7/ne= 6.999e-01  1:n_xi7/ne= 6.999e-01
+ + 1:n_xi7/ne= 6.998e-01  1:n_net29_= 2.463e-04  1:n_net1_x= 1.113e-04
+ + 1:n_a2bar<= 1.926e-04  1:n_net20_= 2.149e-04  1:n_xi7/ne= 6.999e-01
+ + 1:n_gnd!_x= 1.862e-04  1:n_net20_= 2.149e-04  1:n_xi7/ne= 6.999e-01
+ + 1:n_vdd!_x= 6.999e-01  1:n_net023= 2.133e-04  1:n_xi7/ne= 6.998e-01
+ + 1:n_gnd!_x= 1.861e-04  1:n_net023= 2.133e-04  1:n_xi7/ne= 6.998e-01
+ + 1:n_vdd!_x= 6.999e-01  1:n_xi18/n= 1.861e-04  1:n_net016= 7.000e-01
+ + 1:n_gnd!_x= 1.860e-04  1:n_gnd!_x= 1.860e-04  1:n_vdd!_x= 6.999e-01
+ + 1:n_gnd!_x= 1.860e-04  1:n_xi18/n= 2.620e-04  1:n_net023= 2.135e-04
+ + 1:n_xi18/n= 1.861e-04  1:n_xi18/n= 2.620e-04  1:n_net016= 7.000e-01
+ + 1:n_vdd!_x= 6.999e-01  1:n_gnd!_x= 1.861e-04  1:n_xi18/n= 1.932e-04
+ + 1:n_net016= 7.000e-01  1:n_gnd!_x= 1.860e-04  1:n_vdd!_x= 6.999e-01
+ + 1:n_gnd!_x= 1.861e-04  1:n_xi18/n= 1.932e-04  1:n_net023= 2.136e-04
+ + 1:n_xi18/n= 6.998e-01  1:n_xi18/n= 2.621e-04  1:n_xi18/n= 1.932e-04
+ + 1:n_xi18/n= 6.998e-01  1:n_net023= 2.136e-04  1:n_net016= 7.000e-01
+ + 1:n_vdd!_x= 6.999e-01  1:n_gnd!_x= 1.860e-04  1:n_xi18/n= 1.673e-01
+ + 1:n_net016= 7.000e-01  1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01
+ + 1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01  1:n_xi18/n= 2.620e-04
+ + 1:n_net023= 2.135e-04  1:n_xi18/n= 1.673e-01  1:n_xi18/n= 2.620e-04
+ + 1:n_net016= 7.000e-01  1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01
+ + 1:n_xi18/n= 6.999e-01  1:n_net016= 7.000e-01  1:n_vdd!_x= 6.999e-01
+ + 1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01  1:n_xi18/n= 6.999e-01
+ + 1:n_net023= 2.136e-04  1:n_xi18/n= 6.998e-01  1:n_xi18/n= 2.621e-04
+ + 1:n_xi18/n= 6.999e-01  1:n_xi18/n= 6.998e-01  1:n_net023= 2.136e-04
+ + 1:n_net016= 7.000e-01  1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01
+ + 1:n_net012= 6.998e-01  1:n_xi18/n= 2.620e-04  1:n_gnd!_x= 1.860e-04
+ + 1:n_net012= 6.998e-01  1:n_xi18/n= 2.620e-04  1:n_vdd!_x= 6.999e-01
+ + 1:n_s<3>_x= 2.117e-04  1:n_xi18/n= 6.998e-01  1:n_gnd!_x= 1.860e-04
+ + 1:n_s<3>_x= 2.117e-04  1:n_xi18/n= 6.998e-01  1:n_vdd!_x= 6.999e-01
+ + 1:n_xi4/ne= 3.241e-04  1:n_xi4/ne= 3.242e-04  1:n_xi4/ne= 3.242e-04
+ + 1:n_xi4/ne= 3.241e-04  1:n_xi4/ne= 3.241e-04  1:n_xi4/ne= 3.241e-04
+ + 1:n_xi4/ne= 3.241e-04  1:n_xi4/ne= 3.241e-04  1:n_xi4/ne= 3.241e-04
+ + 1:n_xi4/ne= 3.242e-04  1:n_xi4/ne= 2.713e-04  1:n_xi4/ne= 2.713e-04
+ + 1:n_xi4/ne= 6.999e-01  1:n_xi4/ne= 6.999e-01  1:n_xi4/ne= 2.254e-04
+ + 1:n_xi4/ne= 2.254e-04  1:n_xi4/ne= 2.254e-04  1:n_xi4/ne= 2.254e-04
+ + 1:n_xi4/ne= 2.254e-04  1:n_xi4/ne= 6.999e-01  1:n_xi4/ne= 6.999e-01
+ + 1:n_xi4/ne= 6.999e-01  1:n_xi4/ne= 6.999e-01  1:n_xi4/ne= 6.999e-01
+ + 1:n_xi4/ne= 6.999e-01  1:n_xi4/ne= 6.999e-01  1:n_xi4/ne= 6.999e-01
+ + 1:n_xi4/ne= 6.999e-01  1:n_xi4/ne= 6.999e-01  1:n_xi4/ne= 6.999e-01
+ + 1:n_xi3/ne= 1.962e-04  1:n_xi3/ne= 1.961e-04  1:n_xi3/ne= 1.961e-04
+ + 1:n_xi3/ne= 1.961e-04  1:n_xi3/ne= 1.961e-04  1:n_xi3/ne= 1.961e-04
+ + 1:n_xi3/ne= 1.961e-04  1:n_xi3/ne= 1.961e-04  1:n_xi3/ne= 1.961e-04
+ + 1:n_xi3/ne= 1.961e-04  1:n_xi3/ne= 1.897e-04  1:n_xi3/ne= 1.897e-04
+ + 1:n_xi3/ne= 6.615e-01  1:n_xi3/ne= 6.615e-01  1:n_xi3/ne= 1.864e-04
+ + 1:n_xi3/ne= 1.864e-04  1:n_xi3/ne= 1.864e-04  1:n_xi3/ne= 1.864e-04
+ + 1:n_xi3/ne= 1.864e-04  1:n_xi3/ne= 1.779e-01  1:n_xi3/ne= 1.779e-01
+ + 1:n_xi3/ne= 1.779e-01  1:n_xi3/ne= 1.779e-01  1:n_xi3/ne= 3.374e-04
+ + 1:n_xi3/ne= 3.374e-04  1:n_xi3/ne= 3.374e-04  1:n_xi3/ne= 3.374e-04
+ + 1:n_xi3/ne= 3.374e-04  1:n_xi3/ne= 3.374e-04  1:n_xi3/ne= 3.374e-04
+ + 1:n_xi9/ne= 6.998e-01  1:n_xi9/ne= 6.998e-01  1:n_xi9/ne= 6.998e-01
+ + 1:n_xi9/ne= 6.998e-01  1:n_xi9/ne= 6.998e-01  1:n_xi9/ne= 6.998e-01
+ + 1:n_xi9/ne= 6.998e-01  1:n_xi9/ne= 6.998e-01  1:n_xi9/ne= 6.998e-01
+ + 1:n_xi9/ne= 6.998e-01  1:n_xi9/ne= 2.792e-04  1:n_xi9/ne= 2.792e-04
+ + 1:n_xi9/ne= 6.999e-01  1:n_xi9/ne= 6.999e-01  1:n_xi9/ne= 3.039e-04
+ + 1:n_xi9/ne= 3.038e-04  1:n_xi9/ne= 3.039e-04  1:n_xi9/ne= 3.039e-04
+ + 1:n_xi9/ne= 3.039e-04  1:n_xi9/ne= 6.999e-01  1:n_xi9/ne= 6.999e-01
+ + 1:n_xi9/ne= 6.999e-01  1:n_xi9/ne= 6.999e-01  1:n_xi9/ne= 3.463e-04
+ + 1:n_xi9/ne= 3.463e-04  1:n_xi9/ne= 3.462e-04  1:n_xi9/ne= 3.462e-04
+ + 1:n_xi9/ne= 3.462e-04  1:n_xi9/ne= 3.462e-04  1:n_xi9/ne= 3.462e-04
+ + 1:n_xi8/ne= 6.999e-01  1:n_xi8/ne= 6.999e-01  1:n_xi8/ne= 6.999e-01
+ + 1:n_xi8/ne= 6.999e-01  1:n_xi8/ne= 6.999e-01  1:n_xi8/ne= 6.999e-01
+ + 1:n_xi8/ne= 6.999e-01  1:n_xi8/ne= 6.999e-01  1:n_xi8/ne= 6.999e-01
+ + 1:n_xi8/ne= 6.999e-01  1:n_xi8/ne= 5.166e-01  1:n_xi8/ne= 5.166e-01
+ + 1:n_xi8/ne= 6.999e-01  1:n_xi8/ne= 6.999e-01  1:n_xi8/ne= 2.901e-04
+ + 1:n_xi8/ne= 2.901e-04  1:n_xi8/ne= 2.901e-04  1:n_xi8/ne= 2.901e-04
+ + 1:n_xi8/ne= 2.901e-04  1:n_xi8/ne= 6.999e-01  1:n_xi8/ne= 6.999e-01
+ + 1:n_xi8/ne= 6.999e-01  1:n_xi8/ne= 6.999e-01  1:n_xi8/ne= 3.605e-04
+ + 1:n_xi8/ne= 3.605e-04  1:n_xi8/ne= 3.605e-04  1:n_xi8/ne= 3.605e-04
+ + 1:n_xi8/ne= 3.605e-04  1:n_xi8/ne= 3.605e-04  1:n_xi8/ne= 3.605e-04
+ + 1:n_xi7/ne= 6.999e-01  1:n_xi7/ne= 6.999e-01  1:n_xi7/ne= 6.999e-01
+ + 1:n_xi7/ne= 6.999e-01  1:n_xi7/ne= 6.999e-01  1:n_xi7/ne= 6.999e-01
+ + 1:n_xi7/ne= 6.999e-01  1:n_xi7/ne= 6.999e-01  1:n_xi7/ne= 6.999e-01
+ + 1:n_xi7/ne= 6.999e-01  1:n_xi7/ne= 3.112e-02  1:n_xi7/ne= 3.112e-02
+ + 1:n_xi7/ne= 6.999e-01  1:n_xi7/ne= 6.999e-01  1:n_xi7/ne= 5.210e-01
+ + 1:n_xi7/ne= 5.210e-01  1:n_xi7/ne= 5.210e-01  1:n_xi7/ne= 5.210e-01
+ + 1:n_xi7/ne= 5.210e-01  1:n_xi7/ne= 6.999e-01  1:n_xi7/ne= 6.999e-01
+ + 1:n_xi7/ne= 6.999e-01  1:n_xi7/ne= 6.999e-01  1:n_xi7/ne= 6.998e-01
+ + 1:n_xi7/ne= 6.998e-01  1:n_xi7/ne= 6.998e-01  1:n_xi7/ne= 6.998e-01
+ + 1:n_xi7/ne= 6.998e-01  1:n_xi7/ne= 6.998e-01  1:n_xi7/ne= 6.998e-01
+ + 1:n_xi18/n= 2.620e-04  1:n_xi18/n= 2.621e-04  1:n_xi18/n= 2.621e-04
+ + 1:n_xi18/n= 2.620e-04  1:n_xi18/n= 2.620e-04  1:n_xi18/n= 2.620e-04
+ + 1:n_xi18/n= 2.620e-04  1:n_xi18/n= 2.620e-04  1:n_xi18/n= 2.620e-04
+ + 1:n_xi18/n= 2.621e-04  1:n_xi18/n= 1.861e-04  1:n_xi18/n= 1.861e-04
+ + 1:n_xi18/n= 1.673e-01  1:n_xi18/n= 1.673e-01  1:n_xi18/n= 1.932e-04
+ + 1:n_xi18/n= 1.932e-04  1:n_xi18/n= 1.932e-04  1:n_xi18/n= 1.932e-04
+ + 1:n_xi18/n= 1.932e-04  1:n_xi18/n= 6.999e-01  1:n_xi18/n= 6.999e-01
+ + 1:n_xi18/n= 6.999e-01  1:n_xi18/n= 6.999e-01  1:n_xi18/n= 6.998e-01
+ + 1:n_xi18/n= 6.998e-01  1:n_xi18/n= 6.998e-01  1:n_xi18/n= 6.998e-01
+ + 1:n_xi18/n= 6.998e-01  1:n_xi18/n= 6.998e-01  1:n_xi5/ne= 6.999e-01
+ + 1:n_xi5/ne= 6.999e-01  1:n_xi5/ne= 6.999e-01  1:n_xi5/ne= 6.999e-01
+ + 1:n_xi5/ne= 6.999e-01  1:n_xi5/ne= 6.999e-01  1:n_xi5/xi= 6.999e-01
+ + 1:n_xi5/xi= 6.999e-01  1:n_xi5/xi= 6.999e-01  1:n_xi5/xi= 6.999e-01
+ + 1:n_xi5/xi= 6.999e-01  1:n_xi5/xi= 6.999e-01  1:n_xi5/xi= 6.999e-01
+ + 1:n_xi5/xi= 6.999e-01  1:n_xi0/ne= 1.151e-04  1:n_xi0/ne= 1.151e-04
+ + 1:n_xi0/ne= 1.150e-04  1:n_xi0/ne= 1.150e-04  1:n_xi0/ne= 1.150e-04
+ + 1:n_xi0/ne= 1.150e-04  1:n_xi0/xi= 9.088e-05  1:n_xi0/xi= 9.092e-05
+ + 1:n_xi0/xi= 9.092e-05  1:n_xi0/xi= 9.095e-05  1:n_xi0/xi= 9.094e-05
+ + 1:n_xi0/xi= 9.095e-05  1:n_xi0/xi= 9.095e-05  1:n_xi6/ne= 7.000e-01
+ + 1:n_xi6/ne= 7.000e-01  1:n_xi6/ne= 7.000e-01  1:n_xi6/ne= 7.000e-01
+ + 1:n_xi6/ne= 7.000e-01  1:n_xi6/ne= 7.000e-01  1:n_xi6/xi= 1.533e-04
+ + 1:n_xi6/xi= 1.533e-04  1:n_xi6/xi= 1.533e-04  1:n_xi6/xi= 1.533e-04
+ + 1:n_xi6/xi= 1.533e-04  1:n_xi6/xi= 1.533e-04  1:n_xi6/xi= 1.533e-04
+ + 1:n_xi6/xi= 1.533e-04  1:n_xi22/n= 3.522e-04  1:n_xi22/n= 3.522e-04
+ + 1:n_xi22/n= 3.522e-04  1:n_xi22/n= 3.522e-04  1:n_xi22/n= 3.522e-04
+ + 1:n_xi22/n= 3.522e-04  1:n_xi22/x= 3.390e-04  1:n_xi22/x= 3.390e-04
+ + 1:n_xi22/x= 3.390e-04  1:n_xi22/x= 3.390e-04  1:n_xi22/x= 3.390e-04
+ + 1:n_xi22/x= 3.390e-04  1:n_xi22/x= 3.390e-04  1:n_a1bar<= 1.220e-02
+ + 1:n_xi21/n= 3.222e-04  1:n_xi21/n= 3.222e-04  1:n_xi21/n= 3.222e-04
+ + 1:n_xi21/n= 3.222e-04  1:n_xi21/n= 3.222e-04  1:n_xi21/n= 3.222e-04
+ + 1:n_xi21/x= 3.090e-04  1:n_xi21/x= 3.090e-04  1:n_a1<3>_= 7.000e-01
+ + 1:n_xi21/x= 3.090e-04  1:n_xi21/x= 3.090e-04  1:n_xi21/x= 3.090e-04
+ + 1:n_xi21/x= 3.090e-04  1:n_xi21/x= 3.090e-04  1:n_xi21/x= 3.090e-04
+ + 1:n_xi16/n= 2.686e-04  1:n_xi16/n= 2.685e-04  1:n_xi16/n= 2.685e-04
+ + 1:n_gnd!_x= 9.542e-04  1:n_xi16/n= 2.685e-04  1:n_xi16/n= 2.686e-04
+ + 1:n_xi16/x= 2.551e-04  1:n_xi16/x= 2.551e-04  1:n_xi16/x= 2.551e-04
+ + 1:n_xi16/x= 2.551e-04  1:n_xi16/x= 2.551e-04  1:n_xi16/x= 2.551e-04
+ + 1:n_xi16/x= 2.551e-04  1:n_gnd!_x= 9.515e-04  1:n_net010= 6.998e-01
+ + 1:n_net010= 6.998e-01  1:n_net010= 6.998e-01  1:n_a1bar<= 1.220e-02
+ + 1:n_net010= 6.998e-01  1:n_net010= 6.998e-01  1:n_net010= 6.998e-01
+ + 1:n_net010= 6.998e-01  1:n_net010= 6.998e-01  1:n_net016= 7.000e-01
+ + 1:n_net016= 7.000e-01  1:n_net016= 7.000e-01  1:n_net016= 7.000e-01
+ + 1:n_a1<3>_= 7.000e-01  1:n_net016= 7.000e-01  1:n_net016= 7.000e-01
+ + 1:n_net016= 7.000e-01  1:n_net016= 7.000e-01  1:n_net016= 7.000e-01
+ + 1:n_net012= 6.998e-01  1:n_net012= 6.998e-01  1:n_net012= 6.998e-01
+ + 1:n_net012= 6.998e-01  1:n_vdd!_x= 6.999e-01  1:n_net012= 6.998e-01
+ + 1:n_net012= 6.998e-01  1:n_net012= 6.998e-01  1:n_net012= 6.998e-01
+ + 1:n_net012= 6.998e-01  1:n_a1bar<= 1.307e-02  1:n_a1bar<= 1.307e-02
+ + 1:n_vdd!_x= 6.999e-01  1:n_a1bar<= 1.307e-02  1:n_a1bar<= 1.307e-02
+ + 1:n_a1bar<= 1.307e-02  1:n_a1bar<= 1.305e-02  1:n_a1bar<= 1.307e-02
+ + 1:n_a1bar<= 1.270e-02  1:n_a1bar<= 1.279e-02  1:n_a1bar<= 1.271e-02
+ + 1:n_a1bar<= 1.307e-02  1:n_a1bar<= 1.251e-02  1:n_a0bar<= 2.469e-04
+ + 1:n_a1bar<= 1.220e-02  1:n_a0bar<= 2.472e-04  1:n_a0bar<= 2.473e-04
+ + 1:n_a0bar<= 2.474e-04  1:n_a0bar<= 2.472e-04  1:n_a0bar<= 2.471e-04
+ + 1:n_a0bar<= 2.472e-04  1:n_a0bar<= 2.470e-04  1:n_a0bar<= 2.471e-04
+ + 1:n_a0<3>_= 7.000e-01  1:n_a0bar<= 2.470e-04  1:n_a0bar<= 2.471e-04
+ + 1:n_a0bar<= 2.469e-04  1:n_gnd!_x= 2.183e-04  1:n_xi10/n= 7.565e-05
+ + 1:n_xi10/n= 7.563e-05  1:n_xi10/n= 7.563e-05  1:n_a2bar<= 2.935e-04
+ + 1:n_a2bar<= 2.936e-04  1:n_gnd!_x= 2.183e-04  1:n_a2bar<= 2.937e-04
+ + 1:n_a2bar<= 2.935e-04  1:n_a2bar<= 2.936e-04  1:n_a2bar<= 2.934e-04
+ + 1:n_a2bar<= 2.934e-04  1:n_a2bar<= 2.934e-04  1:n_a2bar<= 2.934e-04
+ + 1:n_a2bar<= 2.933e-04  1:n_a2bar<= 2.934e-04  1:n_a2bar<= 2.932e-04
+ + 1:n_a0bar<= 2.469e-04  1:n_a2bar<= 1.930e-04  1:n_a2bar<= 1.929e-04
+ + 1:n_a2bar<= 1.927e-04  1:n_a2bar<= 1.930e-04  1:n_a2bar<= 1.929e-04
+ + 1:n_a0<3>_= 7.000e-01  1:n_a2bar<= 1.930e-04  1:n_a2bar<= 1.924e-04
+ + 1:n_a2bar<= 1.926e-04  1:n_a2bar<= 1.923e-04  1:n_a2bar<= 1.923e-04
+ + 1:n_a2bar<= 1.922e-04  1:n_a2bar<= 1.923e-04  1:n_vdd!_x= 6.999e-01
+ + 1:n_a2bar<= 2.314e-04  1:n_a2bar<= 2.315e-04  1:n_a2bar<= 2.315e-04
+ + 1:n_a2bar<= 2.314e-04  1:n_a2bar<= 2.299e-04  1:n_a2bar<= 2.309e-04
+ + 1:n_net025= 6.998e-01  1:n_net025= 6.998e-01  1:n_vdd!_x= 6.999e-01
+ + 1:n_net025= 6.998e-01  1:n_net025= 6.998e-01  1:n_net025= 6.998e-01
+ + 1:n_net025= 6.998e-01  1:n_net025= 6.998e-01  1:n_net025= 6.998e-01
+ + 1:n_net025= 6.998e-01  1:n_net025= 6.998e-01  1:n_net025= 6.998e-01
+ + 1:n_net025= 6.998e-01  1:n_xi10/n= 7.562e-05  1:n_net025= 6.998e-01
+ + 1:n_net025= 6.998e-01  1:n_net025= 6.998e-01  1:n_net025= 6.998e-01
+ + 1:n_net025= 6.998e-01  1:n_net020= 6.998e-01  1:n_net020= 6.998e-01
+ + 1:n_net020= 6.998e-01  1:n_net020= 6.998e-01  1:n_a0<0>_= 7.000e-01
+ + 1:n_net020= 6.998e-01  1:n_net020= 6.998e-01  1:n_net020= 6.998e-01
+ + 1:n_net020= 6.998e-01  1:n_net020= 6.999e-01  1:n_net020= 6.998e-01
+ + 1:n_net020= 6.999e-01  1:n_net020= 6.999e-01  1:n_net020= 6.998e-01
+ + 1:n_net020= 6.999e-01  1:n_gnd!_x= 4.920e-05  1:n_net021= 6.999e-01
+ + 1:n_net021= 6.999e-01  1:n_net021= 6.999e-01  1:n_net021= 6.999e-01
+ + 1:n_net021= 6.999e-01  1:n_net021= 6.999e-01  1:n_net021= 6.999e-01
+ + 1:n_net021= 6.999e-01  1:n_net021= 6.999e-01  1:n_gnd!_x= 4.572e-05
+ + 1:n_net021= 6.999e-01  1:n_net021= 6.999e-01  1:n_net021= 6.999e-01
+ + 1:n_net021= 6.999e-01  1:n_net023= 2.136e-04  1:n_net023= 2.136e-04
+ + 1:n_net023= 2.135e-04  1:n_net023= 2.135e-04  1:n_net023= 2.134e-04
+ + 1:n_xi10/n= 7.564e-05  1:n_net023= 2.134e-04  1:n_net023= 2.134e-04
+ + 1:n_net023= 2.133e-04  1:n_net023= 2.135e-04  1:n_net023= 2.135e-04
+ + 1:n_net023= 2.135e-04  1:n_net023= 2.135e-04  1:n_net023= 2.133e-04
+ + 1:n_net023= 2.135e-04  1:n_a0<0>_= 7.000e-01  1:n_vdd!_x= 7.000e-01
+ + 1:n_vdd!_x= 7.000e-01  1:n_a2bar<= 2.932e-04  1:n_a2<2>_= 7.000e-01
+ + 1:n_gnd!_x= 2.646e-04  1:n_gnd!_x= 2.646e-04  1:n_a2bar<= 2.932e-04
+ + 1:n_a2<2>_= 7.000e-01  1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01
+ + 1:n_s<0>_x= 7.000e-01  1:n_xi10/n= 7.565e-05  1:n_gnd!_x= 6.434e-05
+ + 1:n_gnd!_x= 6.087e-05  1:n_s<0>_x= 7.000e-01  1:n_xi10/n= 7.566e-05
+ + 1:n_vdd!_x= 7.000e-01  1:n_vdd!_x= 7.000e-01  1:n_a2bar<= 2.299e-04
+ + 1:n_a2<0>_= 7.000e-01  1:n_gnd!_x= 1.634e-04  1:n_gnd!_x= 1.634e-04
+ + 1:n_a2bar<= 2.299e-04  1:n_a2<0>_= 7.000e-01  1:n_vdd!_x= 7.000e-01
+ + 1:n_vdd!_x= 7.000e-01  1:n_a2bar<= 1.922e-04  1:n_a2<1>_= 7.000e-01
+ + 1:n_gnd!_x= 1.636e-04  1:n_gnd!_x= 1.636e-04  1:n_a2bar<= 1.923e-04
+ + 1:n_a2<1>_= 7.000e-01  1:n_vdd!_x= 7.000e-01  1:n_vdd!_x= 7.000e-01
+ + 1:n_xi5/ne= 6.999e-01  1:n_a1bar<= 1.307e-02  1:n_gnd!_x= 8.945e-04
+ + 1:n_net28_= 6.894e-01  1:n_gnd!_x= 8.923e-04  1:n_xi5/xi= 6.999e-01
+ + 1:n_a1bar<= 1.307e-02  1:n_gnd!_x= 9.031e-04  1:n_gnd!_x= 9.002e-04
+ + 1:n_net6_x= 6.795e-01  1:n_net28_= 6.894e-01  1:n_xi5/xi= 6.999e-01
+ + 1:n_xi5/xi= 6.999e-01  1:n_xi5/ne= 6.999e-01  1:n_a1bar<= 1.307e-02
+ + 1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01  1:n_net28_= 6.894e-01
+ + 1:n_vdd!_x= 6.999e-01  1:n_xi5/xi= 6.999e-01  1:n_a1bar<= 1.307e-02
+ + 1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01  1:n_net6_x= 6.795e-01
+ + 1:n_net28_= 6.895e-01  1:n_a1bar<= 1.307e-02  1:n_a1bar<= 1.308e-02
+ + 1:n_net28_= 6.888e-01  1:n_xi5/xi= 6.999e-01  1:n_net6_x= 6.795e-01
+ + 1:n_gnd!_x= 9.031e-04  1:n_net28_= 6.888e-01  1:n_a1bar<= 1.280e-02
+ + 1:n_net6_x= 6.795e-01  1:n_vdd!_x= 6.999e-01  1:n_net5_x= 9.023e-04
+ + 1:n_xi5/ne= 6.999e-01  1:n_gnd!_x= 8.752e-04  1:n_gnd!_x= 8.782e-04
+ + 1:n_net5_x= 9.023e-04  1:n_xi5/ne= 6.999e-01  1:n_vdd!_x= 6.999e-01
+ + 1:n_vdd!_x= 6.999e-01  1:n_xi0/ne= 1.150e-04  1:n_a1<0>_= 7.000e-01
+ + 1:n_gnd!_x= 8.487e-06  1:n_a0<1>_= 7.000e-01  1:n_gnd!_x= 1.096e-05
+ + 1:n_xi0/xi= 9.087e-05  1:n_a1<0>_= 7.000e-01  1:n_gnd!_x= 3.232e-08
+ + 1:n_gnd!_x= 1.988e-06  1:n_s<1>_x= 1.560e-04  1:n_a0<1>_= 7.000e-01
+ + 1:n_xi0/xi= 9.097e-05  1:n_xi0/xi= 9.092e-05  1:n_xi0/ne= 1.151e-04
+ + 1:n_a1<0>_= 7.000e-01  1:n_vdd!_x= 7.000e-01  1:n_vdd!_x= 7.000e-01
+ + 1:n_a0<1>_= 7.000e-01  1:n_vdd!_x= 7.000e-01  1:n_xi0/xi= 9.089e-05
+ + 1:n_a1<0>_= 7.000e-01  1:n_vdd!_x= 7.000e-01  1:n_vdd!_x= 7.000e-01
+ + 1:n_s<1>_x= 1.561e-04  1:n_a0<1>_= 7.000e-01  1:n_a1<0>_= 7.000e-01
+ + 1:n_a1<0>_= 7.000e-01  1:n_a0<1>_= 7.000e-01  1:n_xi0/xi= 9.095e-05
+ + 1:n_s<1>_x= 1.561e-04  1:n_gnd!_x= 3.244e-08  1:n_a0<1>_= 7.000e-01
+ + 1:n_a1<0>_= 7.000e-01  1:n_s<1>_x= 1.561e-04  1:n_vdd!_x= 7.000e-01
+ + 1:n_net35_= 7.000e-01  1:n_xi0/ne= 1.151e-04  1:n_gnd!_x= 3.035e-05
+ + 1:n_gnd!_x= 2.687e-05  1:n_net35_= 7.000e-01  1:n_xi0/ne= 1.151e-04
+ + 1:n_vdd!_x= 7.000e-01  1:n_vdd!_x= 7.000e-01  1:n_xi6/ne= 7.000e-01
+ + 1:n_net34_= 6.999e-01  1:n_gnd!_x= 1.039e-04  1:n_a2bar<= 2.315e-04
+ + 1:n_gnd!_x= 1.014e-04  1:n_xi6/xi= 1.533e-04  1:n_net34_= 6.998e-01
+ + 1:n_gnd!_x= 1.135e-04  1:n_gnd!_x= 1.103e-04  1:n_net025= 6.998e-01
+ + 1:n_a2bar<= 2.314e-04  1:n_xi6/xi= 1.533e-04  1:n_xi6/xi= 1.533e-04
+ + 1:n_xi6/ne= 7.000e-01  1:n_net34_= 6.999e-01  1:n_vdd!_x= 7.000e-01
+ + 1:n_vdd!_x= 7.000e-01  1:n_a2bar<= 2.315e-04  1:n_vdd!_x= 7.000e-01
+ + 1:n_xi6/xi= 1.533e-04  1:n_net34_= 6.998e-01  1:n_vdd!_x= 7.000e-01
+ + 1:n_vdd!_x= 7.000e-01  1:n_net025= 6.998e-01  1:n_a2bar<= 2.314e-04
+ + 1:n_net34_= 6.998e-01  1:n_net34_= 6.998e-01  1:n_a2bar<= 2.323e-04
+ + 1:n_xi6/xi= 1.533e-04  1:n_net025= 6.998e-01  1:n_gnd!_x= 1.135e-04
+ + 1:n_a2bar<= 2.323e-04  1:n_net34_= 6.998e-01  1:n_net025= 6.998e-01
+ + 1:n_vdd!_x= 7.000e-01  1:n_net1_x= 1.109e-04  1:n_xi6/ne= 7.000e-01
+ + 1:n_gnd!_x= 8.218e-05  1:n_gnd!_x= 8.563e-05  1:n_net1_x= 1.109e-04
+ + 1:n_xi6/ne= 7.000e-01  1:n_vdd!_x= 7.000e-01  1:n_vdd!_x= 7.000e-01
+ + 1:n_xi22/n= 3.522e-04  1:n_net020= 6.998e-01  1:n_gnd!_x= 2.481e-04
+ + 1:n_net010= 6.998e-01  1:n_gnd!_x= 2.481e-04  1:n_xi22/x= 3.390e-04
+ + 1:n_net020= 6.998e-01  1:n_gnd!_x= 2.482e-04  1:n_gnd!_x= 2.481e-04
+ + 1:n_s<5>_x= 4.041e-04  1:n_net010= 6.998e-01  1:n_xi22/x= 3.391e-04
+ + 1:n_xi22/x= 3.390e-04  1:n_xi22/n= 3.522e-04  1:n_net020= 6.998e-01
+ + 1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01  1:n_net010= 6.998e-01
+ + 1:n_vdd!_x= 6.999e-01  1:n_xi22/x= 3.390e-04  1:n_net020= 6.998e-01
+ + 1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01  1:n_s<5>_x= 4.041e-04
+ + 1:n_net010= 6.998e-01  1:n_net020= 6.998e-01  1:n_net020= 6.998e-01
+ + 1:n_net010= 6.998e-01  1:n_xi22/x= 3.390e-04  1:n_s<5>_x= 4.042e-04
+ + 1:n_gnd!_x= 2.482e-04  1:n_net010= 6.998e-01  1:n_net020= 6.998e-01
+ + 1:n_s<5>_x= 4.042e-04  1:n_vdd!_x= 6.999e-01  1:n_net032= 6.999e-01
+ + 1:n_xi22/n= 3.522e-04  1:n_gnd!_x= 2.478e-04  1:n_gnd!_x= 2.479e-04
+ + 1:n_net032= 6.999e-01  1:n_xi22/n= 3.522e-04  1:n_vdd!_x= 6.999e-01
+ + 1:n_vdd!_x= 6.999e-01  1:n_xi21/n= 3.222e-04  1:n_net021= 6.999e-01
+ + 1:n_gnd!_x= 2.181e-04  1:n_net012= 6.998e-01  1:n_gnd!_x= 2.181e-04
+ + 1:n_xi21/x= 3.090e-04  1:n_net021= 6.999e-01  1:n_gnd!_x= 2.182e-04
+ + 1:n_gnd!_x= 2.181e-04  1:n_s<4>_x= 3.741e-04  1:n_net012= 6.998e-01
+ + 1:n_xi21/x= 3.090e-04  1:n_xi21/x= 3.090e-04  1:n_xi21/n= 3.222e-04
+ + 1:n_net021= 6.999e-01  1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01
+ + 1:n_net012= 6.998e-01  1:n_vdd!_x= 6.999e-01  1:n_xi21/x= 3.090e-04
+ + 1:n_net021= 6.999e-01  1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01
+ + 1:n_s<4>_x= 3.741e-04  1:n_net012= 6.998e-01  1:n_net021= 6.999e-01
+ + 1:n_net021= 6.999e-01  1:n_net012= 6.998e-01  1:n_xi21/x= 3.090e-04
+ + 1:n_s<4>_x= 3.741e-04  1:n_gnd!_x= 2.182e-04  1:n_net012= 6.998e-01
+ + 1:n_net021= 6.999e-01  1:n_s<4>_x= 3.741e-04  1:n_vdd!_x= 6.999e-01
+ + 1:n_net010= 6.998e-01  1:n_xi21/n= 3.222e-04  1:n_gnd!_x= 2.178e-04
+ + 1:n_gnd!_x= 2.179e-04  1:n_net010= 6.998e-01  1:n_xi21/n= 3.222e-04
+ + 1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01  1:n_xi16/n= 2.685e-04
+ + 1:n_net025= 6.998e-01  1:n_gnd!_x= 1.640e-04  1:n_vdd!_x= 6.999e-01
+ + 1:n_gnd!_x= 1.640e-04  1:n_xi16/x= 2.551e-04  1:n_net025= 6.998e-01
+ + 1:n_gnd!_x= 1.641e-04  1:n_gnd!_x= 1.641e-04  1:n_s<2>_x= 3.202e-04
+ + 1:n_vdd!_x= 6.999e-01  1:n_xi16/x= 2.552e-04  1:n_xi16/x= 2.551e-04
+ + 1:n_xi16/n= 2.686e-04  1:n_net025= 6.998e-01  1:n_vdd!_x= 7.000e-01
+ + 1:n_vdd!_x= 7.000e-01  1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 7.000e-01
+ + 1:n_xi16/x= 2.551e-04  1:n_net025= 6.998e-01  1:n_vdd!_x= 7.000e-01
+ + 1:n_vdd!_x= 7.000e-01  1:n_s<2>_x= 3.202e-04  1:n_vdd!_x= 6.999e-01
+ + 1:n_net025= 6.998e-01  1:n_net025= 6.998e-01  1:n_vdd!_x= 6.999e-01
+ + 1:n_xi16/x= 2.551e-04  1:n_s<2>_x= 3.203e-04  1:n_gnd!_x= 1.641e-04
+ + 1:n_vdd!_x= 6.999e-01  1:n_net025= 6.998e-01  1:n_s<2>_x= 3.203e-04
+ + 1:n_vdd!_x= 7.000e-01  1:n_net016= 7.000e-01  1:n_xi16/n= 2.686e-04
+ + 1:n_gnd!_x= 1.638e-04  1:n_gnd!_x= 1.638e-04  1:n_net016= 7.000e-01
+ + 1:n_xi16/n= 2.686e-04  1:n_vdd!_x= 7.000e-01  1:n_vdd!_x= 7.000e-01
+ + 1:n_xi4/ne= 2.713e-04  1:n_net33_= 6.999e-01  1:n_gnd!_x= 2.183e-04
+ + 1:n_gnd!_x= 2.183e-04  1:n_a0bar<= 2.472e-04  1:n_gnd!_x= 2.183e-04
+ + 1:n_xi4/ne= 3.241e-04  1:n_a1<2>_= 7.000e-01  1:n_xi4/ne= 2.713e-04
+ + 1:n_xi4/ne= 3.241e-04  1:n_net33_= 6.999e-01  1:n_a0bar<= 2.473e-04
+ + 1:n_gnd!_x= 2.183e-04  1:n_xi4/ne= 2.254e-04  1:n_net33_= 6.999e-01
+ + 1:n_gnd!_x= 2.183e-04  1:n_a0bar<= 2.473e-04  1:n_gnd!_x= 2.183e-04
+ + 1:n_xi4/ne= 2.254e-04  1:n_a1<2>_= 7.000e-01  1:n_xi4/ne= 6.999e-01
+ + 1:n_xi4/ne= 3.242e-04  1:n_xi4/ne= 2.254e-04  1:n_xi4/ne= 6.999e-01
+ + 1:n_a1<2>_= 7.000e-01  1:n_net33_= 6.999e-01  1:n_a0bar<= 2.474e-04
+ + 1:n_gnd!_x= 2.183e-04  1:n_xi4/ne= 6.999e-01  1:n_net33_= 6.999e-01
+ + 1:n_vdd!_x= 6.999e-01  1:n_a0bar<= 2.472e-04  1:n_xi4/ne= 3.241e-04
+ + 1:n_a1<2>_= 7.000e-01  1:n_xi4/ne= 6.999e-01  1:n_xi4/ne= 3.241e-04
+ + 1:n_net33_= 6.999e-01  1:n_a0bar<= 2.473e-04  1:n_xi4/ne= 6.999e-01
+ + 1:n_net33_= 6.999e-01  1:n_a0bar<= 2.474e-04  1:n_xi4/ne= 6.999e-01
+ + 1:n_a1<2>_= 7.000e-01  1:n_xi4/ne= 6.999e-01  1:n_xi4/ne= 3.242e-04
+ + 1:n_xi4/ne= 6.999e-01  1:n_xi4/ne= 6.999e-01  1:n_a1<2>_= 7.000e-01
+ + 1:n_net33_= 6.999e-01  1:n_a0bar<= 2.474e-04  1:n_net28_= 6.909e-01
+ + 1:n_xi4/ne= 3.241e-04  1:n_gnd!_x= 2.183e-04  1:n_net28_= 6.910e-01
+ + 1:n_xi4/ne= 3.241e-04  1:n_vdd!_x= 6.999e-01  1:n_net29_= 2.462e-04
+ + 1:n_xi4/ne= 6.999e-01  1:n_gnd!_x= 2.182e-04  1:n_net29_= 2.462e-04
+ + 1:n_xi4/ne= 6.999e-01  1:n_vdd!_x= 6.999e-01  1:n_xi3/ne= 1.897e-04
+ + 1:n_net35_= 7.000e-01  1:n_gnd!_x= 1.863e-04  1:n_gnd!_x= 1.863e-04
+ + 1:n_a0<2>_= 7.000e-01  1:n_gnd!_x= 1.863e-04  1:n_xi3/ne= 1.961e-04
+ + 1:n_a1<1>_= 7.000e-01  1:n_xi3/ne= 1.897e-04  1:n_xi3/ne= 1.961e-04
+ + 1:n_net35_= 7.000e-01  1:n_a0<0>_= 7.000e-01  1:n_a0<0>_= 7.000e-01
+ + 1:n_a0<0>_= 7.000e-01  1:n_a0<1>_= 7.000e-01  1:n_a0<1>_= 7.000e-01
+ + 1:n_a0<1>_= 7.000e-01  1:n_a0<1>_= 7.000e-01  1:n_a0<1>_= 7.000e-01
+ + 1:n_a0<1>_= 7.000e-01  1:n_a0<2>_= 7.000e-01  1:n_a0<2>_= 7.000e-01
+ + 1:n_a0<2>_= 7.000e-01  1:n_a0<2>_= 7.000e-01  1:n_a0<2>_= 7.000e-01
+ + 1:n_a0<3>_= 7.000e-01  1:n_a0<3>_= 7.000e-01  1:n_a0<3>_= 7.000e-01
+ + 1:n_a1<0>_= 7.000e-01  1:n_a1<0>_= 7.000e-01  1:n_a1<0>_= 7.000e-01
+ + 1:n_a1<0>_= 7.000e-01  1:n_a1<0>_= 7.000e-01  1:n_a1<0>_= 7.000e-01
+ + 1:n_a1<0>_= 7.000e-01  1:n_a1<0>_= 7.000e-01  1:n_a1<0>_= 7.000e-01
+ + 1:n_a1<1>_= 7.000e-01  1:n_a1<1>_= 7.000e-01  1:n_a1<1>_= 7.000e-01
+ + 1:n_a1<1>_= 7.000e-01  1:n_a1<2>_= 7.000e-01  1:n_a1<2>_= 7.000e-01
+ + 1:n_a1<2>_= 7.000e-01  1:n_a1<2>_= 7.000e-01  1:n_a1<3>_= 7.000e-01
+ + 1:n_a1<3>_= 7.000e-01  1:n_a1<3>_= 7.000e-01  1:n_a2<0>_= 7.000e-01
+ + 1:n_a2<0>_= 7.000e-01  1:n_a2<1>_= 7.000e-01  1:n_a2<1>_= 7.000e-01
+ + 1:n_a2<2>_= 7.000e-01  1:n_a2<2>_= 7.000e-01  1:n_a2<2>_= 7.000e-01
+ + 1:n_a2<3>_= 7.000e-01  1:n_a2<3>_= 7.000e-01  1:n_a2<3>_= 7.000e-01
+ + 1:n_gnd!_c= 8.917e-04  1:n_gnd!_c= 9.002e-04  1:n_gnd!_c= 9.031e-04
+ + 1:n_gnd!_c= 2.183e-04  1:n_gnd!_c= 9.007e-04  1:n_gnd!_c= 9.098e-04
+ + 1:n_gnd!_c= 9.079e-04  1:n_gnd!_c= 9.036e-04  1:n_gnd!_c= 9.072e-04
+ + 1:n_gnd!_c= 8.937e-04  1:n_gnd!_c= 9.031e-04  1:n_gnd!_c= 2.183e-04
+ + 1:n_gnd!_c= 2.183e-04  1:n_gnd!_c= 2.183e-04  1:n_gnd!_c= 2.183e-04
+ + 1:n_gnd!_c= 1.863e-04  1:n_gnd!_c= 1.863e-04  1:n_gnd!_c= 9.347e-06
+ + 1:n_gnd!_c= 1.163e-05  1:n_gnd!_c= 1.097e-04  1:n_gnd!_c= 1.008e-04
+ + 1:n_gnd!_c= 2.183e-04  1:n_gnd!_c= 2.481e-04  1:n_gnd!_c= 2.179e-04
+ + 1:n_gnd!_c= 2.481e-04  1:n_gnd!_c= 2.180e-04  1:n_gnd!_c= 2.181e-04
+ + 1:n_gnd!_c= 2.178e-04  1:n_gnd!_c= 2.478e-04  1:n_gnd!_c= 2.178e-04
+ + 1:n_gnd!_c= 2.179e-04  1:n_gnd!_c= 2.181e-04  1:n_gnd!_c= 2.181e-04
+ + 1:n_gnd!_c= 1.866e-04  1:n_gnd!_c= 1.860e-04  1:n_gnd!_c= 1.860e-04
+ + 1:n_gnd!_c= 1.860e-04  1:n_gnd!_c= 1.860e-04  1:n_gnd!_c= 1.860e-04
+ + 1:n_gnd!_c= 1.860e-04  1:n_gnd!_c= 1.641e-04  1:n_gnd!_c= 1.640e-04
+ + 1:n_gnd!_c= 1.641e-04  1:n_gnd!_c= 1.863e-04  1:n_gnd!_c= 1.863e-04
+ + 1:n_gnd!_c= 1.863e-04  1:n_gnd!_c= 1.863e-04  1:n_gnd!_c= 3.238e-08
+ + 1:n_gnd!_c= 9.219e-09  1:n_gnd!_c= 1.382e-06  1:n_gnd!_c= 1.863e-04
+ + 1:n_gnd!_c= 1.988e-06  1:n_gnd!_c= 4.572e-05  1:n_gnd!_c= 2.649e-04
+ + 1:n_gnd!_c= 2.628e-04  1:n_gnd!_c= 2.618e-04  1:n_gnd!_c= 2.613e-04
+ + 1:n_gnd!_c= 2.180e-04  1:n_gnd!_c= 2.181e-04  1:n_gnd!_c= 2.180e-04
+ + 1:n_gnd!_c= 2.181e-04  1:n_gnd!_c= 2.181e-04  1:n_gnd!_c= 1.861e-04
+ + 1:n_gnd!_c= 1.639e-04  1:n_gnd!_c= 1.862e-04  1:n_gnd!_c= 1.862e-04
+ + 1:n_gnd!_c= 1.030e-04  1:n_gnd!_c= 1.103e-04  1:n_gnd!_c= 1.862e-04
+ + 1:n_gnd!_c= 1.135e-04  1:n_gnd!_c= 1.862e-04  1:n_gnd!_c= 1.198e-04
+ + 1:n_gnd!_c= 1.135e-04  1:n_gnd!_c= 1.129e-04  1:n_gnd!_c= 1.860e-04
+ + 1:n_gnd!_c= 1.860e-04  1:n_gnd!_c= 1.636e-04  1:n_gnd!_c= 1.636e-04
+ + 1:n_gnd!_c= 1.638e-04  1:n_gnd!_c= 1.860e-04  1:n_gnd!_c= 1.640e-04
+ + 1:n_gnd!_c= 1.636e-04  1:n_gnd!_c= 1.638e-04  1:n_gnd!_c= 1.638e-04
+ + 1:n_gnd!_c= 1.638e-04  1:n_gnd!_c= 1.641e-04  1:n_gnd!_c= 1.641e-04
+ + 1:n_gnd!_c= 1.641e-04  1:n_gnd!_c= 1.863e-04  1:n_gnd!_c= 4.508e-05
+ + 1:n_gnd!_c= 8.153e-05  1:n_gnd!_c= 2.180e-04  1:n_gnd!_c= 1.861e-04
+ + 1:n_gnd!_c= 1.631e-04  1:n_gnd!_c= 2.181e-04  1:n_gnd!_c= 2.183e-04
+ + 1:n_gnd!_c= 9.515e-04  1:n_gnd!_c= 9.472e-04  1:n_gnd!_c= 2.183e-04
+ + 1:n_gnd!_c= 2.183e-04  1:n_gnd!_c= 1.863e-04  1:n_gnd!_c= 1.863e-04
+ + 1:n_gnd!_c= 1.863e-04  1:n_gnd!_c= 2.687e-05  1:n_gnd!_c= 5.599e-04
+ + 1:n_gnd!_c= 1.863e-04  1:n_gnd!_c= 4.856e-05  1:n_gnd!_c= 6.023e-05
+ + 1:n_gnd!_c= 2.646e-04  1:n_gnd!_c= 2.597e-04  1:n_gnd!_c= 2.180e-04
+ + 1:n_gnd!_c= 1.861e-04  1:n_gnd!_c= 2.179e-04  1:n_gnd!_c= 1.861e-04
+ + 1:n_gnd!_c= 1.633e-04  1:n_gnd!_c= 1.636e-04  1:n_gnd!_c= 2.181e-04
+ + 1:n_gnd!_c= 2.182e-04  1:n_gnd!_c= 1.860e-04  1:n_gnd!_c= 1.860e-04
+ + 1:n_gnd!_c= 2.183e-04  1:n_gnd!_c= 1.863e-04  1:n_gnd!_c= 1.863e-04
+ + 1:n_gnd!_c= 2.751e-05  1:n_gnd!_c= 1.862e-04  1:n_gnd!_c= 2.180e-04
+ + 1:n_gnd!_c= 1.861e-04  1:n_gnd!_c= 2.179e-04  1:n_gnd!_c= 2.482e-04
+ + 1:n_gnd!_c= 2.177e-04  1:n_gnd!_c= 1.861e-04  1:n_gnd!_c= 1.860e-04
+ + 1:n_gnd!_c= 1.634e-04  1:n_gnd!_c= 1.860e-04  1:n_gnd!_c= 4.920e-05
+ + 1:n_gnd!_c= 2.181e-04  1:n_gnd!_c= 2.181e-04  1:n_gnd!_c= 1.860e-04
+ + 1:n_gnd!_c= 2.482e-04  1:n_gnd!_c= 2.481e-04  1:n_gnd!_c= 2.481e-04
+ + 1:n_gnd!_c= 2.481e-04  1:n_gnd!_c= 2.482e-04  1:n_gnd!_c= 2.183e-04
+ + 1:n_gnd!_c= 2.181e-04  1:n_gnd!_c= 2.181e-04  1:n_gnd!_c= 2.180e-04
+ + 1:n_gnd!_c= 2.183e-04  1:n_gnd!_c= 1.863e-04  1:n_gnd!_c= 3.035e-05
+ + 1:n_gnd!_c= 2.181e-04  1:n_gnd!_c= 2.181e-04  1:n_gnd!_c= 1.163e-04
+ + 1:n_gnd!_c= 2.649e-04  1:n_gnd!_c= 1.862e-04  1:n_gnd!_c= 1.633e-04
+ + 1:n_gnd!_c= 1.633e-04  1:n_gnd!_c= 1.862e-04  1:n_gnd!_c= 1.862e-04
+ + 1:n_gnd!_c= 1.862e-04  1:n_gnd!_c= 1.862e-04  1:n_gnd!_c= 8.729e-04
+ + 1:n_gnd!_c= 2.613e-04  1:n_gnd!_c= 2.617e-04  1:n_gnd!_c= 2.646e-04
+ + 1:n_gnd!_c= 2.657e-04  1:n_gnd!_c= 2.623e-04  1:n_gnd!_c= 1.171e-04
+ + 1:n_gnd!_c= 1.169e-04  1:n_gnd!_c= 1.860e-04  1:n_gnd!_c= 1.860e-04
+ + 1:n_gnd!_c= 1.860e-04  1:n_gnd!_c= 8.746e-04  1:n_gnd!_c= 9.465e-04
+ + 1:n_gnd!_c= 2.183e-04  1:n_gnd!_c= 1.863e-04  1:n_gnd!_c= 2.624e-04
+ + 1:n_gnd!_c= 2.180e-04  1:n_gnd!_c= 1.862e-04  1:n_gnd!_c= 1.860e-04
+ + 1:n_net18_= 2.463e-04  1:n_net18_= 2.461e-04  1:n_net18_= 2.462e-04
+ + 1:n_net18_= 2.462e-04  1:n_net18_= 2.462e-04  1:n_net18_= 2.462e-04
+ + 1:n_net18_= 2.461e-04  1:n_net18_= 2.463e-04  1:n_net18_= 2.462e-04
+ + 1:n_net1_c= 1.110e-04  1:n_net1_c= 1.112e-04  1:n_net1_c= 1.112e-04
+ + 1:n_net1_c= 1.112e-04  1:n_net1_c= 1.109e-04  1:n_net1_c= 1.110e-04
+ + 1:n_net1_c= 1.110e-04  1:n_net1_c= 1.109e-04  1:n_net1_x= 1.110e-04
+ + 1:n_net1_x= 1.111e-04  1:n_net1_x= 1.112e-04  1:n_net20_= 2.152e-04
+ + 1:n_net20_= 2.150e-04  1:n_net20_= 2.151e-04  1:n_net20_= 2.151e-04
+ + 1:n_net20_= 2.152e-04  1:n_net20_= 2.151e-04  1:n_net20_= 2.151e-04
+ + 1:n_net20_= 2.151e-04  1:n_net20_= 2.152e-04  1:n_net28_= 6.894e-01
+ + 1:n_net28_= 6.894e-01  1:n_net28_= 6.894e-01  1:n_net28_= 6.894e-01
+ + 1:n_net28_= 6.906e-01  1:n_net28_= 6.894e-01  1:n_net28_= 6.904e-01
+ + 1:n_net28_= 6.901e-01  1:n_net28_= 6.897e-01  1:n_net29_= 2.463e-04
+ + 1:n_net29_= 2.463e-04  1:n_net29_= 2.463e-04  1:n_net29_= 2.463e-04
+ + 1:n_net29_= 2.462e-04  1:n_net29_= 2.462e-04  1:n_net29_= 2.462e-04
+ + 1:n_net29_= 2.462e-04  1:n_net29_= 2.462e-04  1:n_net29_= 2.462e-04
+ + 1:n_net29_= 2.462e-04  1:n_net29_= 2.462e-04  1:n_net33_= 6.999e-01
+ + 1:n_net33_= 6.999e-01  1:n_net33_= 6.999e-01  1:n_net33_= 6.999e-01
+ + 1:n_net33_= 6.999e-01  1:n_net33_= 6.999e-01  1:n_net33_= 6.999e-01
+ + 1:n_net33_= 6.999e-01  1:n_net33_= 6.999e-01  1:n_net34_= 6.998e-01
+ + 1:n_net34_= 6.999e-01  1:n_net34_= 6.999e-01  1:n_net34_= 6.999e-01
+ + 1:n_net34_= 6.999e-01  1:n_net34_= 6.998e-01  1:n_net34_= 6.998e-01
+ + 1:n_net34_= 6.998e-01  1:n_net34_= 6.998e-01  1:n_net34_= 6.998e-01
+ + 1:n_net34_= 6.998e-01  1:n_net34_= 6.999e-01  1:n_net34_= 6.999e-01
+ + 1:n_net34_= 6.998e-01  1:n_net34_= 6.999e-01  1:n_net35_= 7.000e-01
+ + 1:n_net35_= 7.000e-01  1:n_net35_= 7.000e-01  1:n_net35_= 7.000e-01
+ + 1:n_net35_= 7.000e-01  1:n_net35_= 7.000e-01  1:n_net35_= 7.000e-01
+ + 1:n_net35_= 7.000e-01  1:n_net35_= 7.000e-01  1:n_net35_= 7.000e-01
+ + 1:n_net5_c= 9.023e-04  1:n_net5_c= 9.023e-04  1:n_net5_c= 9.023e-04
+ + 1:n_net5_c= 9.023e-04  1:n_net5_c= 9.023e-04  1:n_net5_c= 9.023e-04
+ + 1:n_net5_c= 9.023e-04  1:n_net5_c= 9.023e-04  1:n_net5_c= 9.023e-04
+ + 1:n_net5_c= 9.023e-04  1:n_net5_c= 9.023e-04  1:n_net5_x= 9.024e-04
+ + 1:n_net5_x= 9.024e-04  1:n_net6_c= 6.795e-01  1:n_net6_c= 6.795e-01
+ + 1:n_net6_c= 6.795e-01  1:n_net6_c= 6.795e-01  1:n_net6_c= 6.795e-01
+ + 1:n_net6_c= 6.795e-01  1:n_net6_c= 6.795e-01  1:n_net6_c= 6.795e-01
+ + 1:n_net6_c= 6.795e-01  1:n_net6_c= 6.795e-01  1:n_net6_c= 6.795e-01
+ + 1:n_net6_c= 6.795e-01  1:n_net6_c= 6.795e-01  1:n_net6_c= 6.795e-01
+ + 1:n_net6_c= 6.795e-01  1:n_net6_c= 6.795e-01  1:n_net6_c= 6.795e-01
+ + 1:n_net6_c= 6.795e-01  1:n_net6_c= 6.795e-01  1:n_net6_c= 6.795e-01
+ + 1:n_net6_c= 6.795e-01  1:n_net6_x= 6.795e-01  1:n_net6_x= 6.795e-01
+ + 1:n_s<1>_c= 1.561e-04  1:n_s<1>_c= 1.561e-04  1:n_s<1>_c= 1.561e-04
+ + 1:n_s<2>_c= 3.202e-04  1:n_s<2>_c= 3.202e-04  1:n_s<2>_c= 3.202e-04
+ + 1:n_s<4>_c= 3.741e-04  1:n_s<4>_c= 3.741e-04  1:n_s<4>_c= 3.741e-04
+ + 1:n_s<5>_c= 4.042e-04  1:n_s<5>_c= 4.041e-04  1:n_s<5>_c= 4.042e-04
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 7.000e-01
+ + 1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 7.000e-01
+ + 1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 7.000e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 7.000e-01
+ + 1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 7.000e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 7.000e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 7.000e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 7.000e-01
+ + 1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 7.000e-01
+ + 1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 7.000e-01
+ + 1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 7.000e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 7.000e-01
+ + 1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 7.000e-01
+ + 1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 7.000e-01
+ + 1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 7.000e-01
+ + 1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 7.000e-01
+ + 1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 7.000e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 7.000e-01  1:n_vdd!_c= 6.999e-01  1:n_vdd!_c= 6.999e-01
+ + 1:n_vdd!_c= 6.999e-01  1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01
+ + 1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01
+ + 1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01
+ + 1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01
+ + 1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01
+ + 1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01
+ + 1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01
+ + 1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01
+ + 1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01
+ + 1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01  1:n_vdd!_x= 6.999e-01
+ + 1:n_vdd!_x= 6.999e-01  1:xi0/xi0/= 6.309e-05  1:xi16/xi0= 2.164e-04
+ + 1:xi18/net= 6.998e-01  1:xi18/net= 6.999e-01  1:xi18/net= 6.469e-01
+ + 1:xi18/net= 2.241e-04  1:xi18/net= 2.003e-04  1:xi18/net= 2.144e-04
+ + 1:xi21/xi0= 2.702e-04  1:xi22/xi0= 3.002e-04  1:xi3/net0= 6.297e-01
+ + 1:xi3/net0= 6.816e-01  1:xi3/net0= 6.468e-01  1:xi3/net1= 1.913e-04
+ + 1:xi3/net6= 2.369e-04  1:xi3/net6= 2.872e-04  1:xi4/net0= 6.999e-01
+ + 1:xi4/net0= 6.999e-01  1:xi4/net0= 6.999e-01  1:xi4/net1= 3.242e-04
+ + 1:xi4/net6= 5.283e-01  1:xi4/net6= 5.510e-01  1:xi5/xi0/= 9.120e-04
+ + 1:xi6/xi0/= 5.495e-01  1:xi7/net0= 6.999e-01  1:xi7/net0= 6.999e-01
+ + 1:xi7/net0= 6.999e-01  1:xi7/net1= 4.498e-02  1:xi7/net6= 1.695e-02
+ + 1:xi7/net6= 6.100e-02  1:xi8/net0= 6.998e-01  1:xi8/net0= 6.999e-01
+ + 1:xi8/net0= 6.999e-01  1:xi8/net1= 4.501e-02  1:xi8/net6= 2.891e-04
+ + 1:xi8/net6= 3.606e-04  1:xi9/net0= 1.482e-01  1:xi9/net0= 1.731e-01
+ + 1:xi9/net0= 6.998e-01  1:xi9/net1= 2.768e-04  1:xi9/net6= 2.598e-04
+ + 1:xi9/net6= 3.034e-04  2:5       = 3.241e-04  2:8       = 3.241e-04
+ + 2:12      = 3.241e-04  2:14      = 3.241e-04  2:18      = 3.242e-04
+ + 2:22      = 3.242e-04  2:34      = 3.241e-04  2:36      = 3.241e-04
+ + 2:40      = 3.241e-04  2:46      = 3.241e-04  2:51      = 3.241e-04
+ + 2:59      = 3.242e-04  3:3       = 2.713e-04  3:9       = 2.713e-04
+ + 4:3       = 6.999e-01  4:9       = 6.999e-01  5:4       = 2.254e-04
+ + 5:10      = 2.254e-04  5:11      = 2.254e-04  6:4       = 6.999e-01
+ + 6:10      = 6.999e-01  6:11      = 6.999e-01  6:19      = 6.999e-01
+ + 7:5       = 6.999e-01  7:8       = 6.999e-01  7:14      = 6.999e-01
+ + 7:24      = 6.999e-01  7:26      = 6.999e-01  7:30      = 6.999e-01
+ + 7:33      = 6.999e-01  8:5       = 1.962e-04  8:8       = 1.962e-04
+ + 8:12      = 1.962e-04  8:14      = 1.962e-04  8:18      = 1.961e-04
+ + 8:22      = 1.961e-04  8:34      = 1.961e-04  8:36      = 1.961e-04
+ + 8:40      = 1.962e-04  8:46      = 1.961e-04  8:51      = 1.961e-04
+ + 8:59      = 1.961e-04  9:3       = 1.897e-04  9:9       = 1.897e-04
+ +10:3       = 6.615e-01 10:9       = 6.615e-01 11:4       = 1.864e-04
+ +11:10      = 1.864e-04 11:11      = 1.864e-04 12:4       = 1.779e-01
+ +12:10      = 1.779e-01 12:11      = 1.779e-01 12:19      = 1.779e-01
+ +13:5       = 3.374e-04 13:8       = 3.374e-04 13:14      = 3.374e-04
+ +13:24      = 3.374e-04 13:26      = 3.374e-04 13:30      = 3.374e-04
+ +13:33      = 3.374e-04 14:5       = 6.998e-01 14:8       = 6.998e-01
+ +14:12      = 6.998e-01 14:14      = 6.998e-01 14:18      = 6.998e-01
+ +14:22      = 6.998e-01 14:34      = 6.998e-01 14:36      = 6.998e-01
+ +14:40      = 6.998e-01 14:46      = 6.998e-01 14:51      = 6.998e-01
+ +14:59      = 6.998e-01 15:3       = 2.792e-04 15:9       = 2.792e-04
+ +16:3       = 6.999e-01 16:9       = 6.999e-01 17:4       = 3.038e-04
+ +17:10      = 3.039e-04 17:11      = 3.039e-04 18:4       = 6.999e-01
+ +18:10      = 6.999e-01 18:11      = 6.999e-01 18:19      = 6.999e-01
+ +19:5       = 3.463e-04 19:8       = 3.463e-04 19:14      = 3.462e-04
+ +19:24      = 3.462e-04 19:26      = 3.462e-04 19:30      = 3.462e-04
+ +19:33      = 3.462e-04 20:5       = 6.999e-01 20:8       = 6.999e-01
+ +20:12      = 6.999e-01 20:14      = 6.999e-01 20:18      = 6.999e-01
+ +20:22      = 6.999e-01 20:34      = 6.999e-01 20:36      = 6.999e-01
+ +20:40      = 6.999e-01 20:46      = 6.999e-01 20:51      = 6.999e-01
+ +20:59      = 6.999e-01 21:3       = 5.166e-01 21:9       = 5.166e-01
+ +22:3       = 6.999e-01 22:9       = 6.999e-01 23:4       = 2.901e-04
+ +23:10      = 2.901e-04 23:11      = 2.901e-04 24:4       = 6.999e-01
+ +24:10      = 6.999e-01 24:11      = 6.999e-01 24:19      = 6.999e-01
+ +25:5       = 3.605e-04 25:8       = 3.605e-04 25:14      = 3.605e-04
+ +25:24      = 3.605e-04 25:26      = 3.605e-04 25:30      = 3.605e-04
+ +25:33      = 3.605e-04 26:5       = 6.999e-01 26:8       = 6.999e-01
+ +26:12      = 6.999e-01 26:14      = 6.999e-01 26:18      = 6.999e-01
+ +26:22      = 6.999e-01 26:34      = 6.999e-01 26:36      = 6.999e-01
+ +26:40      = 6.999e-01 26:46      = 6.999e-01 26:51      = 6.999e-01
+ +26:59      = 6.999e-01 27:3       = 3.112e-02 27:9       = 3.112e-02
+ +28:3       = 6.999e-01 28:9       = 6.999e-01 29:4       = 5.210e-01
+ +29:10      = 5.210e-01 29:11      = 5.210e-01 30:4       = 6.999e-01
+ +30:10      = 6.999e-01 30:11      = 6.999e-01 30:19      = 6.999e-01
+ +31:5       = 6.998e-01 31:8       = 6.998e-01 31:14      = 6.998e-01
+ +31:24      = 6.998e-01 31:26      = 6.998e-01 31:30      = 6.998e-01
+ +31:33      = 6.998e-01 32:5       = 2.620e-04 32:8       = 2.620e-04
+ +32:12      = 2.620e-04 32:14      = 2.620e-04 32:18      = 2.621e-04
+ +32:22      = 2.621e-04 32:34      = 2.620e-04 32:36      = 2.620e-04
+ +32:40      = 2.620e-04 32:46      = 2.620e-04 32:51      = 2.620e-04
+ +32:59      = 2.621e-04 33:3       = 1.861e-04 33:9       = 1.861e-04
+ +34:3       = 1.673e-01 34:9       = 1.673e-01 35:4       = 1.932e-04
+ +35:10      = 1.932e-04 35:11      = 1.932e-04 36:4       = 6.999e-01
+ +36:10      = 6.999e-01 36:11      = 6.999e-01 36:19      = 6.999e-01
+ +37:5       = 6.998e-01 37:8       = 6.998e-01 37:12      = 6.998e-01
+ +37:14      = 6.998e-01 37:24      = 6.998e-01 37:26      = 6.998e-01
+ +37:30      = 6.998e-01 37:33      = 6.998e-01 38:5       = 6.999e-01
+ +38:8       = 6.999e-01 38:13      = 6.999e-01 38:14      = 6.999e-01
+ +38:25      = 6.999e-01 38:30      = 6.999e-01 38:31      = 6.999e-01
+ +38:37      = 6.999e-01 38:39      = 6.999e-01 39:3       = 6.999e-01
+ +39:17      = 6.999e-01 39:18      = 6.999e-01 39:22      = 6.999e-01
+ +39:26      = 6.999e-01 40:5       = 1.151e-04 40:8       = 1.151e-04
+ +40:13      = 1.150e-04 40:14      = 1.151e-04 40:25      = 1.150e-04
+ +40:30      = 1.150e-04 40:31      = 1.151e-04 40:37      = 1.150e-04
+ +40:39      = 1.150e-04 41:3       = 9.095e-05 41:17      = 9.088e-05
+ +41:18      = 9.093e-05 41:22      = 9.095e-05 41:26      = 9.095e-05
+ +41:29      = 9.095e-05 42:5       = 7.000e-01 42:8       = 7.000e-01
+ +42:13      = 7.000e-01 42:14      = 7.000e-01 42:25      = 7.000e-01
+ +42:30      = 7.000e-01 42:31      = 7.000e-01 42:37      = 7.000e-01
+ +42:39      = 7.000e-01 43:3       = 1.533e-04 43:17      = 1.533e-04
+ +43:18      = 1.533e-04 43:22      = 1.533e-04 43:26      = 1.533e-04
+ +44:5       = 3.522e-04 44:8       = 3.522e-04 44:13      = 3.522e-04
+ +44:14      = 3.522e-04 44:25      = 3.522e-04 44:30      = 3.522e-04
+ +44:31      = 3.522e-04 44:37      = 3.522e-04 44:39      = 3.522e-04
+ +45:3       = 3.390e-04 45:17      = 3.390e-04 45:18      = 3.390e-04
+ +45:22      = 3.390e-04 45:26      = 3.390e-04 45:29      = 3.390e-04
+ +46:5       = 3.222e-04 46:8       = 3.222e-04 46:13      = 3.222e-04
+ +46:14      = 3.222e-04 46:25      = 3.222e-04 46:30      = 3.222e-04
+ +46:31      = 3.222e-04 46:37      = 3.222e-04 46:39      = 3.222e-04
+ +47:3       = 3.090e-04 47:17      = 3.090e-04 47:18      = 3.090e-04
+ +47:22      = 3.090e-04 47:26      = 3.090e-04 48:5       = 2.686e-04
+ +48:8       = 2.686e-04 48:12      = 2.686e-04 48:13      = 2.685e-04
+ +48:14      = 2.686e-04 48:25      = 2.685e-04 48:30      = 2.686e-04
+ +48:31      = 2.686e-04 48:37      = 2.685e-04 48:39      = 2.685e-04
+ +49:3       = 2.551e-04 49:17      = 2.551e-04 49:18      = 2.551e-04
+ +49:22      = 2.551e-04 49:26      = 2.551e-04 49:29      = 2.551e-04
+ +50:7       = 6.894e-01 50:8       = 6.894e-01 50:11      = 6.894e-01
+ +50:30      = 6.888e-01 50:31      = 6.891e-01 50:59      = 6.894e-01
+ +50:61      = 6.894e-01 50:65      = 6.894e-01 50:67      = 6.897e-01
+ +50:82      = 6.907e-01 50:87      = 6.904e-01 51:1       = 6.999e-01
+ +51:5       = 6.999e-01 51:6       = 6.999e-01 51:17      = 6.999e-01
+ +51:28      = 6.999e-01 51:53      = 6.999e-01 51:55      = 6.999e-01
+ +51:57      = 6.999e-01 51:58      = 6.999e-01 51:60      = 6.999e-01
+ +51:64      = 6.999e-01 51:71      = 6.999e-01 52:140     = 8.752e-04
+ +52:143     = 8.777e-04 52:144     = 8.757e-04 52:145     = 8.782e-04
+ +52:149     = 8.788e-04 52:156     = 8.997e-04 52:158     = 9.002e-04
+ +52:164     = 8.752e-04 52:165     = 8.782e-04 52:168     = 9.031e-04
+ +52:220     = 3.035e-05 52:224     = 2.971e-05 52:225     = 2.687e-05
+ +52:229     = 2.623e-05 52:236     = 2.595e-06 52:238     = 1.988e-06
+ +52:248     = 3.238e-08 52:300     = 8.217e-05 52:303     = 8.499e-05
+ +52:304     = 8.281e-05 52:305     = 8.563e-05 52:309     = 8.627e-05
+ +52:318     = 1.103e-04 52:324     = 8.217e-05 52:325     = 8.563e-05
+ +52:328     = 1.135e-04 52:380     = 2.478e-04 52:383     = 2.479e-04
+ +52:384     = 2.479e-04 52:385     = 2.479e-04 52:389     = 2.479e-04
+ +52:398     = 2.481e-04 52:404     = 2.478e-04 52:405     = 2.479e-04
+ +52:408     = 2.482e-04 52:460     = 2.178e-04 52:464     = 2.178e-04
+ +52:465     = 2.179e-04 52:469     = 2.179e-04 52:478     = 2.181e-04
+ +52:488     = 2.182e-04 52:540     = 1.638e-04 52:544     = 1.638e-04
+ +52:545     = 1.638e-04 52:549     = 1.638e-04 52:558     = 1.641e-04
+ +52:568     = 1.641e-04 52:633     = 2.183e-04 52:638     = 2.183e-04
+ +52:639     = 2.183e-04 52:644     = 2.183e-04 52:645     = 2.183e-04
+ +52:648     = 2.183e-04 52:649     = 2.183e-04 52:650     = 2.183e-04
+ +52:654     = 2.183e-04 52:655     = 2.183e-04 52:660     = 2.183e-04
+ +52:661     = 2.183e-04 52:666     = 2.183e-04 52:667     = 2.183e-04
+ +52:671     = 2.183e-04 52:672     = 2.183e-04 52:673     = 2.183e-04
+ +52:676     = 2.182e-04 52:677     = 2.183e-04 52:678     = 2.182e-04
+ +52:683     = 2.183e-04 52:684     = 2.183e-04 52:685     = 2.183e-04
+ +52:686     = 2.183e-04 52:688     = 2.183e-04 52:689     = 2.183e-04
+ +52:690     = 2.182e-04 52:745     = 1.863e-04 52:750     = 1.863e-04
+ +52:751     = 1.863e-04 52:756     = 1.863e-04 52:757     = 1.863e-04
+ +52:760     = 1.863e-04 52:761     = 1.863e-04 52:762     = 1.863e-04
+ +52:766     = 1.863e-04 52:767     = 1.863e-04 52:772     = 1.863e-04
+ +52:773     = 1.863e-04 52:778     = 1.863e-04 52:779     = 1.863e-04
+ +52:784     = 1.863e-04 52:785     = 1.863e-04 52:789     = 1.863e-04
+ +52:790     = 1.863e-04 52:795     = 1.863e-04 52:796     = 1.863e-04
+ +52:797     = 1.863e-04 52:798     = 1.863e-04 52:856     = 2.657e-04
+ +52:857     = 2.649e-04 52:862     = 2.648e-04 52:863     = 2.628e-04
+ +52:868     = 2.627e-04 52:869     = 2.623e-04 52:872     = 2.622e-04
+ +52:873     = 2.623e-04 52:874     = 2.621e-04 52:878     = 2.621e-04
+ +52:879     = 2.617e-04 52:884     = 2.617e-04 52:885     = 2.613e-04
+ +52:890     = 2.613e-04 52:891     = 2.597e-04 52:895     = 2.596e-04
+ +52:896     = 2.597e-04 52:897     = 2.596e-04 52:900     = 2.570e-04
+ +52:901     = 2.589e-04 52:902     = 2.564e-04 52:907     = 2.628e-04
+ +52:909     = 2.621e-04 52:912     = 2.597e-04 52:913     = 2.595e-04
+ +52:914     = 2.564e-04 52:969     = 2.181e-04 52:974     = 2.181e-04
+ +52:975     = 2.180e-04 52:980     = 2.180e-04 52:981     = 2.180e-04
+ +52:984     = 2.180e-04 52:985     = 2.180e-04 52:986     = 2.180e-04
+ +52:990     = 2.180e-04 52:991     = 2.181e-04 52:996     = 2.181e-04
+ +52:997     = 2.181e-04 52:1002    = 2.181e-04 52:1003    = 2.180e-04
+ +52:1008    = 2.180e-04 52:1009    = 2.180e-04 52:1013    = 2.179e-04
+ +52:1014    = 2.179e-04 52:1019    = 2.180e-04 52:1021    = 2.180e-04
+ +52:1081    = 1.862e-04 52:1086    = 1.862e-04 52:1087    = 1.862e-04
+ +52:1092    = 1.862e-04 52:1093    = 1.862e-04 52:1096    = 1.862e-04
+ +52:1097    = 1.862e-04 52:1098    = 1.862e-04 52:1102    = 1.862e-04
+ +52:1103    = 1.862e-04 52:1108    = 1.862e-04 52:1109    = 1.862e-04
+ +52:1114    = 1.862e-04 52:1115    = 1.861e-04 52:1120    = 1.861e-04
+ +52:1121    = 1.861e-04 52:1125    = 1.861e-04 52:1126    = 1.861e-04
+ +52:1131    = 1.862e-04 52:1133    = 1.862e-04 52:1193    = 1.860e-04
+ +52:1198    = 1.860e-04 52:1199    = 1.860e-04 52:1204    = 1.860e-04
+ +52:1205    = 1.860e-04 52:1208    = 1.860e-04 52:1209    = 1.860e-04
+ +52:1210    = 1.860e-04 52:1214    = 1.860e-04 52:1215    = 1.860e-04
+ +52:1220    = 1.860e-04 52:1221    = 1.860e-04 52:1226    = 1.860e-04
+ +52:1227    = 1.860e-04 52:1231    = 1.860e-04 52:1232    = 1.860e-04
+ +52:1233    = 1.860e-04 52:1236    = 1.860e-04 52:1237    = 1.860e-04
+ +52:1238    = 1.860e-04 52:1243    = 1.860e-04 52:1245    = 1.860e-04
+ +52:1380    = 8.958e-04 52:1381    = 6.944e-06 52:1382    = 8.945e-04
+ +52:1383    = 8.487e-06 52:1384    = 3.099e-05 52:1385    = 2.182e-04
+ +52:1386    = 1.863e-04 52:1388    = 1.039e-04 52:1389    = 1.054e-04
+ +52:1390    = 1.109e-04 52:1391    = 2.558e-04 52:1392    = 2.179e-04
+ +52:1393    = 1.861e-04 52:1397    = 2.481e-04 52:1398    = 2.181e-04
+ +52:1399    = 2.481e-04 52:1400    = 2.181e-04 52:1401    = 2.481e-04
+ +52:1402    = 2.181e-04 52:1403    = 1.640e-04 52:1404    = 1.640e-04
+ +52:1405    = 1.641e-04 52:1407    = 2.183e-04 52:1408    = 1.863e-04
+ +52:1409    = 2.181e-04 52:1410    = 1.862e-04 52:1411    = 1.860e-04
+ +52:1412    = 9.515e-04 52:1415    = 2.183e-04 52:1418    = 9.515e-04
+ +52:1422    = 9.516e-04 52:1425    = 2.183e-04 52:1429    = 9.510e-04
+ +52:1431    = 2.183e-04 52:1432    = 9.448e-04 52:1435    = 9.441e-04
+ +52:1436    = 2.183e-04 52:1439    = 1.863e-04 52:1442    = 2.183e-04
+ +52:1443    = 2.183e-04 52:1446    = 2.183e-04 52:1449    = 1.863e-04
+ +52:1452    = 9.091e-04 52:1458    = 9.031e-04 52:1461    = 1.036e-08
+ +52:1464    = 9.025e-04 52:1465    = 4.821e-09 52:1472    = 8.487e-06
+ +52:1474    = 8.923e-04 52:1477    = 1.095e-05 52:1481    = 4.572e-05
+ +52:1484    = 2.646e-04 52:1488    = 4.636e-05 52:1489    = 2.646e-04
+ +52:1491    = 4.920e-05 52:1494    = 2.646e-04 52:1498    = 4.984e-05
+ +52:1500    = 2.646e-04 52:1503    = 6.087e-05 52:1506    = 6.370e-05
+ +52:1507    = 6.151e-05 52:1508    = 6.434e-05 52:1511    = 2.645e-04
+ +52:1514    = 2.181e-04 52:1517    = 1.862e-04 52:1520    = 6.498e-05
+ +52:1522    = 2.181e-04 52:1523    = 1.862e-04 52:1524    = 1.862e-04
+ +52:1525    = 2.657e-04 52:1528    = 2.181e-04 52:1531    = 1.862e-04
+ +52:1534    = 1.014e-04 52:1538    = 1.039e-04 52:1541    = 1.135e-04
+ +52:1545    = 1.141e-04 52:1546    = 1.190e-04 52:1557    = 2.475e-04
+ +52:1559    = 2.170e-04 52:1561    = 1.853e-04 52:1563    = 1.633e-04
+ +52:1565    = 1.633e-04 52:1568    = 2.477e-04 52:1569    = 2.177e-04
+ +52:1571    = 1.860e-04 52:1573    = 1.633e-04 52:1574    = 1.634e-04
+ +52:1577    = 1.860e-04 52:1581    = 1.634e-04 52:1583    = 1.860e-04
+ +52:1584    = 1.860e-04 52:1587    = 1.636e-04 52:1591    = 1.636e-04
+ +52:1592    = 1.636e-04 52:1595    = 1.636e-04 52:1596    = 2.481e-04
+ +52:1599    = 2.180e-04 52:1610    = 2.482e-04 52:1613    = 2.181e-04
+ +52:1620    = 1.640e-04 52:1624    = 1.640e-04 52:1627    = 1.641e-04
+ +52:1633    = 9.515e-04 52:1635    = 2.183e-04 52:1636    = 2.183e-04
+ +52:1640    = 8.923e-04 52:1641    = 1.095e-05 52:1646    = 2.646e-04
+ +52:1647    = 6.087e-05 52:1648    = 6.434e-05 52:1649    = 2.650e-04
+ +52:1650    = 2.646e-04 52:1652    = 1.862e-04 52:1653    = 2.658e-04
+ +52:1655    = 2.181e-04 52:1657    = 1.014e-04 52:1660    = 2.477e-04
+ +52:1661    = 2.177e-04 52:1662    = 1.860e-04 52:1665    = 1.634e-04
+ +52:1670    = 2.481e-04 52:1671    = 2.180e-04 52:1674    = 1.640e-04
+ +52:1677    = 5.782e-04 52:1678    = 8.722e-04 52:1682    = 2.659e-04
+ +53:137     = 6.999e-01 53:140     = 6.999e-01 53:141     = 6.999e-01
+ +53:142     = 6.999e-01 53:146     = 6.999e-01 53:147     = 6.999e-01
+ +53:152     = 6.999e-01 53:153     = 6.999e-01 53:158     = 6.999e-01
+ +53:159     = 6.999e-01 53:165     = 6.999e-01 53:166     = 6.999e-01
+ +53:172     = 6.999e-01 53:173     = 6.999e-01 53:174     = 6.999e-01
+ +53:177     = 6.999e-01 53:181     = 6.999e-01 53:184     = 6.999e-01
+ +53:233     = 7.000e-01 53:236     = 7.000e-01 53:237     = 7.000e-01
+ +53:238     = 7.000e-01 53:242     = 7.000e-01 53:243     = 7.000e-01
+ +53:248     = 7.000e-01 53:249     = 7.000e-01 53:254     = 7.000e-01
+ +53:255     = 7.000e-01 53:261     = 7.000e-01 53:262     = 7.000e-01
+ +53:268     = 7.000e-01 53:269     = 7.000e-01 53:270     = 7.000e-01
+ +53:273     = 7.000e-01 53:277     = 7.000e-01 53:280     = 7.000e-01
+ +53:329     = 7.000e-01 53:332     = 7.000e-01 53:333     = 7.000e-01
+ +53:334     = 7.000e-01 53:338     = 7.000e-01 53:339     = 7.000e-01
+ +53:344     = 7.000e-01 53:345     = 7.000e-01 53:350     = 7.000e-01
+ +53:351     = 7.000e-01 53:357     = 7.000e-01 53:358     = 7.000e-01
+ +53:364     = 7.000e-01 53:365     = 7.000e-01 53:366     = 7.000e-01
+ +53:369     = 7.000e-01 53:373     = 7.000e-01 53:376     = 7.000e-01
+ +53:425     = 6.999e-01 53:429     = 6.999e-01 53:430     = 6.999e-01
+ +53:434     = 6.999e-01 53:435     = 6.999e-01 53:440     = 6.999e-01
+ +53:441     = 6.999e-01 53:446     = 6.999e-01 53:447     = 6.999e-01
+ +53:453     = 6.999e-01 53:454     = 6.999e-01 53:465     = 6.999e-01
+ +53:469     = 6.999e-01 53:472     = 6.999e-01 53:521     = 6.999e-01
+ +53:525     = 6.999e-01 53:526     = 6.999e-01 53:530     = 6.999e-01
+ +53:531     = 6.999e-01 53:536     = 6.999e-01 53:537     = 6.999e-01
+ +53:542     = 6.999e-01 53:543     = 6.999e-01 53:549     = 6.999e-01
+ +53:550     = 6.999e-01 53:561     = 6.999e-01 53:565     = 6.999e-01
+ +53:568     = 6.999e-01 53:621     = 7.000e-01 53:624     = 7.000e-01
+ +53:625     = 7.000e-01 53:626     = 7.000e-01 53:630     = 7.000e-01
+ +53:631     = 7.000e-01 53:636     = 7.000e-01 53:637     = 7.000e-01
+ +53:642     = 7.000e-01 53:643     = 7.000e-01 53:649     = 7.000e-01
+ +53:650     = 7.000e-01 53:656     = 7.000e-01 53:657     = 7.000e-01
+ +53:658     = 7.000e-01 53:661     = 7.000e-01 53:665     = 7.000e-01
+ +53:668     = 7.000e-01 53:681     = 6.999e-01 53:682     = 6.999e-01
+ +53:685     = 6.999e-01 53:704     = 6.999e-01 53:764     = 6.999e-01
+ +53:769     = 6.999e-01 53:770     = 6.999e-01 53:775     = 6.999e-01
+ +53:776     = 6.999e-01 53:779     = 6.999e-01 53:780     = 6.999e-01
+ +53:781     = 6.999e-01 53:785     = 6.999e-01 53:786     = 6.999e-01
+ +53:791     = 6.999e-01 53:792     = 6.999e-01 53:799     = 6.999e-01
+ +53:804     = 6.999e-01 53:805     = 6.999e-01 53:808     = 6.999e-01
+ +53:860     = 6.999e-01 53:865     = 6.999e-01 53:866     = 6.999e-01
+ +53:871     = 6.999e-01 53:872     = 6.999e-01 53:876     = 6.999e-01
+ +53:877     = 6.999e-01 53:881     = 6.999e-01 53:882     = 6.999e-01
+ +53:887     = 6.999e-01 53:888     = 6.999e-01 53:895     = 6.999e-01
+ +53:901     = 6.999e-01 53:956     = 6.999e-01 53:961     = 6.999e-01
+ +53:962     = 6.999e-01 53:967     = 6.999e-01 53:968     = 6.999e-01
+ +53:971     = 6.999e-01 53:972     = 6.999e-01 53:973     = 6.999e-01
+ +53:977     = 6.999e-01 53:978     = 6.999e-01 53:983     = 6.999e-01
+ +53:984     = 6.999e-01 53:991     = 6.999e-01 53:995     = 6.999e-01
+ +53:996     = 6.999e-01 53:997     = 6.999e-01 53:1000    = 6.999e-01
+ +53:1052    = 6.999e-01 53:1057    = 6.999e-01 53:1058    = 6.999e-01
+ +53:1063    = 6.999e-01 53:1064    = 6.999e-01 53:1067    = 6.999e-01
+ +53:1068    = 6.999e-01 53:1069    = 6.999e-01 53:1073    = 6.999e-01
+ +53:1074    = 6.999e-01 53:1079    = 6.999e-01 53:1080    = 6.999e-01
+ +53:1087    = 6.999e-01 53:1091    = 6.999e-01 53:1092    = 6.999e-01
+ +53:1093    = 6.999e-01 53:1096    = 6.999e-01 53:1148    = 6.999e-01
+ +53:1153    = 6.999e-01 53:1154    = 6.999e-01 53:1158    = 6.999e-01
+ +53:1159    = 6.999e-01 53:1160    = 6.999e-01 53:1164    = 6.999e-01
+ +53:1165    = 6.999e-01 53:1169    = 6.999e-01 53:1170    = 6.999e-01
+ +53:1175    = 6.999e-01 53:1176    = 6.999e-01 53:1183    = 6.999e-01
+ +53:1192    = 6.999e-01 53:1193    = 6.999e-01 53:1230    = 6.999e-01
+ +53:1237    = 6.999e-01 53:1238    = 6.999e-01 53:1245    = 6.999e-01
+ +53:1250    = 6.999e-01 53:1274    = 6.999e-01 53:1275    = 6.999e-01
+ +53:1280    = 6.999e-01 53:1281    = 6.999e-01 53:1285    = 6.999e-01
+ +53:1286    = 6.999e-01 53:1287    = 6.999e-01 53:1291    = 6.999e-01
+ +53:1292    = 6.999e-01 53:1296    = 6.999e-01 53:1297    = 6.999e-01
+ +53:1302    = 6.999e-01 53:1303    = 6.999e-01 53:1310    = 6.999e-01
+ +53:1320    = 6.999e-01 53:1443    = 6.999e-01 53:1444    = 6.999e-01
+ +53:1446    = 6.999e-01 53:1447    = 6.999e-01 53:1448    = 6.999e-01
+ +53:1449    = 6.999e-01 53:1450    = 6.999e-01 53:1455    = 6.999e-01
+ +53:1457    = 6.999e-01 53:1463    = 6.999e-01 53:1476    = 6.999e-01
+ +53:1477    = 6.999e-01 53:1478    = 6.999e-01 53:1479    = 7.000e-01
+ +53:1482    = 6.999e-01 53:1483    = 6.999e-01 53:1486    = 6.999e-01
+ +53:1487    = 6.999e-01 53:1488    = 6.999e-01 53:1492    = 6.999e-01
+ +53:1493    = 6.999e-01 53:1494    = 6.999e-01 53:1500    = 6.999e-01
+ +53:1503    = 6.999e-01 53:1504    = 6.999e-01 53:1505    = 6.999e-01
+ +53:1506    = 6.999e-01 53:1507    = 6.999e-01 53:1508    = 6.999e-01
+ +53:1509    = 6.999e-01 53:1512    = 6.999e-01 53:1513    = 6.999e-01
+ +53:1514    = 6.999e-01 53:1515    = 6.999e-01 53:1518    = 6.999e-01
+ +53:1522    = 6.999e-01 53:1523    = 6.999e-01 53:1524    = 6.999e-01
+ +53:1525    = 6.999e-01 53:1528    = 6.999e-01 53:1532    = 6.999e-01
+ +53:1533    = 6.999e-01 53:1535    = 6.999e-01 53:1538    = 6.999e-01
+ +53:1540    = 6.999e-01 53:1542    = 7.000e-01 53:1543    = 6.999e-01
+ +53:1546    = 6.999e-01 53:1550    = 6.999e-01 53:1551    = 6.999e-01
+ +53:1552    = 6.999e-01 53:1553    = 6.999e-01 53:1556    = 6.999e-01
+ +53:1561    = 7.000e-01 53:1565    = 6.999e-01 53:1568    = 7.000e-01
+ +53:1571    = 6.999e-01 53:1572    = 7.000e-01 53:1579    = 6.999e-01
+ +53:1582    = 6.999e-01 53:1585    = 6.999e-01 53:1586    = 6.999e-01
+ +53:1587    = 7.000e-01 53:1590    = 6.999e-01 53:1593    = 7.000e-01
+ +53:1594    = 7.000e-01 53:1595    = 6.999e-01 53:1596    = 6.999e-01
+ +53:1599    = 7.000e-01 53:1602    = 6.999e-01 53:1605    = 6.999e-01
+ +53:1609    = 7.000e-01 53:1611    = 6.999e-01 53:1616    = 7.000e-01
+ +53:1619    = 7.000e-01 53:1620    = 7.000e-01 53:1621    = 7.000e-01
+ +53:1624    = 7.000e-01 53:1625    = 6.999e-01 53:1626    = 6.999e-01
+ +53:1627    = 6.999e-01 53:1629    = 6.999e-01 53:1631    = 6.999e-01
+ +53:1634    = 6.999e-01 53:1637    = 6.999e-01 53:1641    = 7.000e-01
+ +53:1645    = 7.000e-01 53:1646    = 7.000e-01 53:1652    = 7.000e-01
+ +53:1653    = 6.999e-01 53:1656    = 6.999e-01 53:1659    = 6.999e-01
+ +53:1662    = 6.999e-01 53:1663    = 6.999e-01 53:1664    = 6.999e-01
+ +53:1667    = 6.999e-01 53:1668    = 6.999e-01 53:1671    = 6.999e-01
+ +53:1674    = 6.999e-01 53:1681    = 7.000e-01 53:1682    = 7.000e-01
+ +53:1685    = 7.000e-01 53:1688    = 7.000e-01 53:1689    = 7.000e-01
+ +53:1690    = 7.000e-01 53:1693    = 6.999e-01 53:1697    = 7.000e-01
+ +53:1700    = 6.999e-01 53:1706    = 7.000e-01 53:1709    = 7.000e-01
+ +53:1710    = 7.000e-01 53:1711    = 7.000e-01 53:1714    = 7.000e-01
+ +53:1717    = 6.999e-01 53:1720    = 6.999e-01 53:1724    = 6.999e-01
+ +53:1726    = 6.999e-01 53:1727    = 6.999e-01 53:1729    = 6.999e-01
+ +53:1740    = 7.000e-01 53:1743    = 6.999e-01 53:1745    = 6.999e-01
+ +53:1756    = 6.999e-01 53:1759    = 6.999e-01 53:1763    = 6.999e-01
+ +53:1764    = 6.999e-01 53:1765    = 6.999e-01 53:1769    = 6.999e-01
+ +53:1770    = 6.999e-01 53:1773    = 6.999e-01 53:1774    = 6.999e-01
+ +53:1776    = 6.999e-01 53:1785    = 7.000e-01 53:1787    = 7.000e-01
+ +53:1788    = 6.999e-01 53:1789    = 6.999e-01 53:1791    = 7.000e-01
+ +53:1792    = 6.999e-01 53:1793    = 6.999e-01 53:1794    = 7.000e-01
+ +53:1795    = 6.999e-01 53:1796    = 6.999e-01 53:1797    = 6.999e-01
+ +53:1798    = 6.999e-01 53:1799    = 6.999e-01 53:1803    = 6.999e-01
+ +53:1807    = 6.999e-01 53:1810    = 7.000e-01 53:1812    = 7.000e-01
+ +53:1813    = 6.999e-01 53:1815    = 7.000e-01 53:1816    = 7.000e-01
+ +53:1821    = 6.999e-01 53:1827    = 6.999e-01 53:1830    = 6.999e-01
+ +53:1833    = 6.999e-01 53:1840    = 6.999e-01 53:1846    = 6.999e-01
+ +53:1848    = 6.999e-01 53:1854    = 6.999e-01 53:1859    = 6.999e-01
+ +54:1       = 2.463e-04 54:5       = 2.463e-04 54:6       = 2.463e-04
+ +54:17      = 2.462e-04 54:28      = 2.462e-04 54:53      = 2.462e-04
+ +54:55      = 2.462e-04 54:57      = 2.462e-04 54:58      = 2.462e-04
+ +54:60      = 2.462e-04 54:64      = 2.462e-04 54:71      = 2.461e-04
+ +55:1       = 2.152e-04 55:5       = 2.152e-04 55:6       = 2.152e-04
+ +55:17      = 2.151e-04 55:28      = 2.151e-04 55:53      = 2.152e-04
+ +55:55      = 2.151e-04 55:57      = 2.152e-04 55:58      = 2.151e-04
+ +55:60      = 2.152e-04 55:64      = 2.151e-04 55:71      = 2.150e-04
+ +56:7       = 6.998e-01 56:8       = 6.998e-01 56:11      = 6.998e-01
+ +56:30      = 6.998e-01 56:59      = 6.998e-01 56:60      = 6.998e-01
+ +56:61      = 6.998e-01 56:62      = 6.998e-01 56:66      = 6.998e-01
+ +56:68      = 6.998e-01 56:72      = 6.998e-01 56:84      = 6.998e-01
+ +56:88      = 6.998e-01 57:9       = 7.000e-01 57:13      = 7.000e-01
+ +57:14      = 7.000e-01 57:25      = 7.000e-01 57:53      = 7.000e-01
+ +57:55      = 7.000e-01 57:57      = 7.000e-01 57:58      = 7.000e-01
+ +57:60      = 7.000e-01 57:64      = 7.000e-01 57:71      = 7.000e-01
+ +57:75      = 7.000e-01 58:7       = 6.998e-01 58:8       = 6.998e-01
+ +58:11      = 6.998e-01 58:30      = 6.998e-01 58:36      = 6.998e-01
+ +58:59      = 6.998e-01 58:60      = 6.998e-01 58:61      = 6.998e-01
+ +58:62      = 6.998e-01 58:64      = 6.998e-01 58:73      = 6.998e-01
+ +58:80      = 6.998e-01 59:5       = 7.000e-01 59:8       = 7.000e-01
+ +59:14      = 7.000e-01 60:5       = 7.000e-01 60:8       = 7.000e-01
+ +60:14      = 7.000e-01 61:14      = 1.307e-02 61:18      = 1.307e-02
+ +61:19      = 1.307e-02 61:26      = 1.307e-02 61:45      = 1.307e-02
+ +61:46      = 1.307e-02 61:50      = 1.307e-02 61:53      = 1.280e-02
+ +61:56      = 1.307e-02 61:58      = 1.307e-02 61:75      = 1.307e-02
+ +61:76      = 1.307e-02 61:77      = 1.307e-02 61:78      = 1.253e-02
+ +61:82      = 1.280e-02 61:88      = 1.307e-02 61:92      = 1.220e-02
+ +61:95      = 1.220e-02 61:101     = 1.220e-02 61:105     = 1.246e-02
+ +62:15      = 2.472e-04 62:22      = 2.472e-04 62:23      = 2.473e-04
+ +62:30      = 2.473e-04 62:35      = 2.473e-04 62:47      = 2.474e-04
+ +62:48      = 2.471e-04 62:50      = 2.471e-04 62:58      = 2.471e-04
+ +62:62      = 2.469e-04 62:65      = 2.469e-04 62:71      = 2.469e-04
+ +62:75      = 2.470e-04 63:9       = 1.561e-04 63:13      = 1.561e-04
+ +63:19      = 1.561e-04 63:22      = 1.561e-04 63:29      = 1.561e-04
+ +64:9       = 7.000e-01 64:16      = 7.000e-01 64:17      = 7.000e-01
+ +64:24      = 7.000e-01 64:30      = 7.000e-01 64:31      = 7.000e-01
+ +64:39      = 7.000e-01 64:40      = 7.000e-01 64:41      = 7.000e-01
+ +64:42      = 7.000e-01 65:9       = 6.795e-01 65:13      = 6.795e-01
+ +65:19      = 6.795e-01 65:22      = 6.795e-01 65:27      = 6.795e-01
+ +65:33      = 6.795e-01 65:41      = 6.795e-01 65:48      = 6.795e-01
+ +65:49      = 6.795e-01 65:51      = 6.795e-01 65:57      = 6.795e-01
+ +65:63      = 6.795e-01 65:64      = 6.795e-01 65:67      = 6.795e-01
+ +65:72      = 6.795e-01 65:73      = 6.795e-01 65:80      = 6.795e-01
+ +65:81      = 6.795e-01 65:87      = 6.795e-01 65:89      = 6.795e-01
+ +66:1       = 7.000e-01 66:7       = 7.000e-01 66:15      = 7.000e-01
+ +66:22      = 7.000e-01 66:23      = 7.000e-01 66:25      = 7.000e-01
+ +66:31      = 7.000e-01 67:1       = 7.000e-01 67:7       = 7.000e-01
+ +67:15      = 7.000e-01 67:22      = 7.000e-01 67:23      = 7.000e-01
+ +67:25      = 7.000e-01 67:31      = 7.000e-01 68:7       = 7.000e-01
+ +68:8       = 7.000e-01 68:11      = 7.000e-01 68:25      = 7.000e-01
+ +68:26      = 7.000e-01 68:30      = 7.000e-01 68:31      = 7.000e-01
+ +68:49      = 7.000e-01 68:51      = 7.000e-01 68:55      = 7.000e-01
+ +69:8       = 7.000e-01 69:12      = 7.000e-01 69:13      = 7.000e-01
+ +69:20      = 7.000e-01 69:31      = 7.000e-01 69:32      = 7.000e-01
+ +69:38      = 7.000e-01 69:39      = 7.000e-01 69:40      = 7.000e-01
+ +69:44      = 7.000e-01 69:50      = 7.000e-01 69:52      = 7.000e-01
+ +69:67      = 7.000e-01 69:68      = 7.000e-01 69:69      = 7.000e-01
+ +69:70      = 7.000e-01 69:76      = 7.000e-01 70:9       = 7.000e-01
+ +70:13      = 7.000e-01 70:14      = 7.000e-01 70:25      = 7.000e-01
+ +70:53      = 7.000e-01 70:55      = 7.000e-01 70:56      = 7.000e-01
+ +70:58      = 7.000e-01 70:63      = 7.000e-01 70:65      = 7.000e-01
+ +70:66      = 7.000e-01 70:69      = 7.000e-01 70:72      = 7.000e-01
+ +71:5       = 7.000e-01 71:8       = 7.000e-01 71:14      = 7.000e-01
+ +72:5       = 7.000e-01 72:8       = 7.000e-01 72:14      = 7.000e-01
+ +73:11      = 7.565e-05 73:14      = 7.565e-05 73:18      = 7.565e-05
+ +73:20      = 7.565e-05 73:26      = 7.563e-05 73:29      = 7.563e-05
+ +73:32      = 7.563e-05 74:15      = 2.935e-04 74:22      = 2.935e-04
+ +74:23      = 2.936e-04 74:30      = 2.936e-04 74:47      = 2.937e-04
+ +74:48      = 2.934e-04 74:50      = 2.933e-04 74:58      = 2.934e-04
+ +74:62      = 2.932e-04 74:65      = 2.932e-04 74:71      = 2.932e-04
+ +74:75      = 2.932e-04 75:8       = 6.998e-01 75:12      = 6.998e-01
+ +75:13      = 6.998e-01 75:20      = 6.998e-01 75:38      = 6.998e-01
+ +75:39      = 6.998e-01 75:40      = 6.998e-01 75:44      = 6.998e-01
+ +75:50      = 6.998e-01 75:52      = 6.998e-01 75:77      = 6.999e-01
+ +75:78      = 6.999e-01 75:82      = 6.998e-01 75:85      = 6.998e-01
+ +75:90      = 6.999e-01 75:93      = 6.999e-01 75:97      = 6.999e-01
+ +75:98      = 6.999e-01 75:111     = 6.999e-01 77:9       = 1.110e-04
+ +77:13      = 1.110e-04 77:14      = 1.110e-04 77:25      = 1.112e-04
+ +77:52      = 1.111e-04 77:54      = 1.112e-04 77:55      = 1.110e-04
+ +77:56      = 1.110e-04 77:57      = 1.111e-04 77:59      = 1.112e-04
+ +77:63      = 1.110e-04 77:67      = 1.109e-04 77:70      = 1.109e-04
+ +77:73      = 1.109e-04 78:9       = 7.000e-01 78:16      = 7.000e-01
+ +78:17      = 7.000e-01 78:24      = 7.000e-01 78:28      = 7.000e-01
+ +78:29      = 7.000e-01 78:30      = 7.000e-01 78:31      = 7.000e-01
+ +78:39      = 7.000e-01 78:40      = 7.000e-01 78:41      = 7.000e-01
+ +78:42      = 7.000e-01 79:15      = 1.930e-04 79:22      = 1.930e-04
+ +79:23      = 1.929e-04 79:30      = 1.929e-04 79:47      = 1.930e-04
+ +79:48      = 1.930e-04 79:49      = 1.927e-04 79:50      = 1.930e-04
+ +79:54      = 1.926e-04 79:59      = 1.924e-04 79:67      = 1.922e-04
+ +79:70      = 1.922e-04 80:9       = 2.463e-04 80:15      = 2.463e-04
+ +80:23      = 2.463e-04 80:30      = 2.463e-04 80:31      = 2.462e-04
+ +80:33      = 2.463e-04 80:39      = 2.463e-04 80:44      = 2.462e-04
+ +80:47      = 2.462e-04 80:51      = 2.462e-04 80:52      = 2.462e-04
+ +80:59      = 2.462e-04 80:61      = 2.462e-04 81:9       = 9.023e-04
+ +81:15      = 9.023e-04 81:23      = 9.023e-04 81:30      = 9.023e-04
+ +81:31      = 9.023e-04 81:33      = 9.023e-04 81:39      = 9.023e-04
+ +81:44      = 9.023e-04 81:47      = 9.023e-04 81:51      = 9.023e-04
+ +81:52      = 9.023e-04 81:55      = 9.023e-04 81:59      = 9.023e-04
+ +81:61      = 9.023e-04 82:13      = 2.315e-04 82:14      = 2.315e-04
+ +82:17      = 2.315e-04 82:36      = 2.323e-04 82:37      = 2.314e-04
+ +82:58      = 2.314e-04 82:59      = 2.314e-04 82:60      = 2.314e-04
+ +82:62      = 2.314e-04 82:74      = 2.299e-04 82:77      = 2.299e-04
+ +84:9       = 6.998e-01 84:13      = 6.998e-01 84:19      = 6.998e-01
+ +84:22      = 6.998e-01 84:34      = 6.998e-01 84:38      = 6.998e-01
+ +84:39      = 6.998e-01 84:46      = 6.998e-01 84:64      = 6.998e-01
+ +84:65      = 6.998e-01 84:66      = 6.998e-01 84:70      = 6.998e-01
+ +84:73      = 6.998e-01 84:76      = 6.998e-01 84:78      = 6.998e-01
+ +84:95      = 6.998e-01 84:96      = 6.998e-01 84:102     = 6.998e-01
+ +84:105     = 6.998e-01 84:108     = 6.998e-01 84:110     = 6.998e-01
+ +84:114     = 6.998e-01 84:117     = 6.998e-01 84:122     = 6.998e-01
+ +85:8       = 6.998e-01 85:12      = 6.998e-01 85:13      = 6.998e-01
+ +85:20      = 6.998e-01 85:39      = 6.998e-01 85:40      = 6.998e-01
+ +85:44      = 6.998e-01 85:47      = 6.998e-01 85:50      = 6.998e-01
+ +85:52      = 6.998e-01 85:77      = 6.998e-01 85:78      = 6.998e-01
+ +85:80      = 6.999e-01 85:86      = 6.998e-01 85:88      = 6.998e-01
+ +85:89      = 6.998e-01 85:96      = 6.999e-01 85:99      = 6.999e-01
+ +85:108     = 6.999e-01 86:8       = 6.999e-01 86:12      = 6.999e-01
+ +86:13      = 6.999e-01 86:20      = 6.999e-01 86:38      = 6.999e-01
+ +86:39      = 6.999e-01 86:40      = 6.999e-01 86:44      = 6.999e-01
+ +86:47      = 6.999e-01 86:50      = 6.999e-01 86:52      = 6.999e-01
+ +86:77      = 6.999e-01 86:78      = 6.999e-01 86:80      = 6.999e-01
+ +86:86      = 6.999e-01 86:88      = 6.999e-01 86:89      = 6.999e-01
+ +86:96      = 6.999e-01 86:99      = 6.999e-01 86:108     = 6.999e-01
+ +87:9       = 2.135e-04 87:15      = 2.136e-04 87:23      = 2.136e-04
+ +87:30      = 2.136e-04 87:31      = 2.135e-04 87:33      = 2.135e-04
+ +87:39      = 2.136e-04 87:44      = 2.134e-04 87:48      = 2.133e-04
+ +87:51      = 2.133e-04 87:56      = 2.133e-04 87:57      = 2.134e-04
+ +87:63      = 2.135e-04 87:66      = 2.135e-04 87:68      = 2.135e-04
+ +88:5       = 7.000e-01 88:8       = 7.000e-01 88:13      = 7.000e-01
+ +88:14      = 7.000e-01 89:5       = 7.000e-01 89:8       = 7.000e-01
+ +89:13      = 7.000e-01 89:14      = 7.000e-01 90:9       = 4.041e-04
+ +90:13      = 4.041e-04 90:19      = 4.042e-04 90:22      = 4.042e-04
+ +90:29      = 4.041e-04 91:9       = 3.741e-04 91:13      = 3.741e-04
+ +91:19      = 3.741e-04 91:22      = 3.741e-04 91:29      = 3.741e-04
+ +92:9       = 3.202e-04 92:13      = 3.202e-04 92:19      = 3.202e-04
+ +92:22      = 3.202e-04 92:29      = 3.202e-04
+
+ ******
+ * partial product adder
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+ avg_power= 2.1082e-05  from= 0.0000e+00     to= 1.2800e-07
+
+          ***** job concluded
+ ******  
+ * partial product adder
+
+ ****** job statistics summary tnom=  25.000 temp=  25.000 ******
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) CPU E7-4820 v3 @ 1.90GHz
+ cpu MHz	: 1895.432
+  
+ OS:
+ Linux version 3.10.0-1160.24.1.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Thu Apr 8 19:51:47 UTC 2021
+
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :     4
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =    4166 # elements   =    8898
+  # resistors   =    3032 # capacitors =    5592 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =      12
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       8
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =     254 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.87           1         111
+  transient         51.37      128001       17683        6375 rev=       176
+  readin             0.35
+  errchk             0.10
+  setup              0.23
+  output             0.00
+
+
+           peak memory used        300.55 megabytes
+           total cpu time           52.89 seconds
+           total elapsed time       51.73 seconds
+           job started at     00:55:50 11/30/2024
+           job ended   at     00:56:42 11/30/2024
+
+
+ lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.05(s)

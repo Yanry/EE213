@@ -1,0 +1,10 @@
+CADENCE IHNL11140
+$model
+MyLibPDK15/myInverter/schematic myInverter
+$endmodel
+$net
+gnd! gnd!
+vdd! vdd!
+$endnet
+$param
+$endparam

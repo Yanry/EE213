@@ -1,0 +1,17 @@
+( ( net
+( "OUT" "out" )
+( "vdd!" "vdd!" )
+( "IN" "in" )
+( "gnd!" "0" )
+ )
+( inst
+( "V0" "v0" )
+( "C0" "c0" )
+( "V1" "v1" )
+( "I0" "xi0" )
+ )
+( model
+( "myInverter" "myInverter_schematic" )
+( "myInverterTestBench" "myInverterTestBench_schematic" )
+ )
+ )

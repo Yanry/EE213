@@ -1,0 +1,38 @@
+                  ##################################################
+                  ##                                              ##
+                  ##                 Calibre xRC                  ##
+                  ##                                              ##
+                  ##          Export Lumped Parameters            ##
+                  ##                                              ##
+                  ##################################################
+ 
+ 
+ 
+LAYOUT NAME:              myNAND
+RULE FILE NAME:           rules
+CREATION TIME:            Tue Nov 26 18:16:58 2024
+ 
+UNITS:                    Resistance  = ohm
+                          Capacitance = farad
+                          Time        = ns
+ 
+ 
+---------------------------------------------------------------------------------
+CELL NAME:                myNAND
+ 
+Netid      R(UpperBound)      Cvalue      %Coupled    RC(UpperBound)   Netname
+---------+---------------+-------------+-------------+--------------+------------
+11                    0.0   9.07291e-16             0            0.0  noxref_11
+            - Coupled nets
+            - Intrinsic Capacitance
+               9.07291e-16
+            - Coupled capacitance
+
+
+14                    0.0    1.0178e-15             0            0.0  noxref_14
+            - Coupled nets
+            - Intrinsic Capacitance
+               1.0178e-15
+            - Coupled capacitance
+
+

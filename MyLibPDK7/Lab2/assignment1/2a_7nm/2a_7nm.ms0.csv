@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='O-2018.09-SP1-1 linux64' PARAM_COUNT=1
+$OPTION MEASFORM=3
+.TITLE '** generated for: hspiced'
+vds,k,idm,vgsm,vt,temper,alter#
+ 1.000e-01, 1.323e-04, 1.941e-05, 4.410e-01, 2.943e-01, 2.500e+01,1
+ 7.000e-01, 2.161e-04, 8.199e-05, 7.000e-01, 3.205e-01, 2.500e+01,1

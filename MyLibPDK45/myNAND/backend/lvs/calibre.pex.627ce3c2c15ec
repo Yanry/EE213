@@ -1,0 +1,165 @@
+//  Calibre v2016.4_38.25    Tue Jan 3 14:54:06 PST 2017
+//  Calibre Utility Library   v0-2_8-2016-2    Tue Feb 9 23:45:01 PST 2016
+//  Litho Libraries v2016.4_38.25  Tue Jan 3 14:54:06 PST 2017
+//
+//        Copyright Mentor Graphics Corporation 1996-2017
+//                       All Rights Reserved.
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under x86-64 Linux
+//
+//   This software is in pre-production form and is considered to be 
+//   beta code that is subject to the terms of the current Mentor 
+//   Graphics End-User License Agreement or your signed agreement 
+//   with Mentor Graphics that contains beta terms, whichever applies.
+// 
+//  Running on Linux 2024-szjcdl53 3.10.0-1160.24.1.el7.x86_64 #1 SMP Thu Apr 8 19:51:47 UTC 2021 x86_64 glibc 2.17/NPTL 2.17
+//
+//  Entries in /proc/meminfo:
+//
+//  MemTotal:        8008972 kB
+//  MemFree:         3913524 kB
+//  MemAvailable:    4894116 kB
+//  Buffers:               0 kB
+//  Cached:          1220300 kB
+//  SwapCached:          348 kB
+//  Active:          2459160 kB
+//  Inactive:        1121404 kB
+//  Active(anon):    1774336 kB
+//  Inactive(anon):   658916 kB
+//  Active(file):     684824 kB
+//  Inactive(file):   462488 kB
+//  Unevictable:           0 kB
+//  Mlocked:               0 kB
+//  SwapTotal:       4063228 kB
+//  SwapFree:        4058612 kB
+//  Dirty:                56 kB
+//  Writeback:             0 kB
+//  AnonPages:       2359892 kB
+//  Mapped:           348416 kB
+//  Shmem:             73252 kB
+//  Slab:             151360 kB
+//  SReclaimable:     109432 kB
+//  SUnreclaim:        41928 kB
+//  KernelStack:        7344 kB
+//  PageTables:        32176 kB
+//  NFS_Unstable:          0 kB
+//  Bounce:                0 kB
+//  WritebackTmp:          0 kB
+//  CommitLimit:     8067712 kB
+//  Committed_AS:    4762908 kB
+//  VmallocTotal:   34359738367 kB
+//  VmallocUsed:      157644 kB
+//  VmallocChunk:   34359341052 kB
+//  Percpu:             1184 kB
+//  HardwareCorrupted:     0 kB
+//  AnonHugePages:   1234944 kB
+//  CmaTotal:              0 kB
+//  CmaFree:               0 kB
+//  HugePages_Total:       0
+//  HugePages_Free:        0
+//  HugePages_Rsvd:        0
+//  HugePages_Surp:        0
+//  Hugepagesize:       2048 kB
+//  DirectMap4k:      143232 kB
+//  DirectMap2M:     5099520 kB
+//  DirectMap1G:     5242880 kB
+//
+//  User limits:
+//
+//  Data size: unlimited
+//  RSS: unlimited
+//  Stack size: 8388608 kB
+//  Max user processes: 4096
+//  VM: unlimited
+//
+//  Processor Intel(R) Xeon(R) CPU E7-4820 v3 @ 1.90GHz [063f4] (4th generation)
+//  CPU Info: Cores = 4
+//  Max file descriptors: 4096
+//  64 bit virtual addressing enabled
+//  Running aoi_cal_2016.4_38.25/pkgs/icv/pvt/calibre -lvs -hier -spice /home/centos/EE213/MyLibPDK45/myNAND/backend/lvs/svdb/myNAND.sp -nowait -turbo /home/centos/EE213/MyLibPDK45/myNAND/backend/lvs/_calibrePEX.rul_
+//  Process ID: 5433
+//
+//  Starting time: Tue Nov 26 18:23:07 2024
+//
+//  Running on 4 CPUs (pending licensing) 
+//
+//  LITHO operations available for use on 4 CPUs (pending licensing)
+//
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+-----          STANDARD VERIFICATION RULE FILE COMPILATION MODULE          -----
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+--- RULE FILE = /home/centos/EE213/MyLibPDK45/myNAND/backend/lvs/_calibrePEX.rul_
+
+SVRF MESSAGE on line 1293 of $PDK15_Dir/calibre/mipt/rules.C - Indie Mode is ON
+
+//
+//  Rule file generated on Tue Nov 26 18:23:04 CST 2024
+//     by Calibre Interactive - PEX (v2016.4_38.25)
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+PRECISION 1000
+LAYOUT INPUT EXCEPTION SEVERITY PRECISION_RULE_FILE 1
+LAYOUT PATH  "myNAND.calibre.db"
+LAYOUT PRIMARY "myNAND"
+LAYOUT SYSTEM GDSII
+
+SOURCE PATH "/home/centos/EE213/MyLibPDK45/myNAND/backend/lvs/myNAND.src.net"
+SOURCE PRIMARY "myNAND"
+SOURCE SYSTEM SPICE
+
+MASK SVDB DIRECTORY "svdb" QUERY XRC
+
+LVS REPORT "myNAND.lvs.report"
+
+PEX NETLIST "myNAND.pex.netlist" HSPICE 1 SOURCENAMES 
+PEX REPORT "myNAND.pex.report" SOURCENAMES
+PEX REDUCE ANALOG NO
+PEX NETLIST UPPERCASE KEYWORDS NO
+PEX NETLIST VIRTUAL CONNECT NO
+PEX NETLIST NOXREF NET NAMES YES
+PEX NETLIST MUTUAL RESISTANCE YES
+LVS REPORT OPTION NONE
+LVS FILTER UNUSED OPTION NONE SOURCE
+LVS FILTER UNUSED OPTION NONE LAYOUT
+
+LVS RECOGNIZE GATES ALL
+
+
+
+VIRTUAL CONNECT COLON NO
+VIRTUAL CONNECT REPORT NO
+
+DRC ICSTATION YES
+
+
+LAYOUT CASE YES
+SOURCE CASE YES
+
+
+INCLUDE "/home/centos/PDK/FreePDK15/calibre/calibrePEX.rul"
+
+
+
+--- STANDARD VERIFICATION RULE FILE COMPILATION MODULE COMPLETED.  CPU TIME = 19  REAL TIME = 21  LVHEAP = 188/190/1470
+
+--- CALIBRE_* ENVIRONMENT VARIABLES:
+
+CALIBRE_2013_4_ALLOW_IXL_ON_RHEL6=101010
+CALIBRE_CMD_LINE='/home/tools/mentor/calibre/aoi_cal_2016.4_38.25/aoi_cal_2016.4_38.25/pkgs/icv/pvt/calibre  -lvs -hier -spice /home/centos/EE213/MyLibPDK45/myNAND/backend/lvs/svdb/myNAND.sp -nowait -turbo /home/centos/EE213/MyLibPDK45/myNAND/backend/lvs/_calibrePEX.rul_'
+CALIBRE_HOME=/home/tools/mentor/calibre/aoi_cal_2016.4_38.25/aoi_cal_2016.4_38.25
+CALIBRE_INITIAL_CMD_LINE='/home/tools/mentor/calibre/aoi_cal_2016.4_38.25/aoi_cal_2016.4_38.25/bin/calibre -lvs -hier -spice /home/centos/EE213/MyLibPDK45/myNAND/backend/lvs/svdb/myNAND.sp -nowait -turbo /home/centos/EE213/MyLibPDK45/myNAND/backend/lvs/_calibrePEX.rul_'
+CALIBRE_READDB_LD_LIBRARY_PATH=/home/tools/mentor/calibre/aoi_cal_2016.4_38.25/aoi_cal_2016.4_38.25/shared/pkgs/icv/tools/calibre_client/lib/64:/home/tools/mentor/calibre/aoi_cal_2016.4_38.25/aoi_cal_2016.4_38.25/pkgs/calibre_base/lib64:/home/tools/mentor/calibre/aoi_cal_2016.4_38.25/aoi_cal_2016.4_38.25/pkgs/icv_lib/lib64:/home/tools/mentor/calibre/aoi_cal_2016.4_38.25/aoi_cal_2016.4_38.25/pkgs/icv_qt_comp/plugins:/home/tools/mentor/calibre/aoi_cal_2016.4_38.25/aoi_cal_2016.4_38.25/pkgs/umc_libs/lib/lnx32:/home/tools/mentor/calibre/aoi_cal_2016.4_38.25/aoi_cal_2016.4_38.25/shared/pkgs/icv_oa/22.41.004/lib/linux_rhel40_gcc44x_64/opt:/home/tools/cadence/IC618/tools/lib/64bit:/home/tools/cadence/IC618/tools/lib:/home/tools/cadence/IC618/oa_v22.60.007/lib/linux_rhel60_64/opt:/home/tools/cadence/IC618/tools/dfII/lib/64bit:/home/tools/cadence/IC618/tools/sev/lib/64bit:/home/tools/cadence/IC618/tools/hdf5/lib/64bit:/home/tools/cadence/IC618/tools/lz4/lib/64bit:/home/tools/cadence/IC618/tools/inca/lib/64bit:/home/tools/cadence/IC618/tools/Qt/v5/64bit/lib
+CALIBRE_SKIP_OS_CHECKS=
+CALIBRE_SSE3_SUPPORTED=1
+
+--- CALIBRE::HIERARCHICAL CIRCUIT EXTRACTOR - Tue Nov 26 18:23:27 2024

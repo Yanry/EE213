@@ -1,0 +1,7 @@
+       1 xi0.
+       2 xi0.x_pm_myxor%b.
+       3 xi0.x_pm_myxor%gnd!.
+       4 xi0.x_pm_myxor%vdd!.
+       5 xi0.x_pm_myxor%a.
+       6 xi0.x_pm_myxor%bbar.
+       7 xi0.x_pm_myxor%z.

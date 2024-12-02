@@ -1,0 +1,15 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "myNAND"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/home/centos/EE213/MyLibPDK45/myInverter45/backend"
+ )
+( model
+( "MyLibPDK45/myNAND/schematic" "myNAND" )
+ )
+( "myNAND" "ihnl/cds0/map" )
+ )

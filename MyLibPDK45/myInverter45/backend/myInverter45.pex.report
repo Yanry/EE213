@@ -1,0 +1,100 @@
+                  ##################################################
+                  ##                                              ##
+                  ##                 Calibre xRC                  ##
+                  ##                                              ##
+                  ##          Export Lumped Parameters            ##
+                  ##                                              ##
+                  ##################################################
+ 
+ 
+ 
+LAYOUT NAME:              MYINVERTER45
+RULE FILE NAME:           rules
+CREATION TIME:            Mon Sep 30 15:31:07 2024
+ 
+UNITS:                    Resistance  = ohm
+                          Capacitance = farad
+                          Time        = ns
+ 
+ 
+---------------------------------------------------------------------------------
+CELL NAME:                MYINVERTER45
+ 
+Netid      R(UpperBound)      Cvalue      %Coupled    RC(UpperBound)   Netname
+---------+---------------+-------------+-------------+--------------+------------
+1                     0.0   1.41954e-16       47.1647            0.0  IN
+            - Coupled nets
+               N_GND!_MM0_s,N_GND!_MM0_s,N_GND!_MM0_s,N_GND!_MM0_b,GND!,GND!,GND!,N_VDD!_MM1_s,N_VDD!_MM1_s,N_VDD!_MM1_s,N_VDD!_MM1_b,VDD!,VDD!,VDD!,N_OUT_MM0_d,N_OUT_MM0_d
+            - Intrinsic Capacitance
+               7.50019e-17
+            - Coupled capacitance
+               3.86536e-18   netid: N_GND!_MM0_s
+               8.71955e-19   netid: N_GND!_MM0_s
+               4.91226e-18   netid: N_GND!_MM0_s
+               5.10706e-18   netid: N_GND!_MM0_b
+               1.49294e-18   netid: GND!
+                3.1261e-19   netid: GND!
+               8.70525e-19   netid: GND!
+               6.37175e-18   netid: N_VDD!_MM1_s
+               9.06876e-19   netid: N_VDD!_MM1_s
+               5.89676e-18   netid: N_VDD!_MM1_s
+               6.06566e-18   netid: N_VDD!_MM1_b
+                 1.556e-18   netid: VDD!
+               2.67713e-19   netid: VDD!
+                6.9911e-19   netid: VDD!
+               1.38428e-17   netid: N_OUT_MM0_d
+               1.39127e-17   netid: N_OUT_MM0_d
+
+
+2                     0.0   8.40903e-17       45.7553            0.0  GND!
+            - Coupled nets
+               N_IN_MM0_g,N_IN_c_2_p,N_IN_c_3_p,N_IN_c_3_p,N_IN_MM0_g,N_IN_c_2_p,N_IN_c_3_p,N_VDD!_c_35_n,VDD!,N_OUT_MM0_d,N_OUT_MM0_d
+            - Intrinsic Capacitance
+               4.56145e-17
+            - Coupled capacitance
+               3.86536e-18   netid: N_IN_MM0_g
+               8.71955e-19   netid: N_IN_c_2_p
+               4.91226e-18   netid: N_IN_c_3_p
+               5.10706e-18   netid: N_IN_c_3_p
+               1.49294e-18   netid: N_IN_MM0_g
+                3.1261e-19   netid: N_IN_c_2_p
+               8.70525e-19   netid: N_IN_c_3_p
+                3.6463e-19   netid: N_VDD!_c_35_n
+               7.85358e-19   netid: VDD!
+               8.65175e-18   netid: N_OUT_MM0_d
+               1.12414e-17   netid: N_OUT_MM0_d
+
+
+3                     0.0    8.7647e-17       41.1993            0.0  VDD!
+            - Coupled nets
+               N_IN_MM1_g,N_IN_c_2_p,N_IN_c_3_p,N_IN_c_3_p,N_IN_MM1_g,N_IN_c_2_p,N_IN_c_3_p,N_GND!_c_24_p,GND!,N_OUT_MM0_d,N_OUT_MM0_d
+            - Intrinsic Capacitance
+               5.1537e-17
+            - Coupled capacitance
+               6.37175e-18   netid: N_IN_MM1_g
+               9.06876e-19   netid: N_IN_c_2_p
+               5.89676e-18   netid: N_IN_c_3_p
+               6.06566e-18   netid: N_IN_c_3_p
+                 1.556e-18   netid: N_IN_MM1_g
+               2.67713e-19   netid: N_IN_c_2_p
+                6.9911e-19   netid: N_IN_c_3_p
+                3.6463e-19   netid: N_GND!_c_24_p
+               7.85358e-19   netid: GND!
+               8.65175e-18   netid: N_OUT_MM0_d
+               4.54434e-18   netid: N_OUT_MM0_d
+
+
+4                     0.0   9.01529e-17       67.4906            0.0  OUT
+            - Coupled nets
+               N_IN_MM0_g,N_IN_c_3_p,N_GND!_MM0_s,GND!,N_VDD!_MM1_s,VDD!
+            - Intrinsic Capacitance
+               2.93082e-17
+            - Coupled capacitance
+               1.38428e-17   netid: N_IN_MM0_g
+               1.39127e-17   netid: N_IN_c_3_p
+               8.65175e-18   netid: N_GND!_MM0_s
+               1.12414e-17   netid: GND!
+               8.65175e-18   netid: N_VDD!_MM1_s
+               4.54434e-18   netid: VDD!
+
+

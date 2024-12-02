@@ -1,0 +1,13 @@
+
+
+.PROBE TRAN
++    V(out)
++    V(in)
+.TRAN 100e-15 500e-12 START=0.0
+
+.TEMP 25.0
+.OPTION
++    ARTIST=2
++    INGOLD=2
++    PARHIER=LOCAL
++    PSF=2

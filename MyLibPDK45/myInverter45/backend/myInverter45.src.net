@@ -1,0 +1,32 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  MyLibPDK45
+* Top Cell Name: myInverter45
+* View Name:     schematic
+* Netlisted on:  Sep 30 15:31:02 2024
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL vdd!
++        gnd!
+
+*.PIN vdd!
+*+    gnd!
+
+************************************************************************
+* Library Name: MyLibPDK45
+* Cell Name:    myInverter45
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT myInverter45 in out
+*.PININFO in:I out:O
+MM0 out in gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM1 out in vdd! vdd! PMOS_VTL W=180n L=50n m=1
+.ENDS
+

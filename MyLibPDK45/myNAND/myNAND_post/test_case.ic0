@@ -1,0 +1,56 @@
+* "simulator" "HSPICE" 
+* "version" "O-2018.09-SP1-1 linux64"
+* "format" "HSP"
+* "rundate" "01:59:39 11/27/2024 "
+* "netlist" "myNAND_delay.sp "
+* "runtitle" "*adder"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =   0.            
++ b =   0.            
++ vdd! = 700.0000m       
++ z = 699.9974m       
++ xi0.n_a_c_2_p =  18.3377n       
++ xi0.n_a_c_3_p =  65.2942p       
++ xi0.n_a_c_9_p =  18.4810n       
++ xi0.n_a_mm0_g =  18.4823n       
++ xi0.n_a_mm3_g =  25.6857n       
++ xi0.n_b_c_33_n =  19.4914n       
++ xi0.n_b_mm1_g =  22.0006n       
++ xi0.n_b_mm2_g =  27.5214n       
++ xi0.n_gnd!_c_20_n = 552.5424p       
++ xi0.n_gnd!_c_29_p = 346.2834f       
++ xi0.n_gnd!_mm0_b =   1.1381p       
++ xi0.n_gnd!_mm0_s =   1.9868n       
++ xi0.n_vdd!_c_66_n = 700.0000m       
++ xi0.n_vdd!_c_68_n = 700.0000m       
++ xi0.n_vdd!_mm2_s = 700.0000m       
++ xi0.n_vdd!_mm3_b = 700.0000m       
++ xi0.n_vdd!_mm3_s = 700.0000m       
++ xi0.n_z_c_49_n = 699.9974m       
++ xi0.n_z_c_56_n = 699.9973m       
++ xi0.n_z_mm1_d = 699.9973m       
++ xi0.n_z_mm3_d = 699.9974m       
++ xi0.net013 =  44.8585m       
++ xi0.x_pm_mynand%a.1 =  18.4812n       
++ xi0.x_pm_mynand%a.5 =  19.7565n       
++ xi0.x_pm_mynand%a.16 =  17.5500n       
++ xi0.x_pm_mynand%gnd!.5 = 514.2640f       
++ xi0.x_pm_mynand%gnd!.10 = 254.5726p       
++ xi0.x_pm_mynand%gnd!.14 = 610.9788p       
++ xi0.x_pm_mynand%b.1 =  21.0120n       
++ xi0.x_pm_mynand%b.5 =  21.5922n       
++ xi0.x_pm_mynand%b.10 =  75.2433p       
++ xi0.x_pm_mynand%b.16 =  20.9398n       
++ xi0.x_pm_mynand%z.3 = 699.9974m       
++ xi0.x_pm_mynand%z.11 = 699.9973m       
++ xi0.x_pm_mynand%vdd!.6 = 700.0000m       
++ xi0.x_pm_mynand%vdd!.11 = 700.0000m       
++ xi0.x_pm_mynand%vdd!.13 = 700.0000m       
++ xi0.x_pm_mynand%vdd!.18 = 700.0000m       
++ xi0.x_pm_mynand%vdd!.19 = 700.0000m       
+***   END: Saved Operating Point ***                     

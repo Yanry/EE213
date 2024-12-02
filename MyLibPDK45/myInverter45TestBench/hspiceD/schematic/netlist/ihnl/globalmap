@@ -1,0 +1,12 @@
+CADENCE IHNL11140
+$model
+MyLibPDK45/myInverter45/schematic myInverter45
+MyLibPDK45/myInverter45TestBench/schematic myInverter45TestBench
+$endmodel
+$net
+gnd! 0
+vdd! vdd!
+$endnet
+$param
+VDD_VAL vdd_val
+$endparam

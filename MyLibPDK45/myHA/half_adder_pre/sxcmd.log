@@ -1,0 +1,71 @@
+### Custom WaveView ADV log file, revision Q-2020.03-SP2-2 (build Oct 29, ) ###
+### created at 16:48:06 on Mon Nov 25 2024 (Linux AMD64) ###
+### Host Name: 2024-szjcdl53   User ID: centos   PID: 5462   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window {Custom WaveView} {} 242 265
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {OpenWaveform0} 
+wv_select_dialog {FileDialog} 
+wv_select_list_item {FileDialog} {} {FileList} {test_case} 2
+wv_dclick_list_item {FileDialog} {} {FileList} {test_case} 2
+wv_select_list_item {FileDialog} {} {FileList} {test_case.tr0} 7
+wv_dclick_list_item {FileDialog} {} {FileList} {test_case.tr0} 7
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:test_case.tr0(0)} {+sep=@}
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:test_case.tr0(0)@toplevel(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:test_case.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:test_case.tr0(0)@toplevel(0)@xi0(0)} {0} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:test_case.tr0(0)@toplevel(0)@xi0(0)} {0} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:test_case.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {Custom WaveView} {} {sigview} {v(a)} 4
+wv_drag_list_item {Custom WaveView} {} {sigview} {v(a)} 4
+wv_drag_enter WV1
+wv_drop_on WV1
+wv_select_list_item {Custom WaveView} {} {sigview} {v(b)} 5
+wv_drag_list_item {Custom WaveView} {} {sigview} {v(b)} 5
+wv_drag_enter WV1
+wv_drag_to WV1 7 351
+wv_drag_to WV1 15 353
+wv_drop_on WV1
+wv_select_list_item {Custom WaveView} {} {sigview} {v(cout)} 6
+wv_drag_list_item {Custom WaveView} {} {sigview} {v(cout)} 6
+wv_drag_enter WV1
+wv_drag_to WV1 9 360
+wv_drop_on WV1
+wv_select_list_item {Custom WaveView} {} {sigview} {v(s)} 7
+wv_drag_list_item {Custom WaveView} {} {sigview} {v(s)} 7
+wv_drag_enter WV1
+wv_drag_to WV1 3 343
+wv_drag_to WV1 31 353
+wv_drop_on WV1
+wv_resize_browser {Custom WaveView} {} {WV.Browser} 250 874
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 1660 848
+wv_resize_window {Custom WaveView} 1920 1017
+wv_move_window {Custom WaveView} {} 0 23
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LINE1
+wv_select_line WV1.PANEL1:1.LINE1
+wv_select_waveview 1 {waveview 1}
+wv_shift_select_panel WV1.PANEL4:1.LEGEND
+wv_release_wv_item WV1 34 612
+wv_select_waveview 1 {waveview 1}
+wv_shift_select_line WV1.PANEL4:1.LINE1
+wv_release_wv_item WV1 38 609
+wv_select_window {Custom WaveView} 
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:test_case.tr0(0)@toplevel(0)@xi0(0)} {+sep=@}
+wv_select_window {Custom WaveView} 
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:test_case.tr0(0)@toplevel(0)@xi0(0)} {0} {+sep=@}
+wv_select_list_item {Custom WaveView} {} {sigview} {xi0.v(net11)} 0
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:test_case.tr0(0)@toplevel(0)@xi0(0)@xi0(0)} {0} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:test_case.tr0(0)@toplevel(0)@xi0(0)@xi2(1)} {0} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:test_case.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:test_case.tr0(0)} {0} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:test_case.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_window {Custom WaveView} 
+wv_close_window {Custom WaveView} 
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 
+#*WARNING* Can not remove '/home/centos/.cx_hostport/.cx_hostport_2024-szjcdl53_5462'.

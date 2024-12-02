@@ -1,0 +1,5 @@
+# Do not remove or change these header lines.
+# markNetOptions file version 1.0
+excludePurposes(
+annotate boundary error flight label warning 
+)

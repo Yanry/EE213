@@ -1,0 +1,27 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "myPPA_unsigned_4_3"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "vdd! gnd!"
+  hierDelim "."
+  netlistDir "/home/centos/EE213/MyLibPDK45/myPPA_unsigned_4_3/backend/lvs"
+ )
+( model
+( "MyLibPDK45/myPPA_unsigned_4_3/schematic" "myPPA_unsigned_4_3" )
+( "MyLibPDK45/myFA/schematic" "myFA" )
+( "MyLibPDK45/myNAND/schematic" "myNAND" )
+( "MyLibPDK45/myXOR/schematic" "myXOR" )
+( "MyLibPDK45/myInverter45/schematic" "myInverter45" )
+( "MyLibPDK45/myHA/schematic" "myHA" )
+( "MyLibPDK45/myBuffer_2/schematic" "myBuffer_2" )
+ )
+( "myNAND" "ihnl/cds0/map" )
+( "myFA" "ihnl/cds4/map" )
+( "myXOR" "ihnl/cds2/map" )
+( "myHA" "ihnl/cds3/map" )
+( "myPPA_unsigned_4_3" "ihnl/cds6/map" )
+( "myBuffer_2" "ihnl/cds5/map" )
+( "myInverter45" "ihnl/cds1/map" )
+ )

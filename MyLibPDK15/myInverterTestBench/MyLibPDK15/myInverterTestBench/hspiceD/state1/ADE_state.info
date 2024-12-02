@@ -1,0 +1,3 @@
+projectDir = '"./MyLibPDK15/simulation"
+designInfo = '("MyLibPDK15" "myInverterTestBench" "schematic" "hspiceD")
+descriptionText = "None"

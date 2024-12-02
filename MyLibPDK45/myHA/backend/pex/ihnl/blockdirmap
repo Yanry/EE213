@@ -1,0 +1,6 @@
+CADENCE IHNL11144
+
+MyLibPDK45 myNAND schematic cds0
+MyLibPDK45 myInverter45 schematic cds1
+MyLibPDK45 myXOR schematic cds2
+MyLibPDK45 myHA schematic cds3

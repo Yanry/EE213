@@ -1,0 +1,4 @@
+mgc_rve_context_lcv "MyLibPDK45" "myPPA_unsigned_4_3" "layout" 2000
+mgc_rve_highlight_index 0 "X2" "#00000000FFFF"
+mr -3.1025 -6.425 0.72 -5.37
+mgc_rve_zoom -3.9215 -6.651 1.539 -5.144 1

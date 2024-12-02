@@ -1,0 +1,22 @@
+* File: myInverter.pex.netlist
+* Created: Sun Sep 29 15:27:19 2024
+* Program "Calibre xRC"
+* Version "v2016.4_38.25"
+* 
+.include "myInverter.pex.netlist.pex"
+.subckt myInverter  in gnd! vdd! out
+* 
+* out	out
+* vdd!	vdd!
+* gnd!	gnd!
+* in	in
+MM0 N_out_MM0_d N_in_MM0_g N_gnd!_MM0_s N_gnd!_MM0_b nfet L=2e-08 W=8.8e-08
++ nfin=3 adej=9.12e-16 asej=9.12e-16 pdej=2.52e-07 psej=2.52e-07
+MM1 N_out_MM1_d N_in_MM0_g N_vdd!_MM1_s N_vdd!_MM1_b pfet L=2e-08 W=8.8e-08
++ nfin=3 adej=9.12e-16 asej=9.12e-16 pdej=2.52e-07 psej=2.52e-07
+*
+.include "myInverter.pex.netlist.myInverter.pxi"
+*
+.ends
+*
+*

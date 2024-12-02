@@ -1,0 +1,15 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "myInverter"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/home/centos/EE213"
+ )
+( model
+( "MyLibPDK15/myInverter/schematic" "myInverter" )
+ )
+( "myInverter" "ihnl/cds0/map" )
+ )
