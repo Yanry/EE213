@@ -11,7 +11,7 @@
 
 * YOU SHOULD INCLUDE YOUR NELIST
 .INCLUDE "./../../backend/pex/myHA.pex.netlist"
-xi0 vdd! gnd! A COUT B S myHA
+xi0 gnd! vdd! COUT B A S myHA
 
 * YOU SHOULD ADD LOAD CAPACITANCE
 c0 Cout 0 1e-14

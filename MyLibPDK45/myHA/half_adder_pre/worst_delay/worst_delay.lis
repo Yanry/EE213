@@ -7,11 +7,11 @@
   this software is strictly prohibited.
   Input File: halfadder_delay.sp                                                
   Command line options: /home/tools/synopsys/hspice/O-2018.09-SP1-1/hspice/linux64/hspice -i halfadder_delay.sp -o worst_delay
-  Start time: Mon Nov 25 18:08:55 2024
+  Start time: Tue Dec  3 14:42:46 2024
  lic:  
  lic: FLEXlm: SDK_11.6.9.6 
  lic: USER:   centos               HOSTNAME: 2024-szjcdl53 
- lic: HOSTID: 005056a6b4a5         PID:      5808 
+ lic: HOSTID: 005056a6b4a5         PID:      30650 
  lic: Using FLEXlm license file: 
  lic: 27020@10.15.89.162 
  lic: Checkout 1 hspice 
@@ -572,7 +572,7 @@
     TRD =      0 
   **warning** (halfadder_delay.sp:36) Both nodes of element vgnd are connected together; Line ignored.
   **info** (halfadder_delay.sp:25) DC voltage reset to initial transient source value in source 0:vin1. new dc=0.0000D+00
-  **warning** (nmos_vtl:m1 (./../halfadder.sp:12)) Warning:  Acde = 0.276941 may be too small in BSIM4 model with w=1.8e-07 l=5e-08.
+  **warning** (nmos_vtl:m1 (./../halfadder.sp:12)) Warning:  Acde = 0.276941 may be too small in BSIM4 model with w=9e-08 l=5e-08.
   
       
 
@@ -593,16 +593,16 @@ Element variations(Local):   element              parameter
  ****** operating point status is voltage   simulation time is     0.     
     node    =voltage      node    =voltage      node    =voltage
 
- +0:a       =   0.      0:b       =   0.      0:cout    =  25.6250u
- +0:s       =  10.1041m 0:vdd!    = 700.0000m 1:net11   = 699.9971m
- +2:net9    =  53.0884m 4:b__     = 691.9739m
+ +0:a       =   0.      0:b       =   0.      0:cout    =  25.6240u
+ +0:s       =  14.0874u 0:vdd!    = 700.0000m 1:net11   = 699.9985m
+ +2:net9    =  44.8616m 4:bbar    = 699.9772m
 
  ******
  *adder
 
  ****** transient analysis tnom=  25.000 temp=  25.000 ******
- delay_cout=  84.3923p  targ=   5.0344n   trig=   4.9500n
- delay_s= 146.2019p  targ=  15.0962n   trig=  14.9500n
+ delay_cout=  99.8435p  targ=   5.0498n   trig=   4.9500n
+ delay_s= 155.6034p  targ=  15.1056n   trig=  14.9500n
 
           ***** job concluded
  ******  
@@ -613,7 +613,7 @@ Element variations(Local):   element              parameter
  ******  Machine Information  ******
  CPU:
  model name	: Intel(R) Xeon(R) CPU E7-4820 v3 @ 1.90GHz
- cpu MHz	: 1895.432
+ cpu MHz	: 1895.433
   
  OS:
  Linux version 3.10.0-1160.24.1.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Thu Apr 8 19:51:47 UTC 2021
@@ -645,19 +645,19 @@ Element variations(Local):   element              parameter
 
   analysis           time    # points   tot. iter  conv.iter
   op point           0.00           1          12
-  transient          0.08       20201         837         291 rev=        44
+  transient          0.09       20201         858         303 rev=        45
   readin             0.02
   errchk             0.01
-  setup              0.01
+  setup              0.00
   output             0.00
 
 
-           peak memory used        274.94 megabytes
+           peak memory used        274.95 megabytes
            total cpu time            0.12 seconds
            total elapsed time        0.12 seconds
-           job started at     18:08:55 11/25/2024
-           job ended   at     18:08:55 11/25/2024
+           job started at     14:42:46 12/03/2024
+           job ended   at     14:42:46 12/03/2024
 
 
  lic: Release hspice token(s) 
- lic: total license checkout elapse time:        0.06(s)
+ lic: total license checkout elapse time:        0.05(s)

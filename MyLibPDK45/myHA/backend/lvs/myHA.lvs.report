@@ -16,7 +16,7 @@ LAYOUT NAME:              /home/centos/EE213/MyLibPDK45/myHA/backend/lvs/myHA.sp
 SOURCE NAME:              /home/centos/EE213/MyLibPDK45/myHA/backend/lvs/myHA.src.net ('myHA')
 RULE FILE:                /home/centos/EE213/MyLibPDK45/myHA/backend/lvs/_calibreLVS.rul_
 RULE FILE TITLE:          LVS Rule File for FreePDK45
-CREATION TIME:            Fri Nov 29 18:41:54 2024
+CREATION TIME:            Tue Dec  3 14:53:11 2024
 CURRENT DIRECTORY:        /home/centos/EE213/MyLibPDK45/myHA/backend/lvs
 USER NAME:                centos
 CALIBRE VERSION:          v2016.4_38.25    Tue Jan 3 14:54:06 PST 2017
@@ -186,7 +186,8 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
 
  Instances:          1         1         MN (4 pins)
                      1         1         MP (4 pins)
-                     3         3         _invv (4 pins)
+                     1         1         _invb (6 pins)
+                     2         2         _invv (4 pins)
                      1         1         _nand2v (5 pins)
                 ------    ------
  Total Inst:         6         6
@@ -207,7 +208,8 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
 
    Instances:           1          1            0            0    MN(NMOS_VTL)
                         1          1            0            0    MP(PMOS_VTL)
-                        3          3            0            0    _invv
+                        1          1            0            0    _invb
+                        2          2            0            0    _invv
                         1          1            0            0    _nand2v
                   -------    -------    ---------    ---------
    Total Inst:          6          6            0            0

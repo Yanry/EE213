@@ -7,11 +7,11 @@
   this software is strictly prohibited.
   Input File: fulladder_power.sp                                                
   Command line options: /home/tools/synopsys/hspice/O-2018.09-SP1-1/hspice/linux64/hspice -i fulladder_power.sp -o power
-  Start time: Mon Nov 25 21:50:37 2024
+  Start time: Mon Dec  2 21:26:58 2024
  lic:  
  lic: FLEXlm: SDK_11.6.9.6 
  lic: USER:   centos               HOSTNAME: 2024-szjcdl53 
- lic: HOSTID: 005056a6b4a5         PID:      21417 
+ lic: HOSTID: 005056a6b4a5         PID:      19770 
  lic: Using FLEXlm license file: 
  lic: 27020@10.15.89.162 
  lic: Checkout 1 hspice 
@@ -571,7 +571,7 @@
     TRD =      0 
   **warning** (fulladder_power.sp:41) Both nodes of element vgnd are connected together; Line ignored.
   **info** (fulladder_power.sp:23) DC voltage reset to initial transient source value in source 0:vin1. new dc=0.0000D+00
-  **warning** (nmos_vtl:m23 (./../fulladder.sp:34)) Warning:  Acde = 0.276941 may be too small in BSIM4 model with w=2.7e-07 l=5e-08.
+  **warning** (nmos_vtl:m23 (./../fulladder.sp:34)) Warning:  Acde = 0.276941 may be too small in BSIM4 model with w=9e-08 l=5e-08.
   
       
 
@@ -593,18 +593,18 @@ Element variations(Local):   element              parameter
     node    =voltage      node    =voltage      node    =voltage
 
  +0:a       =   0.      0:b       =   0.      0:cin     =   0.     
- +0:cout    =  25.6277u 0:s       =  25.6686u 0:vdd!    = 700.0000m
- +1:net12   =  53.0882m 1:net13   = 699.9963m 1:net26   = 699.9563m
- +1:net31   = 699.9778m 1:net35   = 699.9353m 1:net4    =  35.4928m
- +1:net42   = 699.9997m 1:net60   =  19.4114m 1:net64   =  71.2609m
- +1:net65   = 613.7995m 1:net7    = 699.9974m 1:net79   = 699.9932m
+ +0:cout    =  25.6273u 0:s       =  25.6756u 0:vdd!    = 700.0000m
+ +1:net068  = 699.9497m 1:net069  = 699.9746m 1:net071  = 699.9966m
+ +1:net12   =  44.8614m 1:net35   = 699.9255m 1:net4    =  30.8936m
+ +1:net42   = 699.9997m 1:net60   =  16.7824m 1:net64   =  60.7648m
+ +1:net65   = 521.0572m 1:net7    = 699.9976m 1:net79   = 699.9937m
 
  ******
  *adder
 
  ****** transient analysis tnom=  25.000 temp=  25.000 ******
- tot_power= 898.6103n  from= 100.0000p     to=  40.1000n
- power_at_max= 326.7674u
+ tot_power= 805.9162n  from= 100.0000p     to=  40.1000n
+ power_at_max= 242.0896u
 
           ***** job concluded
  ******  
@@ -615,7 +615,7 @@ Element variations(Local):   element              parameter
  ******  Machine Information  ******
  CPU:
  model name	: Intel(R) Xeon(R) CPU E7-4820 v3 @ 1.90GHz
- cpu MHz	: 1895.432
+ cpu MHz	: 1895.433
   
  OS:
  Linux version 3.10.0-1160.24.1.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Thu Apr 8 19:51:47 UTC 2021
@@ -646,19 +646,19 @@ Element variations(Local):   element              parameter
   ******  Runtime Statistics (seconds)  ******
 
   analysis           time    # points   tot. iter  conv.iter
-  op point           0.01           1          17
-  transient          0.34       40201        1897         585 rev=        63
+  op point           0.01           1          15
+  transient          0.35       40201        1973         590 rev=        73
   readin             0.02
   errchk             0.01
   setup              0.00
   output             0.00
 
 
-           peak memory used        274.94 megabytes
-           total cpu time            0.38 seconds
+           peak memory used        274.95 megabytes
+           total cpu time            0.39 seconds
            total elapsed time        0.26 seconds
-           job started at     21:50:37 11/25/2024
-           job ended   at     21:50:37 11/25/2024
+           job started at     21:26:58 12/02/2024
+           job ended   at     21:26:59 12/02/2024
 
 
  lic: Release hspice token(s) 

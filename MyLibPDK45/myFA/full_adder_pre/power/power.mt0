@@ -1,4 +1,4 @@
 $DATA1 SOURCE='HSPICE' VERSION='O-2018.09-SP1-1 linux64' PARAM_COUNT=0
 .TITLE '*adder'
  tot_power        power_at_max     temper           alter#          
-  8.986e-07        3.268e-04         25.0000        1               
+  8.059e-07        2.421e-04         25.0000        1               

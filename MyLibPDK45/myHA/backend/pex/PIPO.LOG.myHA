@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 10/01/2018 19:51 (ip-172-18-22-52) $
           : sub-version  IC6.1.8-64b.83 
-Started at: 27-Nov-2024  14:07:25
+Started at: 03-Dec-2024  14:54:04
 User Name : centos
 Host Name : 2024-szjcdl53
 Directory : /home/centos/EE213
@@ -38,7 +38,7 @@ Summary of Objects Translated:
 	Array Instances:                        0
 	Polygons:                               0
 	Paths:                                  0
-	Rectangles:                             214
+	Rectangles:                             213
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -58,5 +58,5 @@ Summary of Objects Translated:
 	TextDisplay:                            20
 	Cells:                                  6
 
-Elapsed Time: 0.2s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 2452KB
+Elapsed Time: 0.2s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 2452KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

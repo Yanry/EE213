@@ -1,0 +1,240 @@
+ ****** HSPICE -- O-2018.09-SP1-1 linux64 (Dec 28 2018) ******                  
+  Copyright (c) 1986 - 2024 by Synopsys, Inc. All Rights Reserved.              
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: worst_delay.sp                                                    
+  Command line options: /home/tools/synopsys/hspice/O-2018.09-SP1-1/hspice/linux64/hspice -i worst_delay.sp -o worst_delay
+  Start time: Tue Dec  3 21:25:39 2024
+ lic:  
+ lic: FLEXlm: SDK_11.6.9.6 
+ lic: USER:   centos               HOSTNAME: 2024-szjcdl53 
+ lic: HOSTID: 005056a6b4a5         PID:      23036 
+ lic: Using FLEXlm license file: 
+ lic: 27020@10.15.89.162 
+ lic: Checkout 1 hspice 
+ lic: License/Maintenance for hspice will expire on 01-nov-2025/2023.03 
+ lic: 3(in_use)/40(total) FLOATING license(s) on SERVER 27020@10.15.89.162 
+ lic:   
+  **warning** (../myPPA.sp:116)'.end' can not exist in include/lib files, ignored
+1****** HSPICE -- O-2018.09-SP1-1 linux64 (Dec 28 2018) ******                  
+ ******  
+ * partial product adder
+
+ ****** circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+        1 xi0.                            myppa_4_3          1.00 
+        2 xi0.xi16.                       myha               1.00 
+        3 xi0.xi21.                       myha               1.00 
+        4 xi0.xi22.                       myha               1.00 
+        5 xi0.xi6.                        myha               1.00 
+        6 xi0.xi5.                        myha               1.00 
+        7 xi0.xi0.                        myha               1.00 
+        8 xi0.xi18.                       myfa               1.00 
+        9 xi0.xi9.                        myfa               1.00 
+       10 xi0.xi8.                        myfa               1.00 
+       11 xi0.xi7.                        myfa               1.00 
+       12 xi0.xi4.                        myfa               1.00 
+       13 xi0.xi3.                        myfa               1.00 
+       14 xi0.xi10.                       mybuffer_2         1.00 
+       15 xi0.xi11.                       myinverter45       1.00 
+       16 xi0.xi12.                       myinverter45       1.00 
+       17 xi0.xi13.                       myinverter45       1.00 
+       18 xi0.xi14.                       myinverter45       1.00 
+       19 xi0.xi15.                       myinverter45       1.00 
+       20 xi0.xi16.xi0.                   mynand             1.00 
+       21 xi0.xi16.xi1.                   myinverter45       1.00 
+       22 xi0.xi16.xi2.                   myxor              1.00 
+       23 xi0.xi21.xi0.                   mynand             1.00 
+       24 xi0.xi21.xi1.                   myinverter45       1.00 
+       25 xi0.xi21.xi2.                   myxor              1.00 
+       26 xi0.xi22.xi0.                   mynand             1.00 
+       27 xi0.xi22.xi1.                   myinverter45       1.00 
+       28 xi0.xi22.xi2.                   myxor              1.00 
+       29 xi0.xi6.xi0.                    mynand             1.00 
+       30 xi0.xi6.xi1.                    myinverter45       1.00 
+       31 xi0.xi6.xi2.                    myxor              1.00 
+       32 xi0.xi5.xi0.                    mynand             1.00 
+       33 xi0.xi5.xi1.                    myinverter45       1.00 
+       34 xi0.xi5.xi2.                    myxor              1.00 
+       35 xi0.xi0.xi0.                    mynand             1.00 
+       36 xi0.xi0.xi1.                    myinverter45       1.00 
+       37 xi0.xi0.xi2.                    myxor              1.00 
+       38 xi0.xi18.xi10.                  myinverter45       1.00 
+       39 xi0.xi18.xi9.                   myinverter45       1.00 
+       40 xi0.xi9.xi10.                   myinverter45       1.00 
+       41 xi0.xi9.xi9.                    myinverter45       1.00 
+       42 xi0.xi8.xi10.                   myinverter45       1.00 
+       43 xi0.xi8.xi9.                    myinverter45       1.00 
+       44 xi0.xi7.xi10.                   myinverter45       1.00 
+       45 xi0.xi7.xi9.                    myinverter45       1.00 
+       46 xi0.xi4.xi10.                   myinverter45       1.00 
+       47 xi0.xi4.xi9.                    myinverter45       1.00 
+       48 xi0.xi3.xi10.                   myinverter45       1.00 
+       49 xi0.xi3.xi9.                    myinverter45       1.00 
+       50 xi0.xi10.xi1.                   myinverter45       1.00 
+       51 xi0.xi10.xi0.                   myinverter45       1.00 
+       52 xi0.xi16.xi2.xi0.               myinverter45       1.00 
+       53 xi0.xi21.xi2.xi0.               myinverter45       1.00 
+       54 xi0.xi22.xi2.xi0.               myinverter45       1.00 
+       55 xi0.xi6.xi2.xi0.                myinverter45       1.00 
+       56 xi0.xi5.xi2.xi0.                myinverter45       1.00 
+       57 xi0.xi0.xi2.xi0.                myinverter45       1.00 
+  **info** (worst_delay.sp:58) DC voltage reset to initial transient source value in source 0:v4. new dc=0.7000D+00
+  **warning** (v_$v4:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v4:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v5:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v5:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v6:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v6:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v7:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v7:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (pmos_vtl:m11 (../myPPA.sp:55)) Warning:  Acde = 0.300892 may be too small in BSIM4 model with w=1.8e-07 l=5e-08.
+  
+      
+  **warning** (v_$v4:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v4:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v5:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v5:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v6:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v6:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v7:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v7:0) pulse fall time is  < or = zero, reset to tstep
+
+Element variations(Local):   element              parameter
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2.0000    
+  Opening plot unit= 15
+ file=worst_delay.pa0
+
+  **warning** (v_$v4:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v4:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v5:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v5:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v6:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v6:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v7:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v7:0) pulse fall time is  < or = zero, reset to tstep
+ **info** dc convergence successful at GMINDC ramping method 
+ ******  
+ * partial product adder
+
+ ****** operating point information tnom=  25.000 temp=  25.000 ******
+ ****** operating point status is voltage   simulation time is   0.000e+00
+     node    =voltage       node    =voltage       node    =voltage
+
+ + 0:a<0>    = 7.000e-01  0:a<1>    = 7.000e-01  0:a<2>    = 7.000e-01
+ + 0:a<3>    = 7.000e-01  0:b<0>    = 7.000e-01  0:b<1>    = 7.000e-01
+ + 0:b<2>    = 0.000e+00  0:i0<0>   = 7.000e-01  0:i0<1>   = 7.000e-01
+ + 0:i0<2>   = 7.000e-01  0:i0<3>   = 7.000e-01  0:i1<0>   = 7.000e-01
+ + 0:i1<1>   = 7.000e-01  0:i1<2>   = 7.000e-01  0:i1<3>   = 7.000e-01
+ + 0:i2<0>   = 0.000e+00  0:i2<1>   = 0.000e+00  0:i2<2>   = 0.000e+00
+ + 0:i2<3>   = 0.000e+00  0:s<0>    = 7.000e-01  0:s<1>    = 1.559e-04
+ + 0:s<2>    = 7.000e-01  0:s<3>    = 7.000e-01  0:s<4>    = 6.999e-01
+ + 0:s<5>    = 6.999e-01  0:vdd!    = 7.000e-01  1:a0bar<3>= 2.866e-05
+ + 1:a1bar<3>= 5.346e-05  1:a2bar<0>= 7.000e-01  1:a2bar<1>= 7.000e-01
+ + 1:a2bar<2>= 7.000e-01  1:net010  = 6.663e-05  1:net012  = 6.666e-05
+ + 1:net016  = 2.794e-05  1:net020  = 6.999e-01  1:net021  = 6.999e-01
+ + 1:net023  = 2.721e-05  1:net025  = 2.115e-04  1:net027  = 2.565e-05
+ + 1:net032  = 2.563e-05  1:net1    = 7.000e-01  1:net18   = 7.000e-01
+ + 1:net20   = 7.000e-01  1:net28   = 7.000e-01  1:net29   = 2.720e-05
+ + 1:net33   = 7.000e-01  1:net34   = 7.000e-01  1:net35   = 7.000e-01
+ + 1:net5    = 2.718e-05  1:net6    = 6.999e-01  2:net11   = 7.000e-01
+ + 3:net11   = 7.000e-01  4:net11   = 7.000e-01  5:net11   = 1.042e-04
+ + 6:net11   = 7.000e-01  7:net11   = 1.041e-04  8:net068  = 1.476e-01
+ + 8:net069  = 1.728e-01  8:net071  = 7.000e-01  8:net12   = 1.409e-05
+ + 8:net35   = 8.502e-05  8:net4    = 1.409e-05  8:net42   = 7.000e-01
+ + 8:net60   = 1.065e-07  8:net64   = 4.253e-05  8:net65   = 4.260e-05
+ + 8:net7    = 7.000e-01  8:net79   = 7.000e-01  9:net068  = 1.494e-01
+ + 9:net069  = 7.000e-01  9:net071  = 7.000e-01  9:net12   = 5.497e-01
+ + 9:net35   = 8.731e-05  9:net4    = 1.409e-05  9:net42   = 7.000e-01
+ + 9:net60   = 9.520e-04  9:net64   = 9.520e-04  9:net65   = 4.375e-05
+ + 9:net7    = 7.000e-01  9:net79   = 7.000e-01 10:net068  = 6.297e-01
+ +10:net069  = 6.816e-01 10:net071  = 6.469e-01 10:net12   = 5.012e-06
+ +10:net35   = 1.514e-04 10:net4    = 3.375e-06 10:net42   = 1.778e-01
+ +10:net60   = 5.068e-05 10:net64   = 1.012e-04 10:net65   = 1.074e-07
+ +10:net7    = 6.616e-01 10:net79   = 9.821e-06 11:net068  = 7.000e-01
+ +11:net069  = 7.000e-01 11:net071  = 6.469e-01 11:net12   = 3.814e-05
+ +11:net35   = 7.000e-01 11:net4    = 1.060e-07 11:net42   = 7.000e-01
+ +11:net60   = 1.429e-05 11:net64   = 2.837e-05 11:net65   = 7.107e-06
+ +11:net7    = 1.672e-01 11:net79   = 7.609e-05 12:net068  = 7.000e-01
+ +12:net069  = 7.000e-01 12:net071  = 7.000e-01 12:net12   = 1.061e-04
+ +12:net35   = 7.000e-01 12:net4    = 5.308e-05 12:net42   = 7.000e-01
+ +12:net60   = 5.282e-01 12:net64   = 5.510e-01 12:net65   = 7.113e-06
+ +12:net7    = 7.000e-01 12:net79   = 1.060e-04 13:net068  = 6.297e-01
+ +13:net069  = 6.816e-01 13:net071  = 6.469e-01 13:net12   = 5.010e-06
+ +13:net35   = 1.513e-04 13:net4    = 3.374e-06 13:net42   = 1.778e-01
+ +13:net60   = 5.065e-05 13:net64   = 1.011e-04 13:net65   = 1.074e-07
+ +13:net7    = 6.616e-01 13:net79   = 9.817e-06 14:net5    = 2.642e-05
+ +20:net013  = 1.416e-05 22:bbar    = 7.000e-01 23:net013  = 5.496e-01
+ +25:bbar    = 3.969e-05 26:net013  = 5.496e-01 28:bbar    = 3.969e-05
+ +29:net013  = 5.219e-05 31:bbar    = 1.187e-04 32:net013  = 1.410e-05
+ +34:bbar    = 7.000e-01 35:net013  = 5.213e-05 37:bbar    = 9.084e-05
+
+ ******
+ * partial product adder
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+ avg_power= 2.3682e-06  from= 0.0000e+00     to= 2.0000e-08
+
+          ***** job concluded
+ ******  
+ * partial product adder
+
+ ****** job statistics summary tnom=  25.000 temp=  25.000 ******
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) CPU E7-4820 v3 @ 1.90GHz
+ cpu MHz	: 1895.433
+  
+ OS:
+ Linux version 3.10.0-1160.24.1.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Thu Apr 8 19:51:47 UTC 2021
+
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :     4
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =    1158 # elements   =     280
+  # resistors   =       0 # capacitors =       6 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =      12
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       8
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =     254 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.21           1          91
+  transient          0.71       20001         495         178 rev=        13
+  readin             0.02
+  errchk             0.03
+  setup              0.05
+  output             0.00
+
+
+           peak memory used        280.98 megabytes
+           total cpu time            1.03 seconds
+           total elapsed time        0.59 seconds
+           job started at     21:25:39 12/03/2024
+           job ended   at     21:25:40 12/03/2024
+
+
+ lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.05(s)

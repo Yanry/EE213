@@ -4,7 +4,7 @@
   blockName "myXOR"
   repList "auCdl schematic"
   stopList "auCdl"
-  globalList "vdd! gnd!"
+  globalList "gnd! vdd!"
   hierDelim "."
   netlistDir "/home/centos/EE213/MyLibPDK45/myXOR/backend/lvs"
  )

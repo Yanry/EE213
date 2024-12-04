@@ -16,7 +16,7 @@ LAYOUT NAME:              /home/centos/EE213/MyLibPDK45/myFA/backend/lvs/myFA.sp
 SOURCE NAME:              /home/centos/EE213/MyLibPDK45/myFA/backend/lvs/myFA.src.net ('myFA')
 RULE FILE:                /home/centos/EE213/MyLibPDK45/myFA/backend/lvs/_calibreLVS.rul_
 RULE FILE TITLE:          LVS Rule File for FreePDK45
-CREATION TIME:            Fri Nov 29 14:56:00 2024
+CREATION TIME:            Tue Dec  3 15:24:00 2024
 CURRENT DIRECTORY:        /home/centos/EE213/MyLibPDK45/myFA/backend/lvs
 USER NAME:                centos
 CALIBRE VERSION:          v2016.4_38.25    Tue Jan 3 14:54:06 PST 2017

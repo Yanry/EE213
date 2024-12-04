@@ -4,7 +4,7 @@
 * Library Name:  MyLibPDK45
 * Top Cell Name: myHA
 * View Name:     schematic
-* Netlisted on:  Nov 27 14:07:26 2024
+* Netlisted on:  Dec  3 14:54:05 2024
 ************************************************************************
 
 *.EQUATION
@@ -52,10 +52,10 @@ MM1 out in vdd! vdd! PMOS_VTL W=180n L=50n m=1
 
 .SUBCKT myXOR A B Z
 *.PININFO A:I B:I Z:O
-MM1 A Bbar Z Z NMOS_VTL W=90n L=50n m=1
-MM0 Z A Bbar Bbar NMOS_VTL W=90n L=50n m=1
-MM3 A B Z Z PMOS_VTL W=180n L=50n m=1
-MM2 Z A B B PMOS_VTL W=180n L=50n m=1
+MM1 A Bbar Z gnd! NMOS_VTL W=90n L=50n m=1
+MM0 Z A Bbar gnd! NMOS_VTL W=90n L=50n m=1
+MM3 A B Z vdd! PMOS_VTL W=180n L=50n m=1
+MM2 Z A B vdd! PMOS_VTL W=180n L=50n m=1
 XI0 B Bbar / myInverter45
 .ENDS
 

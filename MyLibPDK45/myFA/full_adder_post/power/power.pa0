@@ -1,3 +1,14 @@
        1 xi0.
-       2 xi0.xi10.
-       3 xi0.xi9.
+       2 xi0.x_pm_myfa%net79.
+       3 xi0.x_pm_myfa%a.
+       4 xi0.x_pm_myfa%b.
+       5 xi0.x_pm_myfa%net4.
+       6 xi0.x_pm_myfa%net7.
+       7 xi0.x_pm_myfa%cin.
+       8 xi0.x_pm_myfa%gnd!.
+       9 xi0.x_pm_myfa%vdd!.
+      10 xi0.x_pm_myfa%cout.
+      11 xi0.x_pm_myfa%net65.
+      12 xi0.x_pm_myfa%net42.
+      13 xi0.x_pm_myfa%net35.
+      14 xi0.x_pm_myfa%s.

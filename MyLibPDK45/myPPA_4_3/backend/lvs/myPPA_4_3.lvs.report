@@ -16,7 +16,7 @@ LAYOUT NAME:              /home/centos/EE213/MyLibPDK45/myPPA_4_3/backend/lvs/my
 SOURCE NAME:              /home/centos/EE213/MyLibPDK45/myPPA_4_3/backend/lvs/myPPA_4_3.src.net ('myPPA_4_3')
 RULE FILE:                /home/centos/EE213/MyLibPDK45/myPPA_4_3/backend/lvs/_calibreLVS.rul_
 RULE FILE TITLE:          LVS Rule File for FreePDK45
-CREATION TIME:            Sat Nov 30 00:48:13 2024
+CREATION TIME:            Tue Dec  3 17:26:34 2024
 CURRENT DIRECTORY:        /home/centos/EE213/MyLibPDK45/myPPA_4_3/backend/lvs
 USER NAME:                centos
 CALIBRE VERSION:          v2016.4_38.25    Tue Jan 3 14:54:06 PST 2017
@@ -190,7 +190,8 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
                      6         6         SPMN_3_1 (6 pins)
                      6         6         SPMP_2_1 (5 pins)
                      6         6         SPMP_3_1 (6 pins)
-                    34        34         _invv (4 pins)
+                     5         5         _invb (6 pins)
+                    29        29         _invv (4 pins)
                      1         1         _invx2v (4 pins)
                      6         6         _nand2v (5 pins)
                      6         6         _smn2v (4 pins)
@@ -220,7 +221,8 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
                         6          6            0            0    SPMN_3_1
                         6          6            0            0    SPMP_2_1
                         6          6            0            0    SPMP_3_1
-                       34         34            0            0    _invv
+                        5          5            0            0    _invb
+                       29         29            0            0    _invv
                         1          1            0            0    _invx2v
                         6          6            0            0    _nand2v
                         6          6            0            0    _smn2v

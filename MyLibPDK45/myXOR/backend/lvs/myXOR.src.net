@@ -4,7 +4,7 @@
 * Library Name:  MyLibPDK45
 * Top Cell Name: myXOR
 * View Name:     schematic
-* Netlisted on:  Nov 29 14:05:46 2024
+* Netlisted on:  Dec  2 21:48:15 2024
 ************************************************************************
 
 *.EQUATION
@@ -12,11 +12,11 @@
 *.MEGA
 .PARAM
 
-*.GLOBAL vdd!
-+        gnd!
+*.GLOBAL gnd!
++        vdd!
 
-*.PIN vdd!
-*+    gnd!
+*.PIN gnd!
+*+    vdd!
 
 ************************************************************************
 * Library Name: MyLibPDK45
@@ -39,9 +39,9 @@ MM1 out in vdd! vdd! PMOS_VTL W=180n L=50n m=1
 .SUBCKT myXOR A B Z
 *.PININFO A:I B:I Z:O
 MM1 A Bbar Z gnd! NMOS_VTL W=90n L=50n m=1
-MM0 Z A Bbar Bbar NMOS_VTL W=90n L=50n m=1
+MM0 Z A Bbar gnd! NMOS_VTL W=90n L=50n m=1
 MM3 A B Z vdd! PMOS_VTL W=180n L=50n m=1
-MM2 Z A B B PMOS_VTL W=180n L=50n m=1
+MM2 Z A B vdd! PMOS_VTL W=180n L=50n m=1
 XI0 B Bbar / myInverter45
 .ENDS
 

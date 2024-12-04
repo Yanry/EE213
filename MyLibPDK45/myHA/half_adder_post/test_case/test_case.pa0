@@ -1,9 +1,9 @@
        1 xi0.
-       2 xi0.x_pm_myha%vdd!.
-       3 xi0.x_pm_myha%gnd!.
-       4 xi0.x_pm_myha%a.
-       5 xi0.x_pm_myha%cout.
+       2 xi0.x_pm_myha%gnd!.
+       3 xi0.x_pm_myha%vdd!.
+       4 xi0.x_pm_myha%cout.
+       5 xi0.x_pm_myha%b.
        6 xi0.x_pm_myha%net11.
-       7 xi0.x_pm_myha%b.
-       8 xi0.x_pm_myha%s.
-       9 xi0.x_pm_myha%xi2/bbar.
+       7 xi0.x_pm_myha%a.
+       8 xi0.x_pm_myha%xi2/bbar.
+       9 xi0.x_pm_myha%s.

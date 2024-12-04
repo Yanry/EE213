@@ -1,7 +1,7 @@
 * "simulator" "HSPICE" 
 * "version" "O-2018.09-SP1-1 linux64"
 * "format" "HSP"
-* "rundate" "00:23:29 11/26/2024 "
+* "rundate" "21:09:36 12/02/2024 "
 * "netlist" "fulladder_delay.sp "
 * "runtitle" "*adder"
 * time =    0.            
@@ -13,19 +13,19 @@
 + a =   0.            
 + b =   0.            
 + cin =   0.            
-+ cout =  25.6274u       
-+ s =  25.6606u       
++ cout =  25.6273u       
++ s =  25.6756u       
 + vdd! = 700.0000m       
-+ xi0.net068 = 699.9638m       
-+ xi0.net069 = 699.9816m       
-+ xi0.net071 = 699.9965m       
-+ xi0.net12 =  44.8583m       
-+ xi0.net35 = 699.9466m       
-+ xi0.net4 =  30.8912m       
++ xi0.net068 = 699.9497m       
++ xi0.net069 = 699.9746m       
++ xi0.net071 = 699.9966m       
++ xi0.net12 =  44.8614m       
++ xi0.net35 = 699.9255m       
++ xi0.net4 =  30.8936m       
 + xi0.net42 = 699.9997m       
-+ xi0.net60 =  16.7846m       
-+ xi0.net64 =  60.7664m       
-+ xi0.net65 = 521.0611m       
++ xi0.net60 =  16.7824m       
++ xi0.net64 =  60.7648m       
++ xi0.net65 = 521.0572m       
 + xi0.net7 = 699.9976m       
-+ xi0.net79 = 699.9936m       
++ xi0.net79 = 699.9937m       
 ***   END: Saved Operating Point ***                     

@@ -1,7 +1,7 @@
 * "simulator" "HSPICE" 
 * "version" "O-2018.09-SP1-1 linux64"
 * "format" "HSP"
-* "rundate" "19:43:48 11/27/2024 "
+* "rundate" "15:31:29 12/03/2024 "
 * "netlist" "fulladder_delay.sp "
 * "runtitle" "*adder"
 * time =    0.            
@@ -65,6 +65,7 @@
 + xi0.n_gnd!_c_274_n =  69.1859n       
 + xi0.n_gnd!_c_275_n =  46.0029n       
 + xi0.n_gnd!_c_282_n =  10.9018n       
++ xi0.n_gnd!_c_299_n =  11.7898n       
 + xi0.n_gnd!_c_314_n =  69.6175n       
 + xi0.n_gnd!_c_316_p =  49.3469n       
 + xi0.n_gnd!_c_318_p =  12.1022n       
@@ -217,7 +218,6 @@
 + xi0.x_pm_myfa%gnd!.103 =  44.8615n       
 + xi0.x_pm_myfa%gnd!.104 =  41.7890n       
 + xi0.x_pm_myfa%gnd!.107 =  43.4935n       
-+ xi0.x_pm_myfa%gnd!.111 =  11.7898n       
 + xi0.x_pm_myfa%gnd!.112 =  36.2502n       
 + xi0.x_pm_myfa%gnd!.113 =  40.5830n       
 + xi0.x_pm_myfa%gnd!.114 =  63.8869n       

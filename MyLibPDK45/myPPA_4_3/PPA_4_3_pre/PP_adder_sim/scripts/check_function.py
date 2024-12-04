@@ -112,7 +112,7 @@ def check_function(trace,t_start,t_step,t_end,period,vih,vil):
 		if int_a * int_b != int_s:
 			print "{}Incorrect answer at t={}, a={}({}), b={}({}), s={}({}){}".format(red,trace["TIME"][t_idx-1],int_a,a,int_b,b,int_s,s,reset)
 		else:
-			#print "{}Correct answer at t={}, a={}({}), b={}({}), s={}({}){}".format(green,trace["TIME"][t_idx-1],int_a,a,int_b,b,int_s,s,reset)
+			# print "{}Correct answer at t={}, a={}({}), b={}({}), s={}({}){}".format(green,trace["TIME"][t_idx-1],int_a,a,int_b,b,int_s,s,reset)
 			pass
 		
 monitor_signals = ("v(s<0>)","v(s<1>)","v(s<2>)","v(s<3>)","v(s<4>)","v(s<5>)","v(a<0>)","v(a<1>)","v(a<2>)","v(a<3>)","v(b<0>)","v(b<1>)","v(b<2>)")

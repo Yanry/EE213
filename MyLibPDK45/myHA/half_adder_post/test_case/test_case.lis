@@ -7,11 +7,11 @@
   this software is strictly prohibited.
   Input File: halfadder_delay.sp                                                
   Command line options: /home/tools/synopsys/hspice/O-2018.09-SP1-1/hspice/linux64/hspice -i halfadder_delay.sp -o test_case
-  Start time: Wed Nov 27 02:04:14 2024
+  Start time: Tue Dec  3 15:02:28 2024
  lic:  
  lic: FLEXlm: SDK_11.6.9.6 
  lic: USER:   centos               HOSTNAME: 2024-szjcdl53 
- lic: HOSTID: 005056a6b4a5         PID:      8598 
+ lic: HOSTID: 005056a6b4a5         PID:      31923 
  lic: Using FLEXlm license file: 
  lic: 27020@10.15.89.162 
  lic: Checkout 1 hspice 
@@ -19,7 +19,7 @@
  lic: 1(in_use)/40(total) FLOATING license(s) on SERVER 27020@10.15.89.162 
  lic:   
   **warning** (halfadder_delay.sp:3) runlvl smaller than 5, reset to 5 when accurate turned on
-  **warning** (./../../backend/pex/myHA.pex.netlist:7) Global net name, "vdd!", in subckt pin list. The pin will be connected to the local net. Recommend to not use global net names in subckt pin lists.
+  **warning** (./../../backend/pex/myHA.pex.netlist:7) Global net name, "gnd", in subckt pin list. The pin will be connected to the local net. Recommend to not use global net names in subckt pin lists.
 
  **warning**  runlvl smaller than 5, reset to 5 when accurate turned on
 1****** HSPICE -- O-2018.09-SP1-1 linux64 (Dec 28 2018) ******                  
@@ -31,14 +31,14 @@
    number circuitname                     definition         multiplier
         0 main circuit
         1 xi0.                            myha               1.00 
-        2 xi0.x_pm_myha%vdd!.             pm_myha%vdd!       1.00 
-        3 xi0.x_pm_myha%gnd!.             pm_myha%gnd!       1.00 
-        4 xi0.x_pm_myha%a.                pm_myha%a          1.00 
-        5 xi0.x_pm_myha%cout.             pm_myha%cout       1.00 
+        2 xi0.x_pm_myha%gnd!.             pm_myha%gnd!       1.00 
+        3 xi0.x_pm_myha%vdd!.             pm_myha%vdd!       1.00 
+        4 xi0.x_pm_myha%cout.             pm_myha%cout       1.00 
+        5 xi0.x_pm_myha%b.                pm_myha%b          1.00 
         6 xi0.x_pm_myha%net11.            pm_myha%net11      1.00 
-        7 xi0.x_pm_myha%b.                pm_myha%b          1.00 
-        8 xi0.x_pm_myha%s.                pm_myha%s          1.00 
-        9 xi0.x_pm_myha%xi2/bbar.         pm_myha%xi2/bbar   1.00 
+        7 xi0.x_pm_myha%a.                pm_myha%a          1.00 
+        8 xi0.x_pm_myha%xi2/bbar.         pm_myha%xi2/bbar   1.00 
+        9 xi0.x_pm_myha%s.                pm_myha%s          1.00 
  ******  
  *adder
 
@@ -577,15 +577,15 @@
     TRD =      0 
   **warning** (halfadder_delay.sp:36) Both nodes of element vgnd are connected together; Line ignored.
   **info** (halfadder_delay.sp:23) DC voltage reset to initial transient source value in source 0:vin1. new dc=0.0000D+00
-  **warning** (nmos_vtl:mxi0/mm0 (./../../backend/pex/myHA.pex.netlist:15)) Warning:  Acde = 0.276941 may be too small in BSIM4 model with w=1.8e-07 l=5e-08.
+  **warning** (nmos_vtl:mxi0/mm1 (./../../backend/pex/myHA.pex.netlist:15)) Warning:  Acde = 0.276941 may be too small in BSIM4 model with w=9e-08 l=5e-08.
              
  Summary of Linear Res Distribution Info
  ---------------------------------------
  |Range          |Total     |Percent(%)|
  |---------------+----------+----------|
- |1e-02  ~  1e-01|17        |9.3923    |
- |1e-01  ~  1e+00|83        |45.8564   |
- |1e+00  ~  1e+03|81        |44.7514   |
+ |1e-02  ~  1e-01|19        |11.3772   |
+ |1e-01  ~  1e+00|66        |39.5210   |
+ |1e+00  ~  1e+03|82        |49.1018   |
  ---------------------------------------
               
              
@@ -593,12 +593,11 @@
  ---------------------------------------
  |Range          |Total     |Percent(%)|
  |---------------+----------+----------|
- |1e-20  ~  1e-19|1         |0.3185    |
- |1e-19  ~  1e-18|52        |16.5605   |
- |1e-18  ~  1e-17|194       |61.7834   |
- |1e-17  ~  1e-16|62        |19.7452   |
- |1e-16  ~  1e-15|3         |0.9554    |
- |1e-14  ~  1e-13|2         |0.6369    |
+ |1e-19  ~  1e-18|62        |19.2547   |
+ |1e-18  ~  1e-17|185       |57.4534   |
+ |1e-17  ~  1e-16|72        |22.3602   |
+ |1e-16  ~  1e-15|1         |0.3106    |
+ |1e-14  ~  1e-13|2         |0.6211    |
  ---------------------------------------
               
              
@@ -606,9 +605,9 @@
  -------------------------
  |Element Type|Number    |
  |------------+----------|
- |Constant Res|181       |
+ |Constant Res|167       |
  |            |          |
- |Constant Cap|314       |
+ |Constant Cap|322       |
  -------------------------
               
   
@@ -630,75 +629,71 @@ Element variations(Local):   element              parameter
  ****** operating point status is voltage   simulation time is     0.     
     node    =voltage      node    =voltage      node    =voltage
 
- +0:a       =   0.      0:b       =   0.      0:cout    =  25.6541u
- +0:s       =  11.8633m 0:vdd!    = 700.0000m 1:n_net11_= 699.9968m
- +1:n_xi2/bb= 691.7311m 1:n_xi2/bb= 691.7312m 1:n_xi2/bb= 691.7384m
- +1:n_b_xi2/= 211.1334n 1:n_gnd!_x= 779.2316n 1:n_gnd!_x= 775.7556n
- +1:n_net11_= 699.9968m 1:n_xi2/bb= 691.7458m 1:n_b_xi2/= 210.3008n
- +1:n_vdd!_x= 699.9856m 1:n_vdd!_x= 699.9916m 1:n_net11_= 699.9968m
- +1:n_xi2/bb= 691.7311m 1:n_net11_= 699.9968m 1:n_xi2/bb= 691.7311m
- +1:n_xi2/bb= 691.7387m 1:n_xi2/bb= 691.7311m 1:n_xi2/bb= 691.7316m
- +1:n_xi2/bb= 691.7381m 1:n_xi2/bb= 691.7312m 1:n_xi2/bb= 691.7311m
- +1:n_a_c_13=   1.1643m 1:n_a_c_13= 246.9982u 1:n_a_c_13= 811.0735n
- +1:n_a_c_14=   1.2233m 1:n_a_c_14= 248.6158u 1:n_a_c_15=   1.2233m
- +1:n_a_c_15=   1.2233m 1:n_a_xi0/= 248.6169u 1:n_a_xi0/= 344.8242u
- +1:n_a_xi2/=   1.2233m 1:n_a_xi2/=   1.4619m 1:n_a_xi2/=   1.2233m
- +1:n_a_xi2/=   1.4582m 1:n_b_c_27= 123.6432n 1:n_b_c_28= 202.6749n
- +1:n_b_c_28= 210.6846n 1:n_b_c_28= 203.7445n 1:n_b_c_28=  82.9042n
- +1:n_b_c_28= 210.7436n 1:n_b_c_28= 236.1201n 1:n_b_c_29= 235.7035n
- +1:n_b_c_29= 179.2660n 1:n_b_c_30= 190.0343n 1:n_b_c_31= 236.1205n
- +1:n_b_c_31=  82.5512n 1:n_b_c_33= 236.1201n 1:n_b_xi0/=  82.5525n
- +1:n_b_xi0/=  89.7559n 1:n_b_xi2/= 235.6407n 1:n_b_xi2/= 236.8598n
- +1:n_b_xi2/= 236.1206n 1:n_cout_x=  25.6419u 1:n_cout_x=  25.6607u
- +1:n_gnd!_c=  14.3733n 1:n_gnd!_c= 775.9270n 1:n_gnd!_c= 406.3852n
- +1:n_gnd!_c=   8.0503n 1:n_gnd!_c= 775.7551n 1:n_gnd!_c= 401.7544n
- +1:n_gnd!_c= 770.8329n 1:n_gnd!_c=  18.0030n 1:n_gnd!_c=  14.9313n
- +1:n_gnd!_c= 385.3861n 1:n_gnd!_c=  10.2395n 1:n_gnd!_c= 382.4506n
- +1:n_gnd!_x=  18.0037n 1:n_gnd!_x=  16.4699n 1:n_gnd!_x=  14.9324n
- +1:n_gnd!_x=  16.7533n 1:n_net11_= 699.9968m 1:n_net11_= 699.9968m
- +1:n_net11_= 699.9968m 1:n_net11_= 699.9968m 1:n_net11_= 699.9968m
- +1:n_net11_= 699.9968m 1:n_net11_= 699.9968m 1:n_s_c_35=  11.8663m
- +1:n_s_c_35=  11.8564m 1:n_s_c_35=  11.8583m 1:n_s_c_35=  11.8564m
- +1:n_s_c_36=  11.8590m 1:n_s_c_36=  11.8663m 1:n_s_c_36=  11.8590m
- +1:n_s_xi2/=  11.8701m 1:n_s_xi2/=  11.8590m 1:n_s_xi2/=  11.8526m
- +1:n_s_xi2/=  11.8663m 1:n_s_xi2/=  11.8590m 1:n_s_xi2/=  11.8564m
- +1:n_vdd!_c= 699.9996m 1:n_vdd!_c= 699.9996m 1:n_vdd!_c= 699.9998m
- +1:n_vdd!_c= 700.0000m 1:n_vdd!_c= 700.0000m 1:n_vdd!_c= 699.9920m
- +1:n_vdd!_c= 699.9996m 1:n_vdd!_c= 699.9916m 1:n_vdd!_c= 699.9894m
- +1:n_vdd!_x= 699.9996m 1:n_vdd!_x= 699.9996m 1:n_vdd!_x= 699.9996m
- +1:n_vdd!_x= 700.0000m 1:n_vdd!_x= 700.0000m 1:xi0/net0=  45.0089m
- +2:25      = 700.0000m 2:27      = 699.9996m 2:28      = 700.0000m
- +2:31      = 700.0000m 2:32      = 700.0000m 2:33      = 700.0000m
- +2:36      = 699.9996m 2:41      = 699.9995m 2:43      = 699.9996m
- +2:44      = 699.9996m 2:51      = 699.9899m 2:52      = 699.9914m
- +2:53      = 699.9893m 2:57      = 699.9916m 2:62      = 700.0000m
- +2:65      = 699.9996m 2:70      = 699.9996m 2:73      = 699.9998m
- +2:76      = 699.9996m 2:79      = 700.0000m 3:22      =  10.5628n
- +3:26      =  11.1846n 3:27      =  14.9314n 3:30      =  15.0970n
- +3:34      =  17.5647n 3:35      =  15.3235n 3:50      = 775.7546n
- +3:51      = 775.7549n 3:54      = 775.0903n 3:55      = 775.7545n
- +3:56      = 384.8093n 3:59      =  18.0030n 3:63      = 402.3312n
- +4:7       = 569.5584u 4:8       = 265.1506u 4:11      = 248.6159u
- +4:16      = 582.8457u 4:21      =   1.2233m 4:27      =   1.2233m
- +4:30      =   1.1781m 4:36      = 235.7324u 4:41      =   1.4582m
- +6:5       = 699.9968m 6:8       = 699.9968m 6:13      = 699.9968m
- +6:21      = 699.9968m 6:24      = 699.9968m 6:29      = 699.9968m
- +6:30      = 699.9968m 6:33      = 699.9968m 7:3       =  83.8267n
- +7:7       =  82.5514n 7:13      = 127.3229n 7:15      = 190.1427n
- +7:24      = 210.8026n 7:28      =  82.4079n 7:31      =  86.9158n
- +7:39      = 277.9412p 7:40      =  81.6114n 7:45      = 236.1201n
- +7:48      = 236.1205n 7:50      = 236.0249n 7:52      = 236.1449n
- +7:56      = 235.6407n 7:68      = 235.6407n 7:75      = 179.6456n
- +8:33      =  11.8566m 8:35      =  11.8596m 8:36      =  11.8661m
- +8:39      =  11.8560m 8:42      =  11.8590m 8:45      =  11.8667m
- +9:23      = 691.7312m 9:24      = 691.7311m 9:27      = 691.7311m
- +9:29      = 691.7311m 9:30      = 691.7312m 9:36      = 691.7311m
+ +0:a       =   0.      0:b       =   0.      0:cout    =  25.6389u
+ +0:s       =  16.5537u 0:vdd!    = 700.0000m 1:n_net11_= 699.9984m
+ +1:n_xi2/bb= 699.9771m 1:n_b_xi2/= 102.2764n 1:n_gnd!_x=  43.5054n
+ +1:n_gnd!_x=  36.3149n 1:n_xi2/bb= 699.9770m 1:n_net11_= 699.9984m
+ +1:n_xi2/bb= 699.9771m 1:n_b_xi2/= 101.4080n 1:n_vdd!_x= 699.9999m
+ +1:n_vdd!_x= 699.9999m 1:n_net11_= 699.9984m 1:n_xi2/bb= 699.9770m
+ +1:n_net11_= 699.9984m 1:n_xi2/bb= 699.9771m 1:n_xi2/bb= 699.9771m
+ +1:n_xi2/bb= 699.9771m 1:n_xi2/bb= 699.9770m 1:n_xi2/bb= 699.9771m
+ +1:n_xi2/bb= 699.9770m 1:n_xi2/bb= 699.9770m 1:n_a_c_29=   1.4166u
+ +1:n_a_c_30=   1.6999u 1:n_a_c_30= 348.2215n 1:n_a_c_30=   2.1228u
+ +1:n_a_xi0/= 467.8315n 1:n_a_xi0/= 382.4423n 1:n_a_xi2/=   1.5626u
+ +1:n_a_xi2/=   2.4565u 1:n_a_xi2/=   1.6999u 1:n_a_xi2/=   2.4514u
+ +1:n_b_c_16= 101.8698n 1:n_b_c_17=  93.1619n 1:n_b_c_18=  63.3543n
+ +1:n_b_c_18=  38.7295n 1:n_b_c_19=  93.7738n 1:n_b_c_19= 144.0578p
+ +1:n_b_c_20=  93.8717n 1:n_b_c_20=  93.8162n 1:n_b_c_20=  93.8718n
+ +1:n_b_c_23=  38.9832n 1:n_b_xi0/=  39.4295n 1:n_b_xi0/=  53.6972n
+ +1:n_b_xi2/=  93.8728n 1:n_b_xi2/=  93.8721n 1:n_cout_x=  25.6303u
+ +1:n_cout_x=  25.6481u 1:n_gnd!_c=  39.9507n 1:n_gnd!_c=  43.6833n
+ +1:n_gnd!_c=  25.0598n 1:n_gnd!_c=  39.2740n 1:n_gnd!_c=  36.3143n
+ +1:n_gnd!_c=  35.6375n 1:n_gnd!_c=  30.7853n 1:n_gnd!_x=  26.6584n
+ +1:n_gnd!_x=  28.9404n 1:n_gnd!_x=   4.6603n 1:n_gnd!_x=   6.3447n
+ +1:n_gnd!_x=  43.7416n 1:n_gnd!_x=  43.7914n 1:n_net11_= 699.9984m
+ +1:n_net11_= 699.9984m 1:n_net11_= 699.9984m 1:n_net11_= 699.9984m
+ +1:n_net11_= 699.9984m 1:n_s_c_42=  16.5488u 1:n_s_c_44=  16.5621u
+ +1:n_s_c_45=  16.5486u 1:n_s_xi2/=  16.5674u 1:n_s_xi2/=  16.5433u
+ +1:n_s_xi2/=  16.5621u 1:n_s_xi2/=  16.5486u 1:n_vdd!_c= 699.9999m
+ +1:n_vdd!_c= 700.0000m 1:n_vdd!_c= 700.0000m 1:n_vdd!_c= 699.9999m
+ +1:n_vdd!_c= 699.9999m 1:n_vdd!_c= 699.9999m 1:n_vdd!_c= 699.9999m
+ +1:n_vdd!_c= 700.0000m 1:n_vdd!_c= 699.9999m 1:n_vdd!_c= 699.9999m
+ +1:n_vdd!_c= 699.9999m 1:n_vdd!_x= 699.9999m 1:n_vdd!_x= 700.0000m
+ +1:n_vdd!_x= 699.9999m 1:n_vdd!_x= 700.0000m 1:n_vdd!_x= 700.0000m
+ +1:n_vdd!_x= 699.9999m 1:n_vdd!_x= 699.9999m 1:xi0/net0=  44.8614m
+ +2:31      = 259.3648p 2:34      =   3.7992n 2:35      = 860.0530p
+ +2:36      =   4.6593n 2:40      =   5.5191n 2:41      =  26.0112n
+ +2:45      =  28.9397n 2:52      =  36.3144n 2:58      =  36.9910n
+ +2:63      =   4.6593n 2:64      =  25.9532n 2:65      =  28.9397n
+ +2:67      =  40.1266n 2:70      =  43.6754n 2:74      =  43.6798n
+ +3:32      = 700.0000m 3:35      = 700.0000m 3:36      = 700.0000m
+ +3:37      = 700.0000m 3:43      = 700.0000m 3:44      = 700.0000m
+ +3:49      = 700.0000m 3:50      = 700.0000m 3:55      = 699.9999m
+ +3:56      = 699.9999m 3:62      = 699.9999m 3:63      = 699.9999m
+ +3:74      = 700.0000m 3:75      = 700.0000m 3:78      = 699.9999m
+ +3:80      = 699.9999m 3:84      = 699.9999m 3:88      = 699.9999m
+ +3:90      = 699.9999m 5:3       =  39.0472n 5:7       =  41.5120n
+ +5:8       =  62.2876n 5:13      = 101.9313n 5:17      = 101.8082n
+ +5:18      =  94.1466n 5:21      =  93.8720n 5:28      =  93.7756n
+ +5:36      =  36.9825n 5:45      =  93.8712n 5:48      =  93.8718n
+ +5:52      =  93.8718n 5:55      =  93.8720n 5:57      =  93.8718n
+ +6:5       = 699.9984m 6:8       = 699.9984m 6:15      = 699.9984m
+ +6:20      = 699.9984m 6:25      = 699.9984m 6:26      = 699.9984m
+ +6:32      = 699.9984m 6:34      = 699.9984m 6:35      = 699.9984m
+ +7:7       = 614.5940n 7:8       = 386.1112n 7:11      = 373.6812n
+ +7:16      = 633.9118n 7:17      =   1.4359u 7:18      =   1.6874u
+ +7:21      =   1.6999u 7:25      =   1.7047u 7:29      =   1.2712n
+ +7:43      =   2.4514u 7:51      = 372.9847n 8:3       = 699.9770m
+ +8:14      = 699.9771m 8:15      = 699.9771m 8:19      = 699.9770m
+ +8:23      = 699.9770m 8:26      = 699.9770m 9:9       =  16.5628u
+ +9:13      =  16.5621u 9:18      =  16.5619u 9:21      =  16.5479u
+ +9:24      =  16.5486u
 
  ******
  *adder
 
  ****** transient analysis tnom=  25.000 temp=  25.000 ******
- delay_cout= 100.3634p  targ=  15.0504n   trig=  14.9500n
+ delay_cout= 110.5368p  targ=  15.0605n   trig=  14.9500n
 
           ***** job concluded
  ******  
@@ -709,7 +704,7 @@ Element variations(Local):   element              parameter
  ******  Machine Information  ******
  CPU:
  model name	: Intel(R) Xeon(R) CPU E7-4820 v3 @ 1.90GHz
- cpu MHz	: 1895.432
+ cpu MHz	: 1895.433
   
  OS:
  Linux version 3.10.0-1160.24.1.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Thu Apr 8 19:51:47 UTC 2021
@@ -726,8 +721,8 @@ Element variations(Local):   element              parameter
   Voltage Sources :       1
 
   ******  Circuit Statistics  ******
-  # nodes       =     238 # elements   =     510
-  # resistors   =     181 # capacitors =     314 # inductors   =       0
+  # nodes       =     224 # elements   =     505
+  # resistors   =     167 # capacitors =     323 # inductors   =       0
   # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
   # cccs        =       0 # ccvs       =       0 # volt_srcs   =       3
   # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
@@ -740,19 +735,19 @@ Element variations(Local):   element              parameter
   ******  Runtime Statistics (seconds)  ******
 
   analysis           time    # points   tot. iter  conv.iter
-  op point           0.01           1          15
-  transient          0.23       20201         797         283 rev=        40
-  readin             0.03
+  op point           0.00           1          14
+  transient          0.23       20201         798         290 rev=        42
+  readin             0.04
   errchk             0.02
   setup              0.00
   output             0.00
 
 
            peak memory used        274.98 megabytes
-           total cpu time            0.30 seconds
+           total cpu time            0.31 seconds
            total elapsed time        0.22 seconds
-           job started at     02:04:14 11/27/2024
-           job ended   at     02:04:14 11/27/2024
+           job started at     15:02:28 12/03/2024
+           job ended   at     15:02:29 12/03/2024
 
 
  lic: Release hspice token(s) 

@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 10/01/2018 19:51 (ip-172-18-22-52) $
           : sub-version  IC6.1.8-64b.83 
-Started at: 29-Nov-2024  18:36:52
+Started at: 03-Dec-2024  14:51:50
 User Name : centos
 Host Name : 2024-szjcdl53
 Directory : /home/centos/EE213
@@ -34,11 +34,11 @@ INFO (XSTRM-223): 5. Translating cellView MyLibPDK45/myXOR/layout as STRUCTURE m
 INFO (XSTRM-223): 6. Translating cellView MyLibPDK45/myHA/layout as STRUCTURE myHA.
 
 Summary of Objects Translated:
-	Scalar Instances:                       10
+	Scalar Instances:                       7
 	Array Instances:                        0
 	Polygons:                               0
 	Paths:                                  0
-	Rectangles:                             235
+	Rectangles:                             213
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -58,5 +58,5 @@ Summary of Objects Translated:
 	TextDisplay:                            20
 	Cells:                                  6
 
-Elapsed Time: 0.2s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 2456KB
+Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 2448KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

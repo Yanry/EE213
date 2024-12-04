@@ -1,4 +1,4 @@
 $DATA1 SOURCE='HSPICE' VERSION='O-2018.09-SP1-1 linux64' PARAM_COUNT=0
 .TITLE '* partial product adder'
- avg_power        temper           alter#          
-  2.152e-05        2.500e+01       1               
+ avg_power        power_at_max     temper           alter#          
+  1.106e-05        1.106e-05        2.500e+01       1               

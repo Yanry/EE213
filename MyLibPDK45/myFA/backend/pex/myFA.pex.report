@@ -10,7 +10,7 @@
  
 LAYOUT NAME:              MYFA
 RULE FILE NAME:           rules
-CREATION TIME:            Wed Nov 27 19:35:37 2024
+CREATION TIME:            Tue Dec  3 15:28:01 2024
  
 UNITS:                    Resistance  = ohm
                           Capacitance = farad
@@ -168,11 +168,11 @@ Netid      R(UpperBound)      Cvalue      %Coupled    RC(UpperBound)   Netname
                5.77554e-18   netid: N_NET35_c_504_n
 
 
-3                     0.0    7.6678e-16       41.7826            0.0  B
+3                     0.0   7.64499e-16       41.6208            0.0  B
             - Coupled nets
-               N_NET79_c_3_p,N_NET79_c_5_p,N_A_MM13_g,N_A_c_89_p,N_A_MM15_g,N_A_c_84_n,N_A_MM18_g,N_A_c_86_n,N_A_MM22_g,N_NET4_MM13_d,N_NET4_MM12_s,N_NET4_c_184_n,N_NET7_MM0_d,N_NET7_MM2_s,N_NET7_c_199_n,N_CIN_MM20_g,N_CIN_c_228_n,N_CIN_c_228_n,N_CIN_c_230_n,N_CIN_c_219_n,N_CIN_c_219_n,N_CIN_c_219_n,N_CIN_c_219_n,N_CIN_c_219_n,N_CIN_c_219_n,N_GND!_MM13_s,N_GND!_MM14_s,N_GND!_MM16_s,N_GND!_MM18_s,N_GND!_MM19_s,N_GND!_MM23_s,N_GND!_c_282_n,N_GND!_c_282_n,N_GND!_c_282_n,N_GND!_c_269_n,N_GND!_c_269_n,N_GND!_c_274_n,N_GND!_c_275_n,N_GND!_c_275_n,N_VDD!_XI9/MM1_s,N_VDD!_XI10/MM1_s,N_VDD!_MM1_s,N_VDD!_MM3_s,N_VDD!_MM6_s,N_VDD!_MM9_s,N_VDD!_c_356_n,N_VDD!_c_361_n,N_NET65_MM18_d,N_NET65_c_448_n,N_NET42_MM5_d,N_NET42_c_477_n,N_NET35_c_504_n
+               N_NET79_c_3_p,N_NET79_c_5_p,N_A_MM13_g,N_A_c_89_p,N_A_MM15_g,N_A_c_84_n,N_A_MM18_g,N_A_c_86_n,N_A_MM22_g,N_NET4_MM13_d,N_NET4_MM12_s,N_NET4_c_184_n,N_NET7_MM0_d,N_NET7_MM2_s,N_NET7_c_199_n,N_CIN_MM20_g,N_CIN_c_228_n,N_CIN_c_228_n,N_CIN_c_230_n,N_CIN_c_219_n,N_CIN_c_219_n,N_CIN_c_219_n,N_CIN_c_219_n,N_CIN_c_219_n,N_CIN_c_219_n,N_GND!_MM13_s,N_GND!_MM14_s,N_GND!_MM16_s,N_GND!_MM18_s,N_GND!_MM19_s,N_GND!_MM23_s,N_GND!_c_282_n,N_GND!_c_282_n,N_GND!_c_282_n,N_GND!_c_269_n,N_GND!_c_274_n,N_GND!_c_275_n,N_GND!_c_275_n,N_GND!_c_299_n,N_VDD!_XI9/MM1_s,N_VDD!_XI10/MM1_s,N_VDD!_MM1_s,N_VDD!_MM3_s,N_VDD!_MM6_s,N_VDD!_MM9_s,N_VDD!_c_356_n,N_VDD!_c_361_n,N_NET65_MM18_d,N_NET65_c_448_n,N_NET42_MM5_d,N_NET42_c_477_n,N_NET35_c_504_n
             - Intrinsic Capacitance
-               4.464e-16
+               4.46309e-16
             - Coupled capacitance
                6.51716e-18   netid: N_NET79_c_3_p
                1.65126e-18   netid: N_NET79_c_5_p
@@ -206,13 +206,13 @@ Netid      R(UpperBound)      Cvalue      %Coupled    RC(UpperBound)   Netname
                1.13278e-18   netid: N_GND!_MM19_s
                5.13278e-18   netid: N_GND!_MM23_s
                5.83833e-18   netid: N_GND!_c_282_n
-               1.01345e-17   netid: N_GND!_c_282_n
+               6.76328e-18   netid: N_GND!_c_282_n
                1.22301e-18   netid: N_GND!_c_282_n
-               3.04862e-18   netid: N_GND!_c_269_n
                5.67596e-18   netid: N_GND!_c_269_n
                 5.2258e-18   netid: N_GND!_c_274_n
                6.49698e-18   netid: N_GND!_c_275_n
                 6.3443e-18   netid: N_GND!_c_275_n
+               4.22979e-18   netid: N_GND!_c_299_n
                6.34688e-19   netid: N_VDD!_XI9/MM1_s
                7.54157e-19   netid: N_VDD!_XI10/MM1_s
                3.46228e-18   netid: N_VDD!_MM1_s
@@ -228,11 +228,11 @@ Netid      R(UpperBound)      Cvalue      %Coupled    RC(UpperBound)   Netname
                6.66461e-18   netid: N_NET35_c_504_n
 
 
-4                     0.0   1.69695e-16       86.1037            0.0  NET4
+4                     0.0   1.69986e-16       85.9564            0.0  NET4
             - Coupled nets
                N_NET79_c_10_p,N_NET79_c_11_p,N_A_MM13_g,N_A_c_96_p,N_B_MM14_g,N_B_MM14_g,N_B_MM14_g,N_NET7_c_199_n,N_NET7_c_200_n,N_CIN_MM12_g,N_GND!_MM13_s,N_GND!_MM14_s,N_GND!_MM14_s,N_GND!_MM14_s,N_GND!_c_282_n,N_GND!_c_269_n
             - Intrinsic Capacitance
-               2.35813e-17
+               2.38721e-17
             - Coupled capacitance
                1.10896e-17   netid: N_NET79_c_10_p
                1.10896e-17   netid: N_NET79_c_11_p
@@ -328,11 +328,11 @@ Netid      R(UpperBound)      Cvalue      %Coupled    RC(UpperBound)   Netname
                3.76743e-18   netid: N_NET35_MM11_d
 
 
-7                     0.0    1.0715e-15       79.9839            0.0  GND!
+7                     0.0   1.07013e-15       79.8818            0.0  GND!
             - Coupled nets
-               N_NET79_XI9/MM0_g,N_NET79_c_18_p,N_NET79_c_3_p,N_NET79_c_5_p,N_NET79_c_3_p,N_NET79_MM15_d,N_NET79_c_3_p,N_NET79_XI9/MM0_g,N_NET79_c_5_p,N_NET79_c_5_p,N_NET79_c_10_p,N_NET79_c_3_p,N_NET79_c_3_p,N_NET79_XI9/MM0_g,N_NET79_c_5_p,N_NET79_c_5_p,N_NET79_MM17_g,N_NET79_c_5_p,N_NET79_c_38_p,N_A_MM13_g,N_A_c_104_p,A,N_A_MM18_g,N_A_MM13_g,N_A_MM15_g,N_A_MM18_g,N_A_MM22_g,N_B_MM14_g,N_B_MM14_g,N_B_MM16_g,N_B_MM19_g,N_B_MM19_g,N_B_MM23_g,N_B_MM14_g,B,N_B_c_164_p,N_B_c_149_p,N_B_MM16_g,N_B_MM19_g,N_B_c_148_p,N_B_MM23_g,N_NET4_MM13_d,N_NET4_MM13_d,N_NET4_MM12_s,N_NET4_c_184_n,N_NET4_MM13_d,N_NET4_MM12_s,N_CIN_MM12_g,N_CIN_MM20_g,N_CIN_MM12_g,N_CIN_c_230_n,N_CIN_c_219_n,N_CIN_MM20_g,N_CIN_c_218_n,N_CIN_MM21_g,N_CIN_c_228_n,N_VDD!_XI9/MM1_b,N_VDD!_c_401_n,N_VDD!_MM5_s,N_VDD!_c_403_n,N_VDD!_c_373_n,N_VDD!_c_356_n,N_VDD!_c_358_n,N_VDD!_c_360_n,N_VDD!_c_361_n,N_COUT_XI9/MM0_d,N_COUT_XI9/MM0_d,N_COUT_XI9/MM0_d,N_NET65_MM18_d,N_NET65_MM18_d,N_NET65_MM18_d,N_NET65_c_448_n,N_NET65_c_460_n,N_NET65_c_460_n,N_NET35_XI10/MM0_g,N_NET35_XI10/MM0_g,N_NET35_c_511_n,N_NET35_c_511_n,N_NET35_c_504_n,N_NET35_c_504_n,N_NET35_c_504_n,N_NET35_c_504_n,N_NET35_c_504_n,N_NET35_MM21_d,N_NET35_c_499_n,N_S_XI10/MM0_d,N_S_XI10/MM0_d
+               N_NET79_XI9/MM0_g,N_NET79_c_18_p,N_NET79_c_3_p,N_NET79_c_5_p,N_NET79_c_3_p,N_NET79_MM15_d,N_NET79_c_3_p,N_NET79_XI9/MM0_g,N_NET79_c_5_p,N_NET79_c_5_p,N_NET79_c_10_p,N_NET79_c_3_p,N_NET79_c_3_p,N_NET79_XI9/MM0_g,N_NET79_c_5_p,N_NET79_c_5_p,N_NET79_MM17_g,N_NET79_c_5_p,N_NET79_c_38_p,N_A_MM13_g,N_A_c_104_p,A,N_A_MM18_g,N_A_MM13_g,N_A_MM15_g,N_A_MM18_g,N_A_MM22_g,N_B_MM14_g,N_B_MM14_g,N_B_MM16_g,N_B_MM19_g,N_B_MM19_g,N_B_MM23_g,N_B_MM14_g,B,N_B_c_164_p,N_B_MM16_g,N_B_MM19_g,N_B_c_148_p,N_B_MM23_g,N_B_c_149_p,N_NET4_MM13_d,N_NET4_MM13_d,N_NET4_MM12_s,N_NET4_c_184_n,N_NET4_MM13_d,N_NET4_MM12_s,N_CIN_MM12_g,N_CIN_MM20_g,N_CIN_MM12_g,N_CIN_c_230_n,N_CIN_c_219_n,N_CIN_MM20_g,N_CIN_c_218_n,N_CIN_MM21_g,N_CIN_c_228_n,N_VDD!_XI9/MM1_b,N_VDD!_c_401_n,N_VDD!_MM5_s,N_VDD!_c_403_n,N_VDD!_c_373_n,N_VDD!_c_356_n,N_VDD!_c_358_n,N_VDD!_c_360_n,N_VDD!_c_361_n,N_COUT_XI9/MM0_d,N_COUT_XI9/MM0_d,N_COUT_XI9/MM0_d,N_NET65_MM18_d,N_NET65_MM18_d,N_NET65_MM18_d,N_NET65_c_448_n,N_NET65_c_460_n,N_NET65_c_460_n,N_NET35_XI10/MM0_g,N_NET35_XI10/MM0_g,N_NET35_c_511_n,N_NET35_c_511_n,N_NET35_c_504_n,N_NET35_c_504_n,N_NET35_c_504_n,N_NET35_c_504_n,N_NET35_c_504_n,N_NET35_MM21_d,N_NET35_c_499_n,N_S_XI10/MM0_d,N_S_XI10/MM0_d
             - Intrinsic Capacitance
-               2.14473e-16
+               2.15291e-16
             - Coupled capacitance
                3.33872e-18   netid: N_NET79_XI9/MM0_g
                9.24222e-19   netid: N_NET79_c_18_p
@@ -368,13 +368,13 @@ Netid      R(UpperBound)      Cvalue      %Coupled    RC(UpperBound)   Netname
                1.13278e-18   netid: N_B_MM19_g
                5.13278e-18   netid: N_B_MM23_g
                5.83833e-18   netid: N_B_MM14_g
-               1.01345e-17   netid: B
+               6.76328e-18   netid: B
                1.22301e-18   netid: N_B_c_164_p
-               3.04862e-18   netid: N_B_c_149_p
                5.67596e-18   netid: N_B_MM16_g
                 5.2258e-18   netid: N_B_MM19_g
                6.49698e-18   netid: N_B_c_148_p
                 6.3443e-18   netid: N_B_MM23_g
+               4.22979e-18   netid: N_B_c_149_p
                 9.1071e-18   netid: N_NET4_MM13_d
                 9.1071e-18   netid: N_NET4_MM13_d
                1.30369e-17   netid: N_NET4_MM12_s

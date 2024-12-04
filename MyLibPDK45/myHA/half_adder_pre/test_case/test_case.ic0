@@ -1,7 +1,7 @@
 * "simulator" "HSPICE" 
 * "version" "O-2018.09-SP1-1 linux64"
 * "format" "HSP"
-* "rundate" "13:49:40 11/29/2024 "
+* "rundate" "14:39:43 12/03/2024 "
 * "netlist" "halfadder_delay.sp "
 * "runtitle" "*adder"
 * time =    0.            
@@ -13,9 +13,9 @@
 + a =   0.            
 + b =   0.            
 + cout =  25.6240u       
-+ s =  10.1377m       
++ s =  14.0874u       
 + vdd! = 700.0000m       
 + xi0.net11 = 699.9985m       
 + xi0.xi0.net9 =  44.8616m       
-+ xi0.xi2.bbar = 691.9820m       
++ xi0.xi2.bbar = 699.9772m       
 ***   END: Saved Operating Point ***                     
