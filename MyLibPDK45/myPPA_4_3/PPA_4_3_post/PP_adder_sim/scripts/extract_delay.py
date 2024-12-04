@@ -52,6 +52,7 @@ def read_trace(path,signals):
 def extract_delay(trace,t_start,t_step,t_end,period,voh,vol):
 	time_interval_idx = [0]
 	interval_idx = 0
+	time_max = 0
 	green = "\033[32m"
 	reset = "\033[0m"
 	for idx,time in enumerate(trace["TIME"]):
@@ -78,8 +79,10 @@ def extract_delay(trace,t_start,t_step,t_end,period,voh,vol):
 					p = abs(cur_voltage-pass_through_voltage) / abs(cur_voltage-next_voltage)
 					signal_delay = p*trace["TIME"][t_idx+1] + (1-p)*trace["TIME"][t_idx] - trace["TIME"][interval_start_idx]
 			interval_delay = max(signal_delay,interval_delay)
+		time_max = trace["TIME"][interval_start_idx] if(interval_delay > max_delay) else time_max
 		max_delay = max(interval_delay,max_delay)
 	print "{}Maximum Delay:{}{}".format(green,max_delay,reset)
+	print "{}Time:{}{}".format(green,time_max,reset)
 
 monitor_signals = ("v(s<0>)","v(s<1>)","v(s<2>)","v(s<3>)","v(s<4>)","v(s<5>)","v(a<0>)","v(a<1>)","v(a<2>)","v(a<3>)","v(b<0>)","v(b<1>)","v(b<2>)")
 trace = read_trace(sys.argv[1],monitor_signals)
