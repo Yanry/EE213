@@ -1,0 +1,122 @@
+### Custom WaveView ADV log file, revision Q-2020.03-SP2-2 (build Oct 29, ) ###
+### created at 19:59:06 on Tue Dec 17 2024 (Linux AMD64) ###
+### Host Name: 2024-szjcdl53   User ID: centos   PID: 3640   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window {Custom WaveView} {} 34 57
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {OpenWaveform0} 
+wv_select_dialog {FileDialog} 
+wv_select_list_item {FileDialog} {} {FileList} {sim.tr0} 7
+wv_dclick_list_item {FileDialog} {} {FileList} {sim.tr0} 7
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:sim.tr0(0)} {+sep=@}
+wv_drag_tree_item {Custom WaveView} {} {hierview} {D0:sim.tr0(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:sim.tr0(0)} {0} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:sim.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {30}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {60}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {89}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {149}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {208}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {298}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {357}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {387}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {446}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {506}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {595}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {655}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {714}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {774}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {833}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {893}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {922}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {952}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {982}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1071}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1101}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1131}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1190}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1250}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1309}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1369}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1428}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1517}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1607}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1696}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1755}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1815}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1874}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1964}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {2023}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {2113}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {2172}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {2232}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {2351}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {2440}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {2499}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {2589}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {2708}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {2827}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {2946}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {3094}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {3243}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {3392}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {3600}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {3749}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {3957}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4166}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4344}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4463}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4642}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4731}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4790}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4850}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4880}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4909}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4939}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4969}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4999}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {5028}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {5058}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {5118}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {5177}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {5207}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {5266}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {5326}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {5385}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {5445}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {5475}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {5534}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {5623}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {5683}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {5713}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {5742}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {5772}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {5802}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {5832}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {5921}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {6010}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {6040}
+wv_select_list_item {Custom WaveView} {} {sigview} {v(result<0>)} 9
+wv_select_list_item {Custom WaveView} {} {sigview} {v(result<9>)} 20 +shift
+wv_drag_list_item {Custom WaveView} {} {sigview} {v(result<11>)} 11
+wv_drag_enter WV1
+wv_drop_on WV1
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1 2.60525e-09 0.464141
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {PanelPopMenu.Ungroup} 
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {2915}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {0}
+wv_resize_browser {Custom WaveView} {} {WV.Browser} 250 874
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 1660 848
+wv_resize_window {Custom WaveView} 1920 1017
+wv_move_window {Custom WaveView} {} 0 23
+wv_close_window {Custom WaveView} 
+wv_move_window {Confirmation} {} 859 445
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 
+#*WARNING* Can not remove '/home/centos/.cx_hostport/.cx_hostport_2024-szjcdl53_3640'.

@@ -1,0 +1,1 @@
+** Copy your SRAM netlist (.subckt) here. 

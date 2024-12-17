@@ -1,0 +1,1 @@
+** Copy your SRAM_MAC combined netlist (.subckt) here
