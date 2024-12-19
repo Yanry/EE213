@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      centos
+HostName                       2024-szjcdl53
+ProcessIdentifier              19361
+ProcessCreationTime_UTC        1734577731
+ProcessCreationTime_Readable   Thu Dec 19 11:08:51 2024 CST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/centos/EE213/MyLibPDK45/mySRAM_wr/symbol/symbol.oa.cdslck
+TimeEditLocked                 Thu Dec 19 12:42:09 2024 CST
