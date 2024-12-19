@@ -1,0 +1,32 @@
+header
+"PSFversion" "1.00"
+"simulator" "HSPICE"
+"version" "O-2018.09-SP1-1 linux64"
+"rundate" "14:40:41 12/19/2024 "
+"runtitle" "** sram testbench                                                 "
+"runtype" "logFile"
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING * )
+VALUE
+"timeSweep" "analysisInst" (
+"Transient Analysis"
+"sim.tr0"
+"PSF"
+""
+("time")
+"Transient Analysis"
+)
+"summary" "analysisInst" ( 
+"Summary Information"
+"sim.su0"
+"PSF"
+""
+()
+"Summary Information"
+)

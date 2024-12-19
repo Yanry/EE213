@@ -1,0 +1,231 @@
+ ****** HSPICE -- O-2018.09-SP1-1 linux64 (Dec 28 2018) ******                  
+  Copyright (c) 1986 - 2024 by Synopsys, Inc. All Rights Reserved.              
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: decoder_testbench.sp                                              
+  Command line options: /home/tools/synopsys/hspice/O-2018.09-SP1-1/hspice/linux64/hspice -i decoder_testbench.sp -o sim
+  Start time: Wed Dec 18 16:35:16 2024
+ lic:  
+ lic: FLEXlm: SDK_11.6.9.6 
+ lic: USER:   centos               HOSTNAME: 2024-szjcdl53 
+ lic: HOSTID: 005056a6b4a5         PID:      19670 
+ lic: Using FLEXlm license file: 
+ lic: 27020@10.15.89.162 
+ lic: Checkout 1 hspice 
+ lic: License/Maintenance for hspice will expire on 01-nov-2025/2023.03 
+ lic: 3(in_use)/40(total) FLOATING license(s) on SERVER 27020@10.15.89.162 
+ lic:   
+  **warning** (./decoder.sp:126)'.end' can not exist in include/lib files, ignored
+** warning ** duplicate temperature 25.0 is defined in .temp. Only the first one will be used.
+  **warning** multiple output options specified, using psf
+1****** HSPICE -- O-2018.09-SP1-1 linux64 (Dec 28 2018) ******                  
+ ******  
+ * partial product adder
+
+ ****** circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+        1 xi0.                            mydecoder_5_32     1.00 
+        2 xi0.xi0.                        mydecoder_4_16     1.00 
+        3 xi0.xi28.                       mynor4             1.00 
+        4 xi0.xi27.                       mynor4             1.00 
+        5 xi0.xi26.                       mynor4             1.00 
+        6 xi0.xi25.                       mynor4             1.00 
+        7 xi0.xi7.                        mynor4             1.00 
+        8 xi0.xi6.                        mynor4             1.00 
+        9 xi0.xi5.                        mynor4             1.00 
+       10 xi0.xi1.                        mynor4             1.00 
+       11 xi0.xi24.                       myinverter45       1.00 
+       12 xi0.xi23.                       myinverter45       1.00 
+       13 xi0.xi22.                       myinverter45       1.00 
+       14 xi0.xi21.                       myinverter45       1.00 
+       15 xi0.xi20.                       myinverter45       1.00 
+       16 xi0.xi19.                       myinverter45       1.00 
+       17 xi0.xi18.                       myinverter45       1.00 
+       18 xi0.xi17.                       myinverter45       1.00 
+       19 xi0.xi16.                       myinverter45       1.00 
+       20 xi0.xi15.                       myinverter45       1.00 
+       21 xi0.xi12.                       myinverter45       1.00 
+       22 xi0.xi0.xi1.                    mydecoder_2_4      1.00 
+       23 xi0.xi0.xi0.                    mydecoder_2_4      1.00 
+       24 xi0.xi0.xi5.                    mynand4            1.00 
+       25 xi0.xi0.xi4.                    mynand4            1.00 
+       26 xi0.xi0.xi3.                    mynand4            1.00 
+       27 xi0.xi0.xi2.                    mynand4            1.00 
+       28 xi0.xi28.xi3.                   mynor              1.00 
+       29 xi0.xi28.xi2.                   mynor              1.00 
+       30 xi0.xi28.xi1.                   mynor              1.00 
+       31 xi0.xi28.xi0.                   mynor              1.00 
+       32 xi0.xi27.xi3.                   mynor              1.00 
+       33 xi0.xi27.xi2.                   mynor              1.00 
+       34 xi0.xi27.xi1.                   mynor              1.00 
+       35 xi0.xi27.xi0.                   mynor              1.00 
+       36 xi0.xi26.xi3.                   mynor              1.00 
+       37 xi0.xi26.xi2.                   mynor              1.00 
+       38 xi0.xi26.xi1.                   mynor              1.00 
+       39 xi0.xi26.xi0.                   mynor              1.00 
+       40 xi0.xi25.xi3.                   mynor              1.00 
+       41 xi0.xi25.xi2.                   mynor              1.00 
+       42 xi0.xi25.xi1.                   mynor              1.00 
+       43 xi0.xi25.xi0.                   mynor              1.00 
+       44 xi0.xi7.xi3.                    mynor              1.00 
+       45 xi0.xi7.xi2.                    mynor              1.00 
+       46 xi0.xi7.xi1.                    mynor              1.00 
+       47 xi0.xi7.xi0.                    mynor              1.00 
+       48 xi0.xi6.xi3.                    mynor              1.00 
+       49 xi0.xi6.xi2.                    mynor              1.00 
+       50 xi0.xi6.xi1.                    mynor              1.00 
+       51 xi0.xi6.xi0.                    mynor              1.00 
+       52 xi0.xi5.xi3.                    mynor              1.00 
+       53 xi0.xi5.xi2.                    mynor              1.00 
+       54 xi0.xi5.xi1.                    mynor              1.00 
+       55 xi0.xi5.xi0.                    mynor              1.00 
+       56 xi0.xi1.xi3.                    mynor              1.00 
+       57 xi0.xi1.xi2.                    mynor              1.00 
+       58 xi0.xi1.xi1.                    mynor              1.00 
+       59 xi0.xi1.xi0.                    mynor              1.00 
+       60 xi0.xi0.xi1.xi5.                myinverter45       1.00 
+       61 xi0.xi0.xi1.xi1.                myinverter45       1.00 
+       62 xi0.xi0.xi1.xi2.                mynor4             1.00 
+       63 xi0.xi0.xi0.xi5.                myinverter45       1.00 
+       64 xi0.xi0.xi0.xi1.                myinverter45       1.00 
+       65 xi0.xi0.xi0.xi2.                mynor4             1.00 
+       66 xi0.xi0.xi5.xi3.                mynand             1.00 
+       67 xi0.xi0.xi5.xi2.                mynand             1.00 
+       68 xi0.xi0.xi5.xi1.                mynand             1.00 
+       69 xi0.xi0.xi5.xi0.                mynand             1.00 
+       70 xi0.xi0.xi4.xi3.                mynand             1.00 
+       71 xi0.xi0.xi4.xi2.                mynand             1.00 
+       72 xi0.xi0.xi4.xi1.                mynand             1.00 
+       73 xi0.xi0.xi4.xi0.                mynand             1.00 
+       74 xi0.xi0.xi3.xi3.                mynand             1.00 
+       75 xi0.xi0.xi3.xi2.                mynand             1.00 
+       76 xi0.xi0.xi3.xi1.                mynand             1.00 
+       77 xi0.xi0.xi3.xi0.                mynand             1.00 
+       78 xi0.xi0.xi2.xi3.                mynand             1.00 
+       79 xi0.xi0.xi2.xi2.                mynand             1.00 
+       80 xi0.xi0.xi2.xi1.                mynand             1.00 
+       81 xi0.xi0.xi2.xi0.                mynand             1.00 
+       82 xi0.xi0.xi1.xi2.xi3.            mynor              1.00 
+       83 xi0.xi0.xi1.xi2.xi2.            mynor              1.00 
+       84 xi0.xi0.xi1.xi2.xi1.            mynor              1.00 
+       85 xi0.xi0.xi1.xi2.xi0.            mynor              1.00 
+       86 xi0.xi0.xi0.xi2.xi3.            mynor              1.00 
+       87 xi0.xi0.xi0.xi2.xi2.            mynor              1.00 
+       88 xi0.xi0.xi0.xi2.xi1.            mynor              1.00 
+       89 xi0.xi0.xi0.xi2.xi0.            mynor              1.00 
+  **info** (decoder_testbench.sp:66) DC voltage reset to initial transient source value in source 0:v3. new dc=0.7000D+00
+  **warning** (v_$v3:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v3:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v4:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v4:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v5:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v5:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v6:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v6:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v7:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v7:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (nmos_vtl:m0 (./decoder.sp:20)) Warning:  Acde = 0.276941 may be too small in BSIM4 model with w=9e-08 l=5e-08.
+  
+  
+      
+  **warning** (v_$v3:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v3:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v4:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v4:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v5:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v5:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v6:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v6:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v7:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v7:0) pulse fall time is  < or = zero, reset to tstep
+
+Element variations(Local):   element              parameter
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2.0000    
+  
+  Opening plot unit= 15
+ file=sim.pa0
+
+  **warning** (v_$v3:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v3:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v4:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v4:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v5:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v5:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v6:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v6:0) pulse fall time is  < or = zero, reset to tstep
+  **warning** (v_$v7:0) pulse rise time is  < or = zero, reset to tstep
+  **warning** (v_$v7:0) pulse fall time is  < or = zero, reset to tstep
+ **info** dc convergence successful at Newton-Raphson method 
+ ******  
+ * partial product adder
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+ ******
+ * partial product adder
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+ avg_power= 1.1253e-06  from= 0.0000e+00     to= 1.6000e-07
+
+          ***** job concluded
+ ******  
+ * partial product adder
+
+ ****** job statistics summary tnom=  25.000 temp=  25.000 ******
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) CPU E7-4820 v3 @ 1.90GHz
+ cpu MHz	: 1895.433
+  
+ OS:
+ Linux version 3.10.0-1160.24.1.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Thu Apr 8 19:51:47 UTC 2021
+
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :     4
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =    1150 # elements   =     265
+  # resistors   =       0 # capacitors =       5 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       6
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =     254 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.05           1          14
+  transient          4.41      160001        4542        1640 rev=       123
+  readin             0.02
+  errchk             0.03
+  setup              0.05
+  output             0.00
+
+
+           peak memory used        281.19 megabytes
+           total cpu time            4.55 seconds
+           total elapsed time        3.28 seconds
+           job started at     16:35:16 12/18/2024
+           job ended   at     16:35:19 12/18/2024
+
+
+ lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.06(s)

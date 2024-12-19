@@ -1,0 +1,838 @@
+### Custom WaveView ADV log file, revision Q-2020.03-SP2-2 (build Oct 29, ) ###
+### created at 22:38:05 on Wed Dec 18 2024 (Linux AMD64) ###
+### Host Name: 2024-szjcdl53   User ID: centos   PID: 10273   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window {Custom WaveView} {} 242 265
+wv_select_window {Custom WaveView} 
+wv_move_window {Custom WaveView} {} 8 31
+wv_press_tool_button {Custom WaveView} {} {OpenWaveform0} 
+wv_select_dialog {FileDialog} 
+wv_select_list_item {FileDialog} {} {FileList} {sim.tr0} 9
+wv_dclick_list_item {FileDialog} {} {FileList} {sim.tr0} 9
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:sim.tr0(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:sim.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {9}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {28}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {113}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {170}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {236}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {388}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {501}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {558}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {586}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {605}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {643}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {652}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {700}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {728}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {756}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {823}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {870}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {898}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {936}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1021}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1068}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1125}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1257}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1324}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1380}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1513}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1551}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1588}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1636}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1655}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1673}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1683}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1692}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1702}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1711}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1730}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1740}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1749}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1759}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1768}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1759}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1636}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1579}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1513}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1447}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1314}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1239}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1078}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {993}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {898}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {804}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {624}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {539}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {369}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {312}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {217}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {189}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {161}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {113}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {104}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {66}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {19}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {0}
+wv_select_list_item {Custom WaveView} {} {sigview} {data<0>} 5
+wv_select_list_item {Custom WaveView} {} {sigview} {data<0>} 5
+wv_drag_list_item {Custom WaveView} {} {sigview} {data<0>} 5
+wv_drag_enter WV1
+wv_drop_on WV1
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {9}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {28}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {66}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {95}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {123}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {161}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {189}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {274}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {340}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {369}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {397}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {407}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {416}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {425}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {435}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {444}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {454}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {463}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {473}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {501}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {539}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {558}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {586}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {596}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {605}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {615}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {624}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {633}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {643}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {671}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {681}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {690}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {700}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {709}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {728}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {737}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {747}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {766}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {794}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {804}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {813}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {823}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {841}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {851}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {860}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {879}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {889}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {898}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {908}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {917}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {936}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {964}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {974}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {983}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1012}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1021}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1031}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1040}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1049}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1059}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1068}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1087}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1097}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1106}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1116}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1125}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1135}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1153}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1163}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1182}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1210}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1239}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1248}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1267}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1286}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1295}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1305}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1314}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1324}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1333}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1343}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1352}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1361}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1371}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1380}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1390}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1399}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1409}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1418}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1428}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1437}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1447}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1456}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1484}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1532}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1551}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1560}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1569}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1579}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1588}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1598}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1607}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1617}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1626}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1636}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1645}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1655}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1664}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1673}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1683}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1673}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1664}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1645}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1588}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1513}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1399}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1371}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1361}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1352}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1333}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1324}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1305}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1295}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1286}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1267}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1220}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1201}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1191}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1172}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1163}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1153}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1144}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1135}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1125}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1097}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1059}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1021}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {993}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {945}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {927}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {917}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {908}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {898}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {870}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {841}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {832}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {804}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {794}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {785}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {775}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {766}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {756}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {747}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {728}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {700}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {671}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {624}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {596}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {586}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {615}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {633}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {681}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {719}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {728}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {747}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {756}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {766}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {775}
+wv_select_list_item {Custom WaveView} {} {sigview} {data_read<0>} 21
+wv_select_list_item {Custom WaveView} {} {sigview} {data_read<11>} 43 +shift
+wv_drag_list_item {Custom WaveView} {} {sigview} {data_read<100>} 22
+wv_drag_enter WV1
+wv_drag_to WV1 36 558
+wv_drag_to WV1 75 784
+wv_drop_on WV1
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL2:1 6.32828e-09 0.62604
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {PanelPopMenu.Ungroup} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL3:1.LINE1
+wv_select_line WV1.PANEL3:1.LINE1
+wv_press_key Delete 303 259
+wv_select_dialog {Confirmation} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL4:1.LEGEND
+wv_select_panel WV1.PANEL4:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL4:1.LEGEND
+wv_select_panel WV1.PANEL4:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL4:1.LINE1
+wv_select_line WV1.PANEL4:1.LINE1
+wv_press_key Delete 794 431
+wv_select_dialog {Confirmation} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL22:1.LINE1
+wv_select_line WV1.PANEL22:1.LINE1
+wv_select_waveview 1 {waveview 1}
+wv_shift_select_line WV1.PANEL7:1.LINE1
+wv_release_wv_item WV1 53 236
+wv_press_key Delete 530 497
+wv_select_dialog {Confirmation} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {804}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {841}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {879}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {993}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1106}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1172}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1257}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1286}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1305}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1333}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1343}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1361}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1380}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1390}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1418}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1437}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1465}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1484}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1522}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1532}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1551}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1560}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1569}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1598}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1617}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1702}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1749}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1768}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1759}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1749}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1730}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1711}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1702}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1692}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1683}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1673}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1664}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1655}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1645}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1617}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1598}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1560}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1551}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1522}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1494}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1475}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1418}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1380}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1305}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1267}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1229}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1191}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1163}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1078}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1040}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1002}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {917}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {851}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {719}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {662}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {492}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {331}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {255}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {161}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {132}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {104}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {95}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {85}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {76}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {85}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {104}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {113}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {132}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {151}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {170}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {199}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {236}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {255}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {265}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {303}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {321}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {340}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {359}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {378}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {397}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {407}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {378}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {321}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {284}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {236}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {151}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {95}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {0}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {28}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {47}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {57}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {66}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {76}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {95}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {123}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {142}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {151}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {161}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {170}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {180}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {189}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {208}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {227}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {236}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {246}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {255}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {274}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {284}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {293}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {303}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {312}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {321}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {331}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {340}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {350}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {359}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {369}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {378}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {388}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {397}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {407}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {416}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {435}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {444}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {463}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {482}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {492}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {501}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {511}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {529}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {539}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {548}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {558}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {567}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {577}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {586}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {596}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {605}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {615}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {624}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {633}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {643}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {652}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {662}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {671}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {700}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {709}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {728}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {747}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {756}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {766}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {775}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {794}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {804}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {823}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {832}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {841}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {851}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {860}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {870}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {879}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {889}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {898}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {908}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {917}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {927}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {936}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {945}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {955}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {964}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {974}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {983}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {993}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1012}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1021}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1031}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1049}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1059}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1068}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1078}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1087}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1097}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1106}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1116}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1125}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1135}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1144}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1153}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1172}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1182}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1191}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1210}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1220}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1229}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1239}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1248}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1257}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1267}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1276}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1286}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1295}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1305}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1324}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1333}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1352}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1361}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1371}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1380}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1390}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1399}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1409}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1418}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1437}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1456}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1465}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1475}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1484}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1494}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1503}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1513}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1522}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1532}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1541}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1551}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1560}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1569}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1579}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1588}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1598}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1607}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1626}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1636}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1655}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1673}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1692}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1702}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1721}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1730}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1740}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1749}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1759}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1768}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1749}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1721}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1655}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1636}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1588}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1560}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1503}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1465}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1437}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1343}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1295}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1229}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1116}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {983}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {917}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {662}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {615}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {539}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {482}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {454}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {397}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {350}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {331}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {284}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {274}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {246}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {227}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {208}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {199}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {189}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {180}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {151}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {142}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {123}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {104}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {95}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {57}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {38}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {0}
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {OpenWaveformFile0} 
+wv_select_dialog {FileDialog} 
+wv_press_button {FileDialog} {} {Up} 
+wv_press_button {FileDialog} {} {Up} 
+wv_press_button {FileDialog} {} {Up} 
+wv_press_button {FileDialog} {} {Up} 
+wv_press_button {FileDialog} {} {Up} 
+wv_select_list_item {FileDialog} {} {FileList} {myDecoder_5_32} 14
+wv_dclick_list_item {FileDialog} {} {FileList} {myDecoder_5_32} 14
+wv_select_list_item {FileDialog} {} {FileList} {test} 4
+wv_dclick_list_item {FileDialog} {} {FileList} {test} 4
+wv_select_list_item {FileDialog} {} {FileList} {sim.tr0} 11
+wv_dclick_list_item {FileDialog} {} {FileList} {sim.tr0} 11
+wv_select_tree_item {Custom WaveView} {} {hierview} {D1:sim.tr0(1)} {0} {+sep=@}
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D1:sim.tr0(1)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D1:sim.tr0(1)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {Custom WaveView} {} {sigview} {wl<27>} 8
+wv_select_list_item {Custom WaveView} {} {sigview} {wl<31>} 12 +shift
+wv_drag_list_item {Custom WaveView} {} {sigview} {wl<27>} 8
+wv_drag_enter WV1
+wv_drag_to WV1 11 688
+wv_drag_to WV1 56 784
+wv_drop_on WV1
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL7:1.LINE3
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {SignalPopMenu.Ungroup} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL7:1.LEGEND
+wv_select_panel WV1.PANEL7:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL7:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {PanelPopMenu.Ungroup} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL11:1.LINE1
+wv_drag_item_to WV1 55 721
+wv_select_line WV1.PANEL11:1.LINE1
+wv_drag_enter WV1
+wv_drag_to WV1 57 674
+wv_drag_to WV1 57 639
+wv_drag_to WV1 57 633
+wv_drag_to WV1 50 573
+wv_drag_to WV1 45 556
+wv_drag_to WV1 33 503
+wv_drag_to WV1 33 498
+wv_drag_to WV1 57 438
+wv_drop_on WV1
+wv_drag_item_to WV1 55 721
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL7:1.LINE1
+wv_drag_item_to WV1 56 444
+wv_drag_enter WV1
+wv_drag_to WV1 56 470
+wv_drag_to WV1 57 509
+wv_drag_to WV1 62 571
+wv_drag_to WV1 62 582
+wv_drag_to WV1 62 637
+wv_drag_to WV1 62 649
+wv_drag_to WV1 67 645
+wv_drop_on WV1
+wv_drag_item_to WV1 56 444
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL7:1.LINE1
+wv_select_line WV1.PANEL7:1.LINE1
+wv_select_waveview 1 {waveview 1}
+wv_shift_select_line WV1.PANEL11:1.LINE1
+wv_release_wv_item WV1 56 720
+wv_press_key Delete 317 883
+wv_select_dialog {Confirmation} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:sim.tr0(0)} {0} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:sim.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_window {Custom WaveView} 
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {9}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {19}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {28}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {38}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {47}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {57}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {66}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {76}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {95}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {104}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {123}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {132}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {142}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {151}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {161}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {170}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {180}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {199}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {217}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {236}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {246}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {274}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {303}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {321}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {331}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {340}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {350}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {359}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {369}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {378}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {388}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {397}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {407}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {425}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {444}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {463}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {482}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {501}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {511}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {520}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {529}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {539}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {548}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {567}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {577}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {615}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {633}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {690}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {709}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {737}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {775}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {785}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {794}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {813}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {823}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {851}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {860}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {870}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {879}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {889}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {898}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {908}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {917}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {898}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {889}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {879}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {860}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {851}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {841}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {851}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {860}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {870}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {879}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {898}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {917}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {964}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {974}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {983}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {993}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1002}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1012}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1021}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1031}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1040}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1059}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1068}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1078}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1097}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1106}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1116}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1125}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1135}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1144}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1153}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1163}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1172}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1182}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1201}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1210}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1220}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1229}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1239}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1257}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1267}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1286}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1295}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1305}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1314}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1324}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1333}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1343}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1352}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1361}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1371}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1380}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1390}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1399}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1409}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1418}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1428}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1437}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1447}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1456}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1475}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1513}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1541}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1588}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1617}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1645}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1655}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1673}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1692}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1702}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1711}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1721}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1730}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1740}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1749}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1759}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1768}
+wv_select_list_item {Custom WaveView} {} {sigview} {prc} 37
+wv_drag_list_item {Custom WaveView} {} {sigview} {prc} 37
+wv_drag_enter WV1
+wv_drag_to WV1 7 555
+wv_drag_to WV1 19 525
+wv_drag_to WV1 52 406
+wv_drag_to WV1 54 392
+wv_drag_to WV1 81 273
+wv_drag_to WV1 83 263
+wv_drag_to WV1 62 149
+wv_drag_to WV1 61 138
+wv_drag_to WV1 61 24
+wv_drop_on WV1
+wv_select_list_item {Custom WaveView} {} {sigview} {sram_ren} 38
+wv_select_window {Custom WaveView} 
+wv_tree_context_menu {Custom WaveView} {} {hierview} 196 27 {D0:sim.tr0(0)@toplevel(0)} {+sep=@}
+wv_select_menu_item {Custom WaveView} {} {FileViewPopMenu.Update WDF} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_move_window {Custom WaveView} {} 0 0
+wv_move_window {Custom WaveView} {} 8 31
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1.LEGEND
+wv_tree_context_menu {Custom WaveView} {} {hierview} 83 23 {D0:sim.tr0(0)@toplevel(0)} {+sep=@}
+wv_select_menu_item {Custom WaveView} {} {FileViewPopMenu.Update WDF} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL6:1 5.18075e-06 0.278767
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL5:1 4.96981e-06 0.30685
+wv_select_panel WV1.PANEL5:1 4.96981e-06 0.30685 btnup
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL5:1 3.0882e-06 0.557181
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL5:1 4.21885e-06 0.480467
+wv_select_panel WV1.PANEL5:1 4.21885e-06 0.480467 btnup
+wv_move_window {Custom WaveView} {} 0 0
+wv_move_window {Custom WaveView} {} 8 31
+wv_select_window {Custom WaveView} 
+wv_move_window {Custom WaveView} {} 0 0
+wv_move_window {Custom WaveView} {} 8 31
+wv_select_window {Custom WaveView} 
+wv_close_window {Custom WaveView} 
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 
+#*WARNING* Can not remove '/home/centos/.cx_hostport/.cx_hostport_2024-szjcdl53_10273'.
