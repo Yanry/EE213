@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      centos
 HostName                       2024-szjcdl53
-ProcessIdentifier              20109
-ProcessCreationTime_UTC        1734577734
-ProcessCreationTime_Readable   Thu Dec 19 11:08:54 2024 CST
+ProcessIdentifier              3752
+ProcessCreationTime_UTC        1734668314
+ProcessCreationTime_Readable   Fri Dec 20 12:18:34 2024 CST
 AppIdentifier                  /home/tools/cadence/IC618/tools/dfII/bin/64bit/libManager
 OSType                         lnx86
 ReasonForPlacingEditLock       log file
 FilePathUsedToEditLock         /home/centos/EE213/libManager.log
-TimeEditLocked                 Thu Dec 19 11:08:54 2024 CST
+TimeEditLocked                 Fri Dec 20 12:18:34 2024 CST

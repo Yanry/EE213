@@ -157,3 +157,7 @@ wv_tree_context_menu {Custom WaveView} {} {hierview} 135 4 {D0:sim.tr0(0)} {+sep
 wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {1}
 wv_select_menu_item {Custom WaveView} {} {FileViewPopMenu.Update WDF} 
 wv_press_button {Confirmation} {} {Ok} 
+wv_close_window {Custom WaveView} 
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 
+#*WARNING* Can not remove '/home/centos/.cx_hostport/.cx_hostport_2024-szjcdl53_17477'.

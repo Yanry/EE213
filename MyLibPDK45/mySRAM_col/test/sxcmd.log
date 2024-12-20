@@ -152,3 +152,9 @@ wv_move_window {Custom WaveView} {} 0 0
 wv_move_window {Custom WaveView} {} 8 31
 wv_select_window {Custom WaveView} 
 wv_move_window {Custom WaveView} {} 0 0
+wv_close_window {Custom WaveView} 
+wv_select_dialog {Confirmation} 
+wv_move_window {Custom WaveView} {} 8 31
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 
+#*WARNING* Can not remove '/home/centos/.cx_hostport/.cx_hostport_2024-szjcdl53_14064'.

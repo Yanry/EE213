@@ -7,7 +7,7 @@
 * Set period time here 
 ***********************************
 .PARAM
-+ period = 5n
++ period = 10n
 ***********************************
 *  Set prc low duration here
 ***********************************
