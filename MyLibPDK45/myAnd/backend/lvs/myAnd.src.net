@@ -1,0 +1,58 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  MyLibPDK45
+* Top Cell Name: myAnd
+* View Name:     schematic
+* Netlisted on:  Dec 26 18:06:04 2024
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL vdd!
++        gnd!
+
+*.PIN vdd!
+*+    gnd!
+
+************************************************************************
+* Library Name: MyLibPDK45
+* Cell Name:    myNAND
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT myNAND A B Z
+*.PININFO A:I B:I Z:O
+MM1 Z B net013 gnd! NMOS_VTL W=90n L=50n m=1
+MM0 net013 A gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM3 Z A vdd! vdd! PMOS_VTL W=180n L=50n m=1
+MM2 Z B vdd! vdd! PMOS_VTL W=180n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: MyLibPDK45
+* Cell Name:    myInverter45
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT myInverter45 in out
+*.PININFO in:I out:O
+MM0 out in gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM1 out in vdd! vdd! PMOS_VTL W=180n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: MyLibPDK45
+* Cell Name:    myAnd
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT myAnd A B Z
+*.PININFO A:I B:I Z:O
+XI0 A B net7 / myNAND
+XI1 net7 Z / myInverter45
+.ENDS
+

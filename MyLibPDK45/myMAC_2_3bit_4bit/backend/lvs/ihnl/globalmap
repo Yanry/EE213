@@ -1,0 +1,20 @@
+CADENCE IHNL11140
+$model
+MyLibPDK45/myPPA_4_3/schematic myPPA_4_3
+MyLibPDK45/myNAND/schematic myNAND
+MyLibPDK45/myHA/schematic myHA
+MyLibPDK45/myInverter45/schematic myInverter45
+MyLibPDK45/myXOR/schematic myXOR
+MyLibPDK45/myFA/schematic myFA
+MyLibPDK45/myMulti_3bit_4bit/schematic myMulti_3bit_4bit
+MyLibPDK45/myBuffer_2/schematic myBuffer_2
+MyLibPDK45/myMAC_2_3bit_4bit/schematic myMAC_2_3bit_4bit
+MyLibPDK45/myAdder_6bit/schematic myAdder_6bit
+MyLibPDK45/myAnd/schematic myAnd
+$endmodel
+$net
+gnd! gnd!
+vdd! vdd!
+$endnet
+$param
+$endparam

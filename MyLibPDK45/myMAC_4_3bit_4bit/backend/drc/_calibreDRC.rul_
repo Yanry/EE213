@@ -1,0 +1,27 @@
+//
+//  Rule file generated on Sun Dec 29 16:54:47 CST 2024
+//     by Calibre Interactive - DRC (v2016.4_38.25)
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH  "myMAC_4_3bit_4bit.calibre.db"
+LAYOUT PRIMARY "myMAC_4_3bit_4bit"
+LAYOUT SYSTEM GDSII
+
+DRC RESULTS DATABASE "myMAC_4_3bit_4bit.drc.results" ASCII 
+DRC MAXIMUM RESULTS 1000
+DRC MAXIMUM VERTEX 4096
+
+DRC CELL NAME YES CELL SPACE XFORM
+DRC SUMMARY REPORT "myMAC_4_3bit_4bit.drc.summary" REPLACE HIER
+
+VIRTUAL CONNECT COLON NO
+VIRTUAL CONNECT REPORT NO
+
+DRC ICSTATION YES
+
+
+INCLUDE "/home/centos/PDK/FreePDK45/ncsu_basekit/techfile/calibre/calibreDRC.rul"
+

@@ -1,0 +1,27 @@
+//
+//  Rule file generated on Thu Dec 26 17:35:53 CST 2024
+//     by Calibre Interactive - DRC (v2016.4_38.25)
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH  "myAdder_6bit.calibre.db"
+LAYOUT PRIMARY "myAdder_6bit"
+LAYOUT SYSTEM GDSII
+
+DRC RESULTS DATABASE "myAdder_6bit.drc.results" ASCII 
+DRC MAXIMUM RESULTS 1000
+DRC MAXIMUM VERTEX 4096
+
+DRC CELL NAME YES CELL SPACE XFORM
+DRC SUMMARY REPORT "myAdder_6bit.drc.summary" REPLACE HIER
+
+VIRTUAL CONNECT COLON NO
+VIRTUAL CONNECT REPORT NO
+
+DRC ICSTATION YES
+
+
+INCLUDE "/home/centos/PDK/FreePDK45/ncsu_basekit/techfile/calibre/calibreDRC.rul"
+

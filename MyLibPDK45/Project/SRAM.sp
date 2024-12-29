@@ -76,7 +76,7 @@ xi0 in net5 myInverter45
 .subckt mySRAM_sa data_read prc sram_ren bit_line bit_line_bar
 m1 net04 bit_line net13 0 NMOS_VTL L=50e-9 W=180e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
 m0 read_data bit_line_bar net13 0 NMOS_VTL L=50e-9 W=180e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
-m6 0 ren net13 vdd! NMOS_VTL L=50e-9 W=270e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+m6 0 ren net13 vdd! PMOS_VTL L=50e-9 W=270e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
 m4 net04 net04 vdd! vdd! PMOS_VTL L=50e-9 W=180e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
 m2 read_data net04 vdd! vdd! PMOS_VTL L=50e-9 W=180e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
 xi2 sram_ren prc ren myNAND

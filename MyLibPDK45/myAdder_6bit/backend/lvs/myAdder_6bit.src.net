@@ -1,0 +1,88 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  MyLibPDK45
+* Top Cell Name: myAdder_6bit
+* View Name:     schematic
+* Netlisted on:  Dec 26 17:36:01 2024
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL vdd!
++        gnd!
+
+*.PIN vdd!
+*+    gnd!
+
+************************************************************************
+* Library Name: MyLibPDK45
+* Cell Name:    myInverter45
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT myInverter45 in out
+*.PININFO in:I out:O
+MM0 out in gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM1 out in vdd! vdd! PMOS_VTL W=180n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: MyLibPDK45
+* Cell Name:    myFA
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT myFA A B Cin Cout S
+*.PININFO A:I B:I Cin:I Cout:O S:O
+MM11 net35 Cin net068 vdd! PMOS_VTL W=180n L=50n m=1
+MM10 net068 A net069 vdd! PMOS_VTL W=180n L=50n m=1
+MM9 net069 B vdd! vdd! PMOS_VTL W=180n L=50n m=1
+MM8 net35 net79 net42 vdd! PMOS_VTL W=180n L=50n m=1
+MM7 net42 Cin vdd! vdd! PMOS_VTL W=180n L=50n m=1
+MM6 net42 B vdd! vdd! PMOS_VTL W=180n L=50n m=1
+MM5 net42 A vdd! vdd! PMOS_VTL W=180n L=50n m=1
+MM4 net79 A net071 vdd! PMOS_VTL W=180n L=50n m=1
+MM3 net071 B vdd! vdd! PMOS_VTL W=180n L=50n m=1
+MM2 net79 Cin net7 vdd! PMOS_VTL W=180n L=50n m=1
+MM1 net7 B vdd! vdd! PMOS_VTL W=180n L=50n m=1
+MM0 net7 A vdd! vdd! PMOS_VTL W=180n L=50n m=1
+MM23 net60 B gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM22 net64 A net60 gnd! NMOS_VTL W=90n L=50n m=1
+MM21 net35 Cin net64 gnd! NMOS_VTL W=90n L=50n m=1
+MM20 net65 Cin gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM19 net65 B gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM18 net65 A gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM17 net35 net79 net65 gnd! NMOS_VTL W=90n L=50n m=1
+MM16 net12 B gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM15 net79 A net12 gnd! NMOS_VTL W=90n L=50n m=1
+MM14 net4 B gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM13 net4 A gnd! gnd! NMOS_VTL W=90n L=50n m=1
+MM12 net79 Cin net4 gnd! NMOS_VTL W=90n L=50n m=1
+XI10 net35 S / myInverter45
+XI9 net79 Cout / myInverter45
+.ENDS
+
+************************************************************************
+* Library Name: MyLibPDK45
+* Cell Name:    myAdder_6bit
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT myAdder_6bit A<5> A<4> A<3> A<2> A<1> A<0> B<5> B<4> B<3> B<2> B<1> 
++ B<0> Cin S<6> S<5> S<4> S<3> S<2> S<1> S<0>
+*.PININFO A<5>:I A<4>:I A<3>:I A<2>:I A<1>:I A<0>:I B<5>:I B<4>:I B<3>:I 
+*.PININFO B<2>:I B<1>:I B<0>:I Cin:I S<6>:O S<5>:O S<4>:O S<3>:O S<2>:O S<1>:O 
+*.PININFO S<0>:O
+XI11 net013 A<5> B<5> net025 S<6> / myFA
+XI10 net15 A<5> B<5> net013 S<5> / myFA
+XI9 net17 A<4> B<4> net15 S<4> / myFA
+XI8 net19 A<3> B<3> net17 S<3> / myFA
+XI7 net21 A<2> B<2> net19 S<2> / myFA
+XI6 net23 A<1> B<1> net21 S<1> / myFA
+XI0 Cin A<0> B<0> net23 S<0> / myFA
+.ENDS
+
