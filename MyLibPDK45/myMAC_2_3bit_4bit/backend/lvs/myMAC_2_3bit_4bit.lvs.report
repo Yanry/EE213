@@ -16,7 +16,7 @@ LAYOUT NAME:              /home/centos/EE213/MyLibPDK45/myMAC_2_3bit_4bit/backen
 SOURCE NAME:              /home/centos/EE213/MyLibPDK45/myMAC_2_3bit_4bit/backend/lvs/myMAC_2_3bit_4bit.src.net ('myMAC_2_3bit_4bit')
 RULE FILE:                /home/centos/EE213/MyLibPDK45/myMAC_2_3bit_4bit/backend/lvs/_calibreLVS.rul_
 RULE FILE TITLE:          LVS Rule File for FreePDK45
-CREATION TIME:            Sun Dec 29 00:50:08 2024
+CREATION TIME:            Wed Jan  1 15:38:29 2025
 CURRENT DIRECTORY:        /home/centos/EE213/MyLibPDK45/myMAC_2_3bit_4bit/backend/lvs
 USER NAME:                centos
 CALIBRE VERSION:          v2016.4_38.25    Tue Jan 3 14:54:06 PST 2017

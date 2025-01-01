@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 10/01/2018 19:51 (ip-172-18-22-52) $
           : sub-version  IC6.1.8-64b.83 
-Started at: 29-Dec-2024  00:50:06
+Started at: 01-Jan-2025  15:38:27
 User Name : centos
 Host Name : 2024-szjcdl53
 Directory : /home/centos/EE213
@@ -10,6 +10,7 @@ CADENCE Design Systems, Inc.
 ********************************************************************************
 Info: Cellview Rev Num:99,  Tech Rev Num:59
 
+WARNING (XSTRM-20): Output Stream file '/home/centos/EE213/MyLibPDK45/myMAC_2_3bit_4bit/backend/lvs/myMAC_2_3bit_4bit.calibre.db' already exists. It will be overwritten.
 INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
 INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
 
@@ -65,5 +66,5 @@ Summary of Objects Translated:
 	TextDisplay:                            137
 	Cells:                                  14
 
-Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 3112KB
-INFO (XSTRM-234): Translation completed. '0' error(s) and '0' warning(s) found.
+Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 3108KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

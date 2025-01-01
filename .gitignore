@@ -2,3 +2,4 @@ svdb/
 simfiles/
 *.log
 *.tr0
+backend/
