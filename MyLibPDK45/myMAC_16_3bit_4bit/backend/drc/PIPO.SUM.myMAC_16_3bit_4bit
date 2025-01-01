@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 10/01/2018 19:51 (ip-172-18-22-52) $
           : sub-version  IC6.1.8-64b.83 
-Started at: 29-Dec-2024  22:36:15
+Started at: 01-Jan-2025  22:25:47
 User Name : centos
 Host Name : 2024-szjcdl53
 Directory : /home/centos/EE213
@@ -29,10 +29,10 @@ MyLibPDK45/myMAC_2_3bit_4bit/layout                             3        0      
 MyLibPDK45/myNMOS/layout        0        0       0        12     0      0         0      0             0      0     0     0       0       
 MyLibPDK45/myAdder_9bit/layout  2        0       0        10     0      0         0      0             0      0     0     0       0       
 MyLibPDK45/myFA/layout          2        0       0        190    0      0         0      7             0      0     0     0       0       
-MyLibPDK45/myMAC_4_3bit_4bit/layout                             3        0       0        110    0      0         0      0             0      0     0     0       0       
+MyLibPDK45/myMAC_4_3bit_4bit/layout                             3        0       0        112    0      0         0      0             0      0     0     0       0       
 MyLibPDK45/myXOR/layout         2        0       0        111    0      0         0      5             0      0     0     0       0       
-MyLibPDK45/myMAC_16_3bit_4bit/layout                            3        0       0        156    0      0         0      0             0      0     0     0       0       
-MyLibPDK45/myMAC_8_3bit_4bit/layout                             3        0       0        146    0      0         0      0             0      0     0     0       0       
+MyLibPDK45/myMAC_16_3bit_4bit/layout                            21       0       0        410    0      0         0      124           0      0     0     0       0       
+MyLibPDK45/myMAC_8_3bit_4bit/layout                             3        0       0        148    0      0         0      0             0      0     0     0       0       
 MyLibPDK45/myInverter45/layout  2        0       0        15     0      0         0      4             0      0     0     0       0       
 MyLibPDK45/myMulti_3bit_4bit/layout                             13       0       0        174    0      0         0      15            0      0     0     0       0       
 ---------------------------------------------------------------------------------------------------------------------------------------
@@ -70,22 +70,22 @@ Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Tex
 ---------------------------------------------------------------------------------------------------------------------------------------
 nimplant        drawing         4       0         0        15       0        0        0             0    0   0   0     0      0      
 nwell           drawing         3       0         0        5        0        0        0             0    0   0   0     0      0      
-metal2          drawing         13      0         0        284      0        0        0             0    0   0   0     0      0      
-metal1          drawing         11      0         0        537      0        0        137           0    0   0   0     0      0      
-via1            drawing         12      0         0        202      0        0        0             0    0   0   0     0      0      
-poly            drawing         9       0         0        279      0        0        0             0    0   0   0     0      0      
-contact         drawing         10      0         0        144      0        0        0             0    0   0   0     0      0      
+metal2          drawing         13      0         0        311      0        0        0             0    0   0   0     0      0      
+metal1          drawing         11      0         0        712      0        0        261           0    0   0   0     0      0      
+via1            drawing         12      0         0        240      0        0        0             0    0   0   0     0      0      
+poly            drawing         9       0         0        288      0        0        0             0    0   0   0     0      0      
+contact         drawing         10      0         0        153      0        0        0             0    0   0   0     0      0      
 pimplant        drawing         5       0         0        15       0        0        0             0    0   0   0     0      0      
 pwell           drawing         2       0         0        5        0        0        0             0    0   0   0     0      0      
 active          drawing         1       0         0        30       0        0        0             0    0   0   0     0      0      
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 Summary of Objects Translated:
-	Scalar Instances:		70
+	Scalar Instances:		88
 	Array Instances:		0
 	Polygons:			0
 	Paths:				0
-	Rectangles:			1516
+	Rectangles:			1774
 	Lines:				0
 	Arcs:				0
 	Donuts:				0
@@ -102,7 +102,7 @@ Summary of Objects Translated:
 	CdsGen Vias:			0
 	Pathsegs:			0
 	Text:				0
-	TextDisplay:		137
+	TextDisplay:		261
 	Cells:				20
 Design Libraries: 
 

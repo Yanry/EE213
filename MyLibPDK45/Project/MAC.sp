@@ -116,6 +116,15 @@ xi1 cin a<0> b<0> net7 s<0> myFA
 ** End of subcircuit definition.
 
 ** Library name: MyLibPDK45
+** Cell name: myBuffer_2
+** View name: schematic
+.subckt myBuffer_2 in out
+xi1 net5 out myInverter45
+xi0 in net5 myInverter45
+.ends myBuffer_2
+** End of subcircuit definition.
+
+** Library name: MyLibPDK45
 ** Cell name: myNAND
 ** View name: schematic
 .subckt myNAND a b z
@@ -146,15 +155,6 @@ xi0 a b net11 myNAND
 xi1 net11 cout myInverter45
 xi2 a b s myXOR
 .ends myHA
-** End of subcircuit definition.
-
-** Library name: MyLibPDK45
-** Cell name: myBuffer_2
-** View name: schematic
-.subckt myBuffer_2 in out
-xi1 net5 out myInverter45
-xi0 in net5 myInverter45
-.ends myBuffer_2
 ** End of subcircuit definition.
 
 ** Library name: MyLibPDK45
@@ -267,7 +267,22 @@ xi2 net010<3> net010<4> net010<5> net010<6> net010<7> net010<8> net010<9> net09<
 .ends myMAC_32_3bit_4bit
 ** End of subcircuit definition.
 
-xi2 net013<4> net013<5> net013<6> net013<7> net013<8> net013<9> net013<10> net012<4> net012<5> net012<6> net012<7> net012<8> net012<9> net012<10> 0 result<7> result<6> result<5> result<4> result<3> result<2> result<1> result<0> net013<0> net013<1> net013<2> net013<3> net012<0> net012<1> net012<2> net012<3> result<11> result<10> result<9> result<8> myAdder_11bit
+** Library name: MyLibPDK45
+** Cell name: myMAC_64_3bit_4bit
+** View name: schematic
+xi2 net013<4> net013<5> net013<6> net013<7> net013<8> net013<9> net013<10> net012<4> net012<5> net012<6> net012<7> net012<8> net012<9> net012<10> 0 s<7> s<6> s<5> s<4> s<3> s<2> s<1> s<0> net013<0> net013<1> net013<2> net013<3> net012<0> net012<1> net012<2> net012<3> s<11> s<10> s<9> s<8> myAdder_11bit
+xi16 s<11> result<11> myBuffer_2
+xi15 s<10> result<10> myBuffer_2
+xi14 s<9> result<9> myBuffer_2
+xi13 s<8> result<8> myBuffer_2
+xi12 s<7> result<7> myBuffer_2
+xi11 s<6> result<6> myBuffer_2
+xi10 s<5> result<5> myBuffer_2
+xi9 s<4> result<4> myBuffer_2
+xi8 s<3> result<3> myBuffer_2
+xi7 s<2> result<2> myBuffer_2
+xi6 s<1> result<1> myBuffer_2
+xi5 s<0> result<0> myBuffer_2
 xi1 multiplicand<143> multiplicand<142> multiplicand<141> multiplicand<140> multiplicand<139> multiplicand<138> multiplicand<137> multiplicand<136> multiplicand<135> multiplicand<134> multiplicand<133> multiplicand<132> multiplicand<131> multiplicand<130> multiplicand<129> multiplicand<128> multiplier<107> multiplier<106> multiplier<105> multiplier<104> multiplier<103> multiplier<102> multiplier<101> multiplier<100> multiplier<99> multiplier<98> multiplier<97> multiplier<96> net012<3> net012<4> net012<5> net012<6> net012<7> net012<8> net012<9> net012<10> multiplicand<255> multiplicand<254> multiplicand<253> multiplicand<252> multiplicand<251> multiplicand<250> multiplicand<249> multiplicand<248> multiplicand<247> multiplicand<246> multiplicand<245> multiplicand<244> multiplicand<243> multiplicand<242> multiplicand<241> multiplicand<240> multiplicand<239> multiplicand<238> multiplicand<237> multiplicand<236> multiplicand<235> multiplicand<234> multiplicand<233> multiplicand<232> multiplicand<231>
 +multiplicand<230> multiplicand<229> multiplicand<228> multiplicand<227> multiplicand<226> multiplicand<225> multiplicand<224> multiplicand<223> multiplicand<222> multiplicand<221> multiplicand<220> multiplicand<219> multiplicand<218> multiplicand<217> multiplicand<216> multiplicand<215> multiplicand<214> multiplicand<213> multiplicand<212> multiplicand<211> multiplicand<210> multiplicand<209> multiplicand<208> multiplicand<207> multiplicand<206> multiplicand<205> multiplicand<204> multiplicand<203> multiplicand<202> multiplicand<201> multiplicand<200> multiplicand<199> multiplicand<198> multiplicand<197> multiplicand<196> multiplicand<195> multiplicand<194> multiplicand<193> multiplicand<192> multiplicand<191> multiplicand<190> multiplicand<189> multiplicand<188> multiplicand<187> multiplicand<186> multiplicand<185> multiplicand<184> multiplicand<183> multiplicand<182> multiplicand<181> multiplicand<180> multiplicand<179> multiplicand<178> multiplicand<177> multiplicand<176> multiplicand<175>
 +multiplicand<174> multiplicand<173> multiplicand<172> multiplicand<171> multiplicand<170> multiplicand<169> multiplicand<168> multiplicand<167> multiplicand<166> multiplicand<165> multiplicand<164> multiplicand<163> multiplicand<162> multiplicand<161> multiplicand<160> multiplicand<159> multiplicand<158> multiplicand<157> multiplicand<156> multiplicand<155> multiplicand<154> multiplicand<153> multiplicand<152> multiplicand<151> multiplicand<150> multiplicand<149> multiplicand<148> multiplicand<147> multiplicand<146> multiplicand<145> multiplicand<144> multiplier<191> multiplier<190> multiplier<189> multiplier<188> multiplier<187> multiplier<186> multiplier<185> multiplier<184> multiplier<183> multiplier<182> multiplier<181> multiplier<180> multiplier<179> multiplier<178> multiplier<177> multiplier<176> multiplier<175> multiplier<174> multiplier<173> multiplier<172> multiplier<171> multiplier<170> multiplier<169> multiplier<168> multiplier<167> multiplier<166> multiplier<165> multiplier<164> multiplier<163>

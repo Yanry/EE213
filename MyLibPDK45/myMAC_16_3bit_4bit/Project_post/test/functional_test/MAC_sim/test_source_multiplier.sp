@@ -1,0 +1,52 @@
+.subckt multiplier_src out<0> out<1> out<2> out<3> out<4> out<5> out<6> out<7> out<8> out<9> out<10> out<11> out<12> out<13> out<14> out<15>
++ out<16> out<17> out<18> out<19> out<20> out<21> out<22> out<23> out<24> out<25> out<26> out<27> out<28> out<29> out<30> out<31>
++ out<32> out<33> out<34> out<35> out<36> out<37> out<38> out<39> out<40> out<41> out<42> out<43> out<44> out<45> out<46> out<47>
+vpat<0> out<0> 0 PAT 'vdd_val' 0 0 0 0 'period' b1010100011111101 RB=1 R=0
+vpat<1> out<1> 0 PAT 'vdd_val' 0 0 0 0 'period' b0001111000001011 RB=1 R=0
+vpat<2> out<2> 0 PAT 'vdd_val' 0 0 0 0 'period' b1000011000101001 RB=1 R=0
+vpat<3> out<3> 0 PAT 'vdd_val' 0 0 0 0 'period' b1110011010000100 RB=1 R=0
+vpat<4> out<4> 0 PAT 'vdd_val' 0 0 0 0 'period' b0110110001100000 RB=1 R=0
+vpat<5> out<5> 0 PAT 'vdd_val' 0 0 0 0 'period' b0110110011000000 RB=1 R=0
+vpat<6> out<6> 0 PAT 'vdd_val' 0 0 0 0 'period' b0011111110010111 RB=1 R=0
+vpat<7> out<7> 0 PAT 'vdd_val' 0 0 0 0 'period' b0000010011111110 RB=1 R=0
+vpat<8> out<8> 0 PAT 'vdd_val' 0 0 0 0 'period' b0011001111001000 RB=1 R=0
+vpat<9> out<9> 0 PAT 'vdd_val' 0 0 0 0 'period' b1101110011110101 RB=1 R=0
+vpat<10> out<10> 0 PAT 'vdd_val' 0 0 0 0 'period' b0001010111001111 RB=1 R=0
+vpat<11> out<11> 0 PAT 'vdd_val' 0 0 0 0 'period' b1001010111010101 RB=1 R=0
+vpat<12> out<12> 0 PAT 'vdd_val' 0 0 0 0 'period' b0101001111011011 RB=1 R=0
+vpat<13> out<13> 0 PAT 'vdd_val' 0 0 0 0 'period' b1100011000110001 RB=1 R=0
+vpat<14> out<14> 0 PAT 'vdd_val' 0 0 0 0 'period' b0101011001111010 RB=1 R=0
+vpat<15> out<15> 0 PAT 'vdd_val' 0 0 0 0 'period' b0000001101101011 RB=1 R=0
+vpat<16> out<16> 0 PAT 'vdd_val' 0 0 0 0 'period' b1010110000110100 RB=1 R=0
+vpat<17> out<17> 0 PAT 'vdd_val' 0 0 0 0 'period' b1000111101001100 RB=1 R=0
+vpat<18> out<18> 0 PAT 'vdd_val' 0 0 0 0 'period' b0010100010100010 RB=1 R=0
+vpat<19> out<19> 0 PAT 'vdd_val' 0 0 0 0 'period' b1111001000011000 RB=1 R=0
+vpat<20> out<20> 0 PAT 'vdd_val' 0 0 0 0 'period' b1001001010010000 RB=1 R=0
+vpat<21> out<21> 0 PAT 'vdd_val' 0 0 0 0 'period' b1111000111111100 RB=1 R=0
+vpat<22> out<22> 0 PAT 'vdd_val' 0 0 0 0 'period' b1100011110100101 RB=1 R=0
+vpat<23> out<23> 0 PAT 'vdd_val' 0 0 0 0 'period' b0011000111000000 RB=1 R=0
+vpat<24> out<24> 0 PAT 'vdd_val' 0 0 0 0 'period' b0111110101111000 RB=1 R=0
+vpat<25> out<25> 0 PAT 'vdd_val' 0 0 0 0 'period' b1110111111110101 RB=1 R=0
+vpat<26> out<26> 0 PAT 'vdd_val' 0 0 0 0 'period' b1001101111110001 RB=1 R=0
+vpat<27> out<27> 0 PAT 'vdd_val' 0 0 0 0 'period' b1101110010011000 RB=1 R=0
+vpat<28> out<28> 0 PAT 'vdd_val' 0 0 0 0 'period' b1110100110000101 RB=1 R=0
+vpat<29> out<29> 0 PAT 'vdd_val' 0 0 0 0 'period' b0101100100001000 RB=1 R=0
+vpat<30> out<30> 0 PAT 'vdd_val' 0 0 0 0 'period' b0110000110111110 RB=1 R=0
+vpat<31> out<31> 0 PAT 'vdd_val' 0 0 0 0 'period' b0101111011010001 RB=1 R=0
+vpat<32> out<32> 0 PAT 'vdd_val' 0 0 0 0 'period' b0111010000100001 RB=1 R=0
+vpat<33> out<33> 0 PAT 'vdd_val' 0 0 0 0 'period' b0011110110011000 RB=1 R=0
+vpat<34> out<34> 0 PAT 'vdd_val' 0 0 0 0 'period' b0011010001101000 RB=1 R=0
+vpat<35> out<35> 0 PAT 'vdd_val' 0 0 0 0 'period' b0011010111110000 RB=1 R=0
+vpat<36> out<36> 0 PAT 'vdd_val' 0 0 0 0 'period' b1010010110001011 RB=1 R=0
+vpat<37> out<37> 0 PAT 'vdd_val' 0 0 0 0 'period' b1110111011111101 RB=1 R=0
+vpat<38> out<38> 0 PAT 'vdd_val' 0 0 0 0 'period' b0010101101000010 RB=1 R=0
+vpat<39> out<39> 0 PAT 'vdd_val' 0 0 0 0 'period' b0111100101111011 RB=1 R=0
+vpat<40> out<40> 0 PAT 'vdd_val' 0 0 0 0 'period' b1001011101110100 RB=1 R=0
+vpat<41> out<41> 0 PAT 'vdd_val' 0 0 0 0 'period' b0101100101101100 RB=1 R=0
+vpat<42> out<42> 0 PAT 'vdd_val' 0 0 0 0 'period' b0101010000111111 RB=1 R=0
+vpat<43> out<43> 0 PAT 'vdd_val' 0 0 0 0 'period' b0001111111101010 RB=1 R=0
+vpat<44> out<44> 0 PAT 'vdd_val' 0 0 0 0 'period' b0100001011011011 RB=1 R=0
+vpat<45> out<45> 0 PAT 'vdd_val' 0 0 0 0 'period' b1011001011001111 RB=1 R=0
+vpat<46> out<46> 0 PAT 'vdd_val' 0 0 0 0 'period' b1000111000011110 RB=1 R=0
+vpat<47> out<47> 0 PAT 'vdd_val' 0 0 0 0 'period' b0011110011011100 RB=1 R=0
+.ends multiplier_src
