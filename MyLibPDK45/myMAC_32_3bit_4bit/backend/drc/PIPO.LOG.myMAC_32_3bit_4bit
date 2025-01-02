@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 10/01/2018 19:51 (ip-172-18-22-52) $
           : sub-version  IC6.1.8-64b.83 
-Started at: 30-Dec-2024  00:05:39
+Started at: 02-Jan-2025  16:54:50
 User Name : centos
 Host Name : 2024-szjcdl53
 Directory : /home/centos/EE213
@@ -50,11 +50,11 @@ INFO (XSTRM-223): 21. Translating cellView MyLibPDK45/myAdder_10bit/layout as ST
 INFO (XSTRM-223): 22. Translating cellView MyLibPDK45/myMAC_32_3bit_4bit/layout as STRUCTURE myMAC_32_3bit_4bit.
 
 Summary of Objects Translated:
-	Scalar Instances:                       75
+	Scalar Instances:                       113
 	Array Instances:                        0
 	Polygons:                               0
 	Paths:                                  0
-	Rectangles:                             1652
+	Rectangles:                             2261
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -71,8 +71,8 @@ Summary of Objects Translated:
 	CdsGen Vias:                            0
 	Pathsegs:                               0
 	Text:                                   0
-	TextDisplay:                            137
+	TextDisplay:                            498
 	Cells:                                  22
 
-Elapsed Time: 0.3s   User Time: 0.2s   CPU Time: 0.1s   Peak VM: 3508KB
+Elapsed Time: 0.2s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 3640KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
