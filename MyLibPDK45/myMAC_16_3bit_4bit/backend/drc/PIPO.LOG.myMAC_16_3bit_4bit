@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 10/01/2018 19:51 (ip-172-18-22-52) $
           : sub-version  IC6.1.8-64b.83 
-Started at: 01-Jan-2025  22:25:47
+Started at: 05-Jan-2025  01:05:24
 User Name : centos
 Host Name : 2024-szjcdl53
 Directory : /home/centos/EE213
@@ -45,14 +45,15 @@ INFO (XSTRM-223): 16. Translating cellView MyLibPDK45/myMAC_4_3bit_4bit/layout a
 INFO (XSTRM-223): 17. Translating cellView MyLibPDK45/myAdder_8bit/layout as STRUCTURE myAdder_8bit.
 INFO (XSTRM-223): 18. Translating cellView MyLibPDK45/myMAC_8_3bit_4bit/layout as STRUCTURE myMAC_8_3bit_4bit.
 INFO (XSTRM-223): 19. Translating cellView MyLibPDK45/myAdder_9bit/layout as STRUCTURE myAdder_9bit.
-INFO (XSTRM-223): 20. Translating cellView MyLibPDK45/myMAC_16_3bit_4bit/layout as STRUCTURE myMAC_16_3bit_4bit.
+INFO (XSTRM-223): 20. Translating cellView MyLibPDK45/myBuffer_3w/layout as STRUCTURE myBuffer_3w.
+INFO (XSTRM-223): 21. Translating cellView MyLibPDK45/myMAC_16_3bit_4bit/layout as STRUCTURE myMAC_16_3bit_4bit.
 
 Summary of Objects Translated:
 	Scalar Instances:                       88
 	Array Instances:                        0
 	Polygons:                               0
 	Paths:                                  0
-	Rectangles:                             1774
+	Rectangles:                             1860
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -69,8 +70,8 @@ Summary of Objects Translated:
 	CdsGen Vias:                            0
 	Pathsegs:                               0
 	Text:                                   0
-	TextDisplay:                            261
-	Cells:                                  20
+	TextDisplay:                            265
+	Cells:                                  21
 
-Elapsed Time: 0.3s   User Time: 0.2s   CPU Time: 0.1s   Peak VM: 3504KB
+Elapsed Time: 0.3s   User Time: 0.2s   CPU Time: 0.1s   Peak VM: 3508KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
